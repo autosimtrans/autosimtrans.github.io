@@ -1,0 +1,165 @@
+<!-- YOUR HTML BEGINS -->
+<!DOCTYPE html>
+<html>
+     <head>
+      <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
+      <script type='text/javascript' src='https://s3.amazonaws.com/mturk-public/externalHIT_v1.js'></script>
+     </head>
+  <body>
+
+    <form name='mturk_form' method='post' id='mturk_form' action='https://www.mturk.com/mturk/externalSubmit'><input type='hidden' value='' name='assignmentId' id='assignmentId'/>
+      <section class="container" id="Sentiment"><!-- Instructions (collapsible) -->
+      <div class="row">
+      <div class="col-xs-12 col-md-12">
+      <div class="panel panel-primary"><!-- WARNING: the ids "collapseTrigger" and "instructionBody" are being used to enable expand/collapse feature -->
+        <a class="panel-heading" href="javascript:void(0);" id="collapseTrigger">
+          <strong>Transcribe a short 10 min audio file into English</strong> <span class="collapse-text">(Click to expand)</span> 
+        </a>
+          <div class="panel-body" id="instructionBody"><strong>Listen to the audio(s), and type in the contents you hear in to the box.</strong><br>
+            - Please make sure <strong>punctuations</strong> are added correctly.<br>
+            - Please make sure texts are transcribed <strong>exactly</strong> as they sound and <strong>include</strong> all the utterances of the speaker. Those are:<br>
+            <ul style="list-style-type:disc;">
+                <li>Speech errors. "I went to the bank on Tu-Thursday."</li>
+                <li>False starts. "I, um, wanted- I wanted to be a musician."</li>
+                <li>Filler words such as "like", "you know", "yeah", "mm hmm", "uh huh", "umm", "uh, um", "sort of", "so", "oh" et cetera.</li>
+                <li><strong>Slang words</strong>, such as gonna, wanna, gotta, kinda, 'cause, should be kept in the transcription. In addition, "you know", "I mean" should also be transcribed.</li>
+                <li>Stutters and repetitions.</li>
+                <li>Numbers like 27 should be writeen as <strong>twenty seven</strong>.</li>
+                <li>Year like 2015 should be writeen as <strong>2015</strong>.</li>
+                <li>Only use these forms for the affirmative/negative:</li>
+                    <ul style="list-style-type:disc;">
+                        <li>Mm-hmm (affirmative) or Mm-mm (negative)</li>
+                        <li>Uh-huh (affirmative) or Uh-uh (negative)</li>
+                    </ul>  
+            </ul>
+            For better results, wear headphones and work in a quiet environment.<br>
+            You can pause the audio anytime for better typing.<br>
+          </div>
+      </div>
+      </div>
+      </div>
+      <!-- End instructions --><!-- Categorization Layout --><!-- --------------------------------------------------------------------- -->
+
+      <br><h3>Audio (English):</h3>
+<audio controls=""  style="width: 80%;" src="https://ldc-transcribe.s3-us-west-1.amazonaws.com/E6760_07_trim.wav" type="audio/mpeg" />browser not support audio</audio><br><br>
+              <div class="form-group">
+              <label class="col-md-4 control-label" for="hit1-sample1"></label>
+              <textarea name="hit1-sample1" id="hit1-sample1-txt" rows="25" cols="120" placeholder="Please type the transcirption here from above audio.">Madame President, I wish to thank the Secretary-General Mr. Ban Ki-moon for his briefing. With the deepening globalization the links and exchanges in most countries are getting ever closer. With global movement of materials and personnel showing an accelerating trend. At the same time, the problem of illicit cross border trafficking and movement exemplified by arms proliferation, drugs trafficking, and spreading terrorism is ever more serious. Lately, the arms proliferation in Western Africa and the Sahel region, as well as the turbulence in mali, have attracted broad concerns. Granted, the arms proliferation facing this region has its historical reasons. Nevertheless the recent regional conflicts have aggravated it.   I wish to take this opportunity to emphasize three points on strengthening international cooperation and our common data to fight against illicit cross border trafficking and movement. Firstly, border management falls within the sovereignty of member states. National governments shoulder the primary responsibility for strengthening their border and customs control, and for preventing and fighting against all manner of illicit cross-border trafficking and movement. We hope countries will, in accordance with the relevant resolutions of the UN and this council, fulfill their obligations under the relevant international conventions, and the international law. Improve domestic laws and legislations, strengthen inter-departmental coordination and cooperation, and beef up law enforcement capabilities, and practically strengthened border management. Secondly, we support international cooperation in fighting illicit cross-border trafficking and movement. The cooperation should be focused on assisting the needy countries in their capacity building. In the meantime countries differ from one another in their border management practices. While providing assistance, the international community should fully respect the national circumstances as well as the will and the choices of the receiving countries, stick to the purposes and principles of the UN charter, and respect the sovereignty and territorial integrity of the member states. Thirdly, it is essential to bring in to full play the advantages of diverse un agencies so as to create synergy in assisting the member states and strengthening their border management capacity-building. It is advisable to fully take advantage of the roles of the existing un agencies, including for instance in formulating vast practices. Diverse un agencies should, in accordance with their respective terms of references and specialties, properly divide up the labor and strengthen their coordination. The secret council should as a primary responsibility for maintaining international Peace and security. As such it should focus its attention on illicit cross-border trafficking and movement that threatens international peace and security and avoid duplication of labor or disrupting the proper functioning of other bodies. Thank you Madam President.    Representative of China for his statement and I now give the floor to the representative of Germany.</textarea>
+              <br>
+              <input type="text" id="hit1-sample1-audio" name="hit1-sample1-audio" style="display: none;" value="E6760_07_trim"><br>
+            </div>
+
+              
+
+
+      <div class="table-area">
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="submitButton"></label>
+        <div class="col-md-4">
+          <input id="submitButton" type='submit' class="btn btn-primary" value='Submit'>
+        </div>
+      </div>
+      </div>
+
+    </form>
+    <script language='Javascript'>turkSetAssignmentID();</script>
+
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet" /><!-- Open internal style sheet -->
+
+<style type="text/css">
+#collapseTrigger{
+    color:#fff;
+    display: block;
+    text-decoration: none;
+  }
+  #submitButton{
+    white-space: normal;
+  }
+  #instructionBody table{
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  #instructionBody table caption{
+    text-align: left;
+    padding: 0 0 5px 0;
+  }
+  #Inputs{
+    display: block;
+    margin-top: 10px;
+  }
+  .content{
+    margin-bottom: 15px;
+  }
+  .radio:first-of-type{
+    margin-top: -5px;
+  }
+  .table-area{
+    /*text-align: center;*/ /*让div内部文字居中*/
+    /*background-color: #ff23;*/
+    width:80%;
+    border-radius: 20px;
+    /*width: 300px;
+    height: 350px;
+    position: absolute;*/
+    position: relative;
+    margin: auto;
+}
+</style>
+
+<script>
+    $(document).ready(function() {
+      // Instructions expand/collapse
+      var content = $('#instructionBody');
+      var trigger = $('#collapseTrigger');
+      //content.hide();
+      $('.collapse-text').text('(Click to collapse)');
+      trigger.click(function(){
+        content.toggle();
+        var isVisible = content.is(':visible');
+        if(isVisible){
+          $('.collapse-text').text('(Click to collapse)');
+        }else{
+          $('.collapse-text').text('(Click to expand)');
+        }
+      });
+      // end expand/collapse
+
+      // highlight selected category
+      var inputs = $("#Inputs input:radio");
+      inputs.change(function(){
+        inputs.parent().removeClass("btn-success");
+        inputs.parent().addClass("btn-default");
+        if($(this).is(":checked")){
+          $(this).parent().removeClass("btn-default");
+          $(this).parent().addClass("btn-success");
+        }else{
+          $(this).parent().removeClass("btn-success");
+          $(this).parent().addClass("btn-default");
+        }
+      });
+      // end highlight
+    });
+
+
+  $(document).ready(function(){
+    $('#submitButton').click(function(){
+        var check = true;
+        $("input:radio").each(function(){
+            var name = $(this).attr("name");
+            if($("input:radio[name="+name+"]:checked").length == 0){
+                check = false;
+            }
+        });
+        
+        if(!check){
+            alert('Please select one option in each question.');
+            return false; 
+        }
+    });
+});
+</script><!-- Close internal javascript -->
+
+  </body>
+</html>
+<!-- YOUR HTML ENDS -->

@@ -1,0 +1,6 @@
+.DS_Store
+.jekyll-cache
+_site
+
+# below not ready
+tmparchive
