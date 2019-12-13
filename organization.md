@@ -12,7 +12,6 @@ collection: pages_2020
 
 - [Hua Wu](http://research.baidu.com/People/index-view?id=121), Baidu Inc., China E-mail: wu hua@baidu.com
 - [Colin Cherry](https://sites.google.com/site/colinacherry/), Google, Canada E-mail: colincherry@google.com
-- [Jiatao Gu](http://jiataogu.me/), Facebook, USA E-mail: jgu@fb.com
 - [Liang Huang](http://eecs.oregonstate.edu/~huanlian), Oregon State University and Baidu Research, USA, E-mail: lianghuang@baidu.com
 - [Zhongjun He](https://scholar.google.com/citations?user=a-1wSFYAAAAJ&hl=en), Baidu Inc., China E-mail: hezhongjun@baidu.com
 - [Mark Liberman](https://www.ling.upenn.edu/~myl/), Univ. of Pennsylvania, USA E-mail: myl@ling.upenn.edu
