@@ -10,9 +10,9 @@
 ## 1. For authers who want to build docker images with your own models
 1. build docker image, from a [Dockerfile](https://github.com/autosimtrans/autosimtrans.github.io/raw/master/sp/Dockerfile_pt13.gpu), `conda_specfile.txt` and `pip_requirement.txt` will be used in Dockerfile
 ```bash
-conda activate <myenv> 						# activate your virtual env
+conda activate <myenv>				# activate your virtual env
 conda list --explicit > conda_specfile.txt 	# export packages installed via conda
-pip freeze > pip_requirement.txt			# export packages installed via pip
+pip freeze > pip_requirement.txt		# export packages installed via pip
 ```
 1. download this [Dockerfile](https://github.com/autosimtrans/autosimtrans.github.io/raw/master/sp/Dockerfile_pt13.gpu)(named as `Dockerfile_pt13.gpu`), open it, and replace `OpenNMT-py` with the folder name of your own code and model. Update your own script in Dockerfile if necessary.
 1. build docker image
@@ -84,9 +84,9 @@ perl tools/multi-bleu.perl /data/wmt16-multi30k/test2016.de.atok < /decode/multi
 ## 1. 想要将代码和模型打包到docker的模型作者
 1. 利用[Dockerfile](https://github.com/autosimtrans/autosimtrans.github.io/raw/master/sp/Dockerfile_pt13.gpu)来建立docker镜像, 这里面将会用到`conda_specfile.txt`和`pip_requirement.txt`两个文件
 ```bash
-conda activate <myenv> 						# activate your virtual env
+conda activate <myenv>				# activate your virtual env
 conda list --explicit > conda_specfile.txt 	# export packages installed via conda
-pip freeze > pip_requirement.txt			# export packages installed via pip
+pip freeze > pip_requirement.txt		# export packages installed via pip
 ```
 1. 下载[Dockerfile](https://github.com/autosimtrans/autosimtrans.github.io/raw/master/sp/Dockerfile_pt13.gpu)(命名为`Dockerfile_pt13.gpu`), 编辑替换`OpenNMT-py`为你自己的代码和模型所在的文件夹位置。本Dockerfile文件可以按需调整cuda/cudnn版本。
 1. 创建docker镜像
