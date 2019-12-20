@@ -68,7 +68,7 @@ Instructions on how to apply for financial assistance will be provided after pap
 - [Liang Huang](http://eecs.oregonstate.edu/~huanlian), Oregon State University and Baidu Research, USA, E-mail: lianghuang@baidu.com
 - [Zhongjun He](https://scholar.google.com/citations?user=a-1wSFYAAAAJ&hl=en), Baidu Inc., China, E-mail: hezhongjun@baidu.com
 - [Mark Liberman](https://www.ling.upenn.edu/~myl/), Univ. of Pennsylvania, USA, E-mail: myl@ling.upenn.edu
-- [James Cross](https://arxiv.org/search/cs?searchtype=author&query=Cross%2C+J), Facebook, USA, E-mail: jcross@fb.com
+- [James Cross](http://scholar.google.com/citations?hl=en&user=Oef7pDkAAAAJ), Facebook, USA, E-mail: jcross@fb.com
 - [Yang Liu](http://nlp.csai.tsinghua.edu.cn/~ly/), Tsinghua University, China, E-mail: liuyang2011@tsinghua.edu.cn
 
 
