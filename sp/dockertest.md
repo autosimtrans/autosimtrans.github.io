@@ -39,7 +39,8 @@ python translate.py -model multi30k_model_step_100000.pt -src /data/wmt16-multi3
 ```bash	
 # in docker conatiner
 perl tools/multi-bleu.perl /data/wmt16-multi30k/test2016.de.atok < /decode/multi30k.test.pred.atok
-#BLEU = 35.50, 65.9/41.8/28.8/20.0 (BP=1.000, ratio=1.007, hyp_len=12323, ref_len=12242)
+# result:
+# BLEU = 35.50, 65.9/41.8/28.8/20.0 (BP=1.000, ratio=1.007, hyp_len=12323, ref_len=12242)
 ```
 9. [Push your image to docker hub](#sign-up-a-dockerhub-account-create-a-new-repo-push-your-image-to-docker-hub) after signing up, **or** [save your image](#save-your-image-to-a-tar-file-then-you-can-send-it-to-anyone) into a `tar` file
 	- ##### sign up a DockerHub account, create a new repo, push your image to docker hub:
@@ -118,7 +119,8 @@ python translate.py -model multi30k_model_step_100000.pt -src /data/wmt16-multi3
 ```bash	
 # in docker conatiner
 perl tools/multi-bleu.perl /data/wmt16-multi30k/test2016.de.atok < /decode/multi30k.test.pred.atok
-#BLEU = 35.50, 65.9/41.8/28.8/20.0 (BP=1.000, ratio=1.007, hyp_len=12323, ref_len=12242)
+# result:
+# BLEU = 35.50, 65.9/41.8/28.8/20.0 (BP=1.000, ratio=1.007, hyp_len=12323, ref_len=12242)
 ```
 
 9. 注册用户后[将镜像上传到docker hub](#注册一个dockerhub账户dockerhubusername创建一个新仓库newrepo然后推送镜像) **或者** [保存镜像](#保存镜像到tar文件以便后续传送)到`tar`文件
