@@ -3,7 +3,7 @@ port: 4000
 host: 0.0.0.0
 safe: false
 
-exclude: [README.md, .gitignore, tmparchive, LICENSE, sp]
+exclude: [README.md, .gitignore, tmparchive, LICENSE, sp, shared.md]
 timezone: null
 lsi: false
 markdown: kramdown
