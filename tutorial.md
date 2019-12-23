@@ -1,6 +1,6 @@
 ---
 layout: main-anchor
-title: tutorial
+title: Tutorial
 order: 7 
 collection: pages_2020
 ---
