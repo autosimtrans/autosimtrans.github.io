@@ -6,15 +6,6 @@ collection: pages_2020
 permalink: /shared
 ---
 ## Important Dates
-
-- **May 2, 2019**: [Training datasets released](https://github.com/mrqa/MRQA-Shared-Task-2019#training-data)
-- **May 13, 2019**: [Development datasets released](https://github.com/mrqa/MRQA-Shared-Task-2019#out-of-domain)
-- ~~July 29~~ ~~August 5~~ **August 9, 2019 (11:59 PM PST)**: [Deadline for model submission](https://github.com/mrqa/MRQA-Shared-Task-2019#submission) (we extended the deadline by 11 days)
-- **August 12, 2019**: Test results announced
-- **August 30, 2019**: System description paper submission deadline
-- **September 16, 2019**: Acceptance notification and reviews shared with authors
-- **September 30, 2019**: System description paper camera-ready deadline
-
 - **January 2020**: release of train and dev data
 - **March 2020**: evaluation period
 - **April 6th 2020**: system description paper due
