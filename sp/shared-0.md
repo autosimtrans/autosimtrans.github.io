@@ -5,6 +5,22 @@ order: 3
 collection: pages_2020
 permalink: /shared
 ---
+# AutoSimTrans 2020 Shared Task
+
+## Training Datasets
+
+
+## Dev & Test Datasets
+
+
+## Evaluation
+
+## Data Format and Submission Instructions
+
+
+## Registration
+Please register your team through [this form]().
+
 ## Important Dates
 
 - **May 2, 2019**: [Training datasets released](https://github.com/mrqa/MRQA-Shared-Task-2019#training-data)
