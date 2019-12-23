@@ -3,6 +3,7 @@ layout: main-anchor
 title: Tutorial
 order: 7 
 collection: pages_2020
+permalink: /tutorial
 ---
 
 
