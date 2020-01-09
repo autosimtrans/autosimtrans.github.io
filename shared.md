@@ -14,5 +14,8 @@ permalink: /shared
 
 All submission deadlines are 11:59 PM GMT-12 (anywhere in the world) unless otherwise noted.
 
+## platform
+Please redirect to [Baidu AI Studio](https://aistudio.baidu.com/aistudio/competition/detail/19?lang=en) for dataset and submission.
+
 ## Questions?
 For any questions regarding our shared task, please use [Github issues](https://github.com/autosimtrans/AutoSimTrans-Shared-Task-2020/issues). We are here to answer your questions and looking forward to your submissions!
