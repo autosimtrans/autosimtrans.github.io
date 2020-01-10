@@ -15,7 +15,10 @@ permalink: /shared
 All submission deadlines are 11:59 PM GMT-12 (anywhere in the world) unless otherwise noted.
 
 ## platform
-Please redirect to [Baidu AI Studio](https://aistudio.baidu.com/aistudio/competition/detail/19?lang=en) for dataset and submission.
+Please redirect to [Baidu AI Studio](https://aistudio.baidu.com/aistudio/competition/detail/18?lang=en) for dataset and submission.
+
+## tutorial for docker submission
+Please refer to the [tutorial](https://autosimtrans.github.io/tutorial) page to convert your model to docker image, or train in docker container.
 
 ## Questions?
 For any questions regarding our shared task, please use [Github issues](https://github.com/autosimtrans/AutoSimTrans-Shared-Task-2020/issues). We are here to answer your questions and looking forward to your submissions!

@@ -2,12 +2,12 @@
 layout: main-anchor
 title: Tutorial
 order: 7 
-collection: pages_2020
+collection: pages_2020_hide
 permalink: /tutorial
 ---
 
 
-# A. pack trained model + code into docker
+# A. pack your "trained model + code" into docker
 #### - English
 ##### [1. for authers: build docker with your own model and code](#1-for-authers-who-want-to-build-docker-images-with-your-own-models)
 ##### [2. for users: test a model in docker](#2-for-users-who-want-to-use-docker-imagescovering-codemodel)
@@ -101,7 +101,9 @@ perl tools/multi-bleu.perl /data/wmt16-multi30k/test2016.de.atok < /decode/multi
 # BLEU = 35.50, 65.9/41.8/28.8/20.0 (BP=1.000, ratio=1.007, hyp_len=12323, ref_len=12242)
 ```
 
+----
 
+----
 
 ## 1. 想要将代码和模型打包到docker的模型作者
 1. 利用[Dockerfile](https://github.com/autosimtrans/autosimtrans.github.io/raw/master/sp/Dockerfile_pt13.gpu)来建立docker镜像, 这里面将会用到`conda_specfile.txt`和`pip_requirement.txt`两个文件

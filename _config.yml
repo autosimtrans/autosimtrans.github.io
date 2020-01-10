@@ -17,5 +17,5 @@ touch_icon:  #put a path like: "img/apple-touch-icon.png"
 
 collections:
   - pages_2020
-  #- pages_2018
+  - pages_2020_hide
   #- pages_2020_rc
