@@ -50,16 +50,6 @@ As our competition offers two translation directions and three types of input da
 
 At test time, the systems are expected to receive different file formats based on the system types. For text-to-text translation systems, the inputs are streaming source text (including gold transcripts and ASR results) and the outputs are corresponding simultaneous translation results. For speech-to-text translation systems, the inputs are speech audio files and the outputs are corresponding simultaneous translation results.
 
-#### Platform
-
-Please redirect to [Baidu AI Studio](https://aistudio.baidu.com/aistudio/competition/detail/18?lang=en) for dataset and submission.
-
-#### Tutorial for docker submission
-
-It's not trivial to evaluate a simultaneous system as we cannot release the test data like offline translation tasks. Participants are required to upload the systems as a Docker image, along with their own implementation of specific APIs for input and translation output. We will evaluate all the submissions on our environment. We will provide an example implementation which will also serve as the baseline system.
-
-Please refer to the [tutorial](https://autosimtrans.github.io/tutorial) page if you need help to convert your model to docker image, or train in docker container.
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
 <script>
 mermaid.initialize({startOnLoad:true});
@@ -94,6 +84,16 @@ class AA2,AB2,B3 orange
 class AA,AB,B1 green
 </div>
 
+#### Platform
+
+Please redirect to [Baidu AI Studio](https://aistudio.baidu.com/aistudio/competition/detail/18?lang=en) for dataset and submission.
+
+#### Tutorial for docker submission
+
+It's not trivial to evaluate a simultaneous system as we cannot release the test data like offline translation tasks. Participants are required to upload the systems as a Docker image, along with their own implementation of specific APIs for input and translation output. We will evaluate all the submissions on our environment. We will provide an example implementation which will also serve as the baseline system.
+
+Please refer to the [tutorial](https://autosimtrans.github.io/tutorial) page if you need help to convert your model to docker image, or train in docker container.
+
 ---
 
 # Evaluation
@@ -124,4 +124,4 @@ Following previous work, we evaluate simultaneous translation results based on B
 ---
 
 # Contact
-For any questions regarding our shared task, please use [Github issues](https://github.com/autosimtrans/AutoSimTrans-Shared-Task-2020/issues), or email to [autosimtrans.workshop@gmail.com](autosimtrans.workshop@gmail.com). We are here to answer your questions and looking forward to your submissions!
+For any questions regarding our shared task, please use our [twitter page](https://twitter.com/autosimtrans), [github issues](https://github.com/autosimtrans/AutoSimTrans-Shared-Task-2020/issues), or email to [autosimtrans.workshop@gmail.com](autosimtrans.workshop@gmail.com). We are here to answer your questions and looking forward to your submissions!
