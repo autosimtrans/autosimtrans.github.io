@@ -6,9 +6,6 @@ collection: pages_2020
 permalink: /shared
 ---
 
-[TOC]
-
-
 ## Important Dates
 - **January 2020**: release of train and dev data
 - **March 2020**: evaluation period
