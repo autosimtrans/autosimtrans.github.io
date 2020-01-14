@@ -41,10 +41,10 @@ Our testset will not be released. You are required to upload your docker system,
 # System
 As our competition offers two translation directions and three types of input data, there are six tracks all together:
 
-1. Zh->En Translation, input: incremental clean transcription
+1. Zh->En Translation, input: incremental clean text
 2. Zh->En Translation, input: incremental ASR transcription
 3. Zh->En Translation, input: streaming audio
-4. En->Es Translation, input: incremental clean transcription
+4. En->Es Translation, input: incremental clean text
 5. En->Es Translation, input: incremental ASR transcription
 6. En->Es Translation, input: streaming audio
 
