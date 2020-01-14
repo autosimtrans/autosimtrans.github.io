@@ -30,6 +30,7 @@ Please refer to the [tutorial](https://autosimtrans.github.io/tutorial) page to 
 - Junjie Li (lijunjie02@baidu.com), Data
 - Zhi Li (lizhi02@baidu.com), Data
 - Boxiang Liu (boxiangliu@baidu.com), Data
+- Mingbo Ma (mingboma@baidu.com)
 - Di Song (songdi@baidu.com), Platform
 - Lei Sun (sunlei18@baidu.com), Platform
 - Meng Wang (wangmeng09@baidu.com), Platform
