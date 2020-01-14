@@ -55,7 +55,7 @@ At test time, the systems are expected to receive different file formats based o
 Please redirect to [Baidu AI Studio](https://aistudio.baidu.com/aistudio/competition/detail/18?lang=en) for dataset and submission.
 
 <center>
-![diagram](./assets/images/task_diagram.svg)
+![diagram](assets/images/task_diagram.svg)
 </center>
 
 ## Evaluation
