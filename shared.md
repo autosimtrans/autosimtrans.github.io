@@ -117,6 +117,7 @@ Following previous work, we evaluate simultaneous translation results based on B
 - Di Song (songdi@baidu.com), Platform
 - Lei Sun (sunlei18@baidu.com), Platform
 - Meng Wang (wangmeng09@baidu.com), Platform
+- Shuxia Zhang (zhangshuxia01@baidu.com), Platform
 - Wenxi Zhang (zhangwenxi@baidu.com), Platform
 - Baigong Zheng (baigongzheng@baidu.com), Data
 - Renjie Zheng (renjiezheng@baidu.com), Data
