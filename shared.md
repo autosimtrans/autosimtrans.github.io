@@ -19,6 +19,12 @@ All submission deadlines are 11:59 PM GMT-12 (anywhere in the world) unless othe
 
 ---
 
+# Overview
+
+Simultaneous translation, which performs translation concurrently with the source speech, is widely useful in many scenarios such as international conferences, negotiations, press releases, legal proceedings, and medicine. It combines the AI technologies of machine translation (MT), automatic speech recognition (ASR), and text-to-speech synthesis (TTS), is becoming a cutting-edge research field.
+
+We organize a simultaneous translation shared task on Chinese-to-English and English-to-Spanish. We will provide open dataset and evaluation environment. Participants are asked to submit their system (in docker) with description and show demonstration on the workshop.
+
 # Data
 #### Training Data
 ##### 1. Speech Translation Data

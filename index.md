@@ -23,7 +23,7 @@ We introduce two submission tracks in this workshop: [**a shared task track**](s
 
 
 ## Shared Task
-We plan to organize a simultaneous translation shared task on Chinese-English and English-Spanish (or French). We will provide open dataset and evaluation environment. Participants are asked to submit their system description and show demonstration on the workshop.
+We plan to organize a simultaneous translation shared task on Chinese-English and English-Spanish. We will provide open dataset and evaluation environment. Participants are asked to submit their system description and show demonstration on the workshop.
 
 This year, we have released Baidu Speech Translation Corpus ([BSTC](https://ai.baidu.com/broad/subordinate?dataset=bstc)) for open research, which covers speeches in a wide range of domains, including IT, economy, culture, biology, arts, etc. We also held an SiMT evaluation campaign collaborated with China Conference on Machine Translation ([CCMT](http://ccmt2019.jxnu.edu.cn/page/main1923/pctz.htm)). The evaluation campaign has attracted 14 participants.
 We will enlarge the corpus and extend the language pairs for the workshop shared task. The shared task is hope to attract more than 10 participants.
