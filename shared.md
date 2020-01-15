@@ -98,7 +98,7 @@ Please refer to the [tutorial](https://autosimtrans.github.io/tutorial) page if 
 
 # Evaluation
 
-Following previous work, we evaluate simultaneous translation results based on BLEU and AL (average lagging). BLEU is the measurement for translation quality and AL measures system delays. The evaluation results of all teams will be plotted on BLEU-AL two-dimensional coordinates. 
+Following previous work, we evaluate simultaneous translation results based on [BLEU](https://www.aclweb.org/anthology/P02-1040.pdf) and [AL](https://github.com/SimulTrans-demo/STACL) (average lagging). BLEU is the measurement for translation quality and AL measures system delays. Please use the [AL codebase](https://github.com/SimulTrans-demo/STACL) we offered. The evaluation results of all teams will be plotted on BLEU-AL two-dimensional coordinates. 
 
 
 ---
