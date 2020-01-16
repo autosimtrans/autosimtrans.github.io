@@ -9,8 +9,8 @@ collection: pages_2020
 
 Simultaneous translation, which performs translation concurrently with the source speech, is widely useful in many scenarios such as international conferences, negotiations, press releases, legal proceedings, and medicine. It combines the AI technologies of machine translation (MT), automatic speech recognition (ASR), and text-to-speech synthesis (TTS), is becoming a cutting-edge research field.
 
-As an emerging and interdisciplinary field, simultaneous translation faces many great challenges, and is considered one of the holy grails of AI. As an evidence of the growing importance of simultaneous translation within NLP, one of us (Liang) gave an invited talk at ACL 2018 on the recent advances in this field. This workshop will bring together researchers and practitioners in machine translation, speech processing, and human interpretation, to discuss recent advances and open challenges of simultaneous translation. including:
-The architecture of simultaneous translation: traditional pipeline (ASR-MT-TTS) or end-to-end (speech-speech);
+As an emerging and interdisciplinary field, simultaneous translation faces many great challenges, and is considered one of the holy grails of AI. As an evidence of the growing importance of simultaneous translation within NLP, one of us (Liang) gave an invited talk at ACL 2018 on the recent advances in this field. This workshop will bring together researchers and practitioners in machine translation, speech processing, and human interpretation, to discuss recent advances and open challenges of simultaneous translation, including:
+- The architecture of simultaneous translation: traditional pipeline (ASR-MT-TTS) or end-to-end (speech-speech);
 - Translation models: robust, high quality, and low latency;
 - Data resources: large and high-quality corpora for training simultaneous translation systems.
 - Evaluation methods: metrics to evaluate the translation quality and time latency;

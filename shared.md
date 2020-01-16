@@ -19,6 +19,11 @@ All submission deadlines are 11:59 PM GMT-12 (anywhere in the world) unless othe
 
 ---
 
+# Registration
+
+Please register your team through this [Platform](https://aistudio.baidu.com/aistudio/competition/detail/18?lang=en).
+
+
 # Overview
 
 Simultaneous translation, which performs translation concurrently with the source speech, is widely useful in many scenarios such as international conferences, negotiations, press releases, legal proceedings, and medicine. It combines the AI technologies of machine translation (MT), automatic speech recognition (ASR), and text-to-speech synthesis (TTS), is becoming a cutting-edge research field.
@@ -94,7 +99,7 @@ class AA,AB,B1 green
 
 Please redirect to [Baidu AI Studio](https://aistudio.baidu.com/aistudio/competition/detail/18?lang=en) for dataset and submission.
 
-#### Tutorial for docker submission
+#### Docker submission
 
 It's not trivial to evaluate a simultaneous system as we cannot release the test data like offline translation tasks. Participants are required to upload the systems as a Docker image, along with their own implementation of specific APIs for input and translation output. We will evaluate all the submissions on our environment. We will provide an example implementation which will also serve as the baseline system.
 
