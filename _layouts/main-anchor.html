@@ -45,7 +45,7 @@
                             <li class="nav-item">
                         {% endif %}
     
-                        {% if p.title == 'Tutorial' or p.title == 'docker' or p.title == 'Shared Task' or p.title == 'Important Dates' %}
+                        {% if p.title == 'Tutorial' or p.title == 'docker' or p.title == 'Shared Task' or p.title == 'Important Dates' or p.title == 'Call for Papers' %}
                             <a class="nav-link" href="{{p.url}}">{{p.title}}</a>
                         {% else %}
                             <a class="nav-link" href="{{p0url}}#{{p.anchor}}">{{p.title}}</a>

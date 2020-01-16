@@ -38,11 +38,11 @@ For more information, please see [Call for Papers](cfp).
 
 
 
-## Invited Keynote Speakers (confirmed):
+## Invited Keynote Speakers (confirmed)
 
 We have two sets of keynote speakers: 4 from simultaneous translation, and 2 from human interpretation research. We hope this workshop will greatly increase the communication and crossfertilization between the two fields. All these speakers are confirmed.
 
-##### Simultaneous Translation Speakers:
+##### Simultaneous Translation Speakers
 
 - [Jordan Boyd-Graber](http://users.umiacs.umd.edu/~jbg), Associate Professor, University of Maryland, USA
 - [Satoshi Nakamura](https://en.wikipedia.org/wiki/Satoshi_Nakamura), Professor, NaraInstitute of Science and Technology (NAIST), Japan
@@ -61,7 +61,7 @@ We will have a best paper award, a best presentation award, and a best poster aw
 We can offer partial financial aid to student authors who demonstrate significant financial need.
 Instructions on how to apply for financial assistance will be provided after paper acceptance decisions have been finalized.
 
-## Organizing Committee:
+## Organizing Committee
 
 - [Hua Wu](http://research.baidu.com/People/index-view?id=121), Baidu Inc., China, E-mail: wu_hua@baidu.com
 - [Colin Cherry](https://sites.google.com/site/colinacherry/), Google, Canada, E-mail: colincherry@google.com
@@ -72,7 +72,7 @@ Instructions on how to apply for financial assistance will be provided after pap
 - [Yang Liu](http://nlp.csai.tsinghua.edu.cn/~ly/), Tsinghua University, China, E-mail: liuyang2011@tsinghua.edu.cn
 
 
-## Program Committee:
+## Program Committee
 
 - [Naveen Arivazhagan](https://scholar.google.com/citations?user=9KGy35AAAAAJ&hl=en), Google, USA
 - [Chung-Cheng Chiu](https://scholar.google.com/citations?user=8bNM5WgAAAAJ&hl=en), Google, USA
