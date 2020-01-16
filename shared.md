@@ -8,17 +8,6 @@ permalink: /shared
 
 
 
-# Important Dates
-- **January 2020**: release of train and dev data
-- **March 2020**: evaluation period
-- **April 6th 2020**: system description paper due
-- **May 4th 2020**: review feedback
-- **May 18th 2020**: camera-ready paper due
-
-All submission deadlines are 11:59 PM GMT-12 (anywhere in the world) unless otherwise noted.
-
----
-
 # Registration
 
 Please register your team through this [Platform](https://aistudio.baidu.com/aistudio/competition/detail/18?lang=en).
@@ -111,6 +100,16 @@ Please refer to the [tutorial](https://autosimtrans.github.io/tutorial) page if 
 
 Following previous work, we evaluate simultaneous translation results based on [BLEU](https://www.aclweb.org/anthology/P02-1040.pdf) and [AL](https://github.com/SimulTrans-demo/STACL) (average lagging). BLEU is the measurement for translation quality and AL measures system delays. Please use the [AL codebase](https://github.com/SimulTrans-demo/STACL) we offered. The evaluation results of all teams will be plotted on BLEU-AL two-dimensional coordinates. 
 
+---
+
+# Important Dates
+- **January 2020**: release of train and dev data
+- **March 2020**: evaluation period
+- **April 6th 2020**: system description paper due
+- **May 4th 2020**: review feedback
+- **May 18th 2020**: camera-ready paper due
+
+All submission deadlines are 11:59 PM GMT-12 (anywhere in the world) unless otherwise noted.
 
 ---
 
