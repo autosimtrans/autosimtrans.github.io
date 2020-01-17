@@ -28,7 +28,7 @@ The training set consists of two different language directions: (1) Chinese-to-E
 [2] English ASR  by Google's Speech Recognition API.
 
 ##### 2. Machine Translation Data
-We suggest using large-scale corpus ([WM19](http://www.statmt.org/wmt19/translation-task.html) Zh->En and [Europarl](http://www.statmt.org/europarl) for En->Es) to train your machine translation system. You can further finetune the model on our speech translation dataset.
+We suggest using large-scale corpus ([WMT19](http://www.statmt.org/wmt19/translation-task.html) Zh->En and [Europarl](http://www.statmt.org/europarl) for En->Es) to train your machine translation system. You can further finetune the model on our speech translation dataset.
 
 #### Development Data 
 We provide 12 talks for Zh->En and En->Es speech translation tasks, 6 for each, to evaluate your system. Each talk is presented with its audio file, gold transcript, ASR transcript, and reference translations. 
