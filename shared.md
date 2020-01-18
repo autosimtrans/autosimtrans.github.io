@@ -17,7 +17,7 @@ Please register your team through this [Platform](https://aistudio.baidu.com/ais
 
 Simultaneous translation, which performs translation concurrently with the source speech, is widely useful in many scenarios such as international conferences, negotiations, press releases, legal proceedings, and medicine. It combines the AI technologies of machine translation (MT), automatic speech recognition (ASR), and text-to-speech synthesis (TTS), is becoming a cutting-edge research field.
 
-We organize a simultaneous translation shared task on Chinese-to-English and English-to-Spanish. We will provide open dataset and evaluation environment. Participants are asked to submit their system (in docker) with description and show demonstration on the workshop.
+We organize a simultaneous translation shared task on Chinese-to-English and English-to-Spanish. We will provide open dataset and evaluation environment. Participants are asked to submit their system in docker and system description.
 
 # Data
 #### Training Data
@@ -90,7 +90,7 @@ Please redirect to [Baidu AI Studio](https://aistudio.baidu.com/aistudio/competi
 
 #### Docker submission
 
-It's not trivial to evaluate a simultaneous system as we cannot release the test data like offline translation tasks. Participants are required to upload the systems as a Docker image, along with their own implementation of specific APIs for input and translation output. We will evaluate all the submissions on our environment. We will provide an example implementation which will also serve as the baseline system.
+Participants are required to upload the systems as a Docker image, along with their own implementation of specific APIs for input and translation output. We will evaluate all the submissions on our environment. We will provide an example implementation which will also serve as the baseline system.
 
 Please refer to the [tutorial](https://autosimtrans.github.io/tutorial) page if you need help to convert your model to docker image, or train in docker container.
 
