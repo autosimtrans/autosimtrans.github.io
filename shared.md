@@ -119,6 +119,7 @@ All submission deadlines are 11:59 PM GMT-12 (anywhere in the world) unless othe
 
 # Committee
 - Ying Chen (chenying04@baidu.com), Data
+- Zhiming Huang (huangzhiming01@baidu.com), Data
 - Junjie Li (lijunjie02@baidu.com), Data
 - Zhi Li (lizhi02@baidu.com), Data
 - Boxiang Liu (boxiangliu@baidu.com), Data
