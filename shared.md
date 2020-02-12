@@ -45,8 +45,6 @@ As our competition offers two translation directions and three types of input da
 2. Zh->En Translation, input: incremental ASR transcription
 3. Zh->En Translation, input: streaming audio
 4. En->Es Translation, input: incremental clean text
-5. En->Es Translation, input: incremental ASR transcription
-6. En->Es Translation, input: streaming audio
 
 At test time, the systems are expected to receive different file formats based on the system types. For text-to-text translation systems, the inputs are streaming source text (including gold transcripts and ASR results) and the outputs are corresponding simultaneous translation results. For speech-to-text translation systems, the inputs are speech audio files and the outputs are corresponding simultaneous translation results.
 
