@@ -12,91 +12,171 @@ permalink: /shared
 
 Please register your team through this [Platform](https://aistudio.baidu.com/aistudio/competition/detail/18?lang=en).
 
+---
 
-# Overview
+# Challenge
 
-Simultaneous translation, which performs translation concurrently with the source speech, is widely useful in many scenarios such as international conferences, negotiations, press releases, legal proceedings, and medicine. It combines the AI technologies of machine translation (MT), automatic speech recognition (ASR), and text-to-speech synthesis (TTS), is becoming a cutting-edge research field.
+Our challenge includes 4 tasks on Chinese-to-English translation (Zh->En) and English-to-Spanish translation (En->Es). Participants can choose to join one or more tasks. 
 
-We organize a simultaneous translation shared task on Chinese-to-English and English-to-Spanish. We will provide open dataset and evaluation environment. Participants are asked to submit their system in docker and system description.
+1. Zh->En Translation, input: streaming transcription
+2. Zh->En Translation, input: streaming ASR[1]
+3. Zh->En Translation, input: audio file
+4. En->Es Translation, input: streaming transcription
 
-# Data
-#### Training Data
-##### 1. Speech Translation Data
-The training set consists of two different language directions: (1) Chinese-to-English translation (Zh->En), which contains about 70 hours of Chinese speech audio, human transcripts, ASR results[1] and English translations, and (2) English-to-Spanish translation (En->Es), which includes about 50 hours of English speech audio, human transcripts, ASR results[2] and Spanish translations. 
+There are three types of inputs involved:
 
-[1] Chinese ASR by Baidu Speech.  
-[2] English ASR  by Google's Speech Recognition API.
+1. **Streaming transcription** provides the golden transcripts in streaming format, where each sentence is broken into lines whose length is incremented by one word until the end of the sentence.
+2. **Streaming ASR** provides the realtime streaming ASR results<sup>[[1](#1-chinese-asr-by-baidu-speech)]</sup>. During the ASR, errors may occur, and the recognition result of one line may be modified compared with the previous ones. Note that there is no punctuation predicted during ASR. 
+3. **Audio**: You can also choose to use your own ASR system with the audio as input.
 
-##### 2. Machine Translation Data
-We suggest using large-scale corpus ([WMT19](http://www.statmt.org/wmt19/translation-task.html) Zh->En and [Europarl](http://www.statmt.org/europarl) for En->Es) to train your machine translation system. You can further finetune the model on our speech translation dataset.
+An example of the three types of input is illustrated in following table.  We process input data into streaming format to evaluate the system delay (refer to [Evaluation](#evaluation)).
 
-#### Development Data 
-We provide 12 talks for Zh->En and En->Es speech translation tasks, 6 for each, to evaluate your system. Each talk is presented with its audio file, gold transcript, ASR transcript, and reference translations. 
-
-#### Testing Data
-Our testset will not be released. You are required to upload your docker system, with useful information available on the [tutorial](https://autosimtrans.github.io/tutorial) page. Within 24 hours after you submit your docker file, we'll publish the evaluation results on the competition website.
+Streaming Transcript	|	Streaming ASR	|	Audio
+-|-|-
+大	|	大家	|	<audio controls="controls" style="height: 20px;width: 170px;"><source type="audio/mp3" src="assets/105-[AudioTrimmer.com].wav"></source><p>Your browser does not support the audio element.</p></audio>
+大家	|	大家好	|
+大家好	|	大家好欢迎	|	
+大家好！	|	大家好欢迎大	|	
+欢	|	大家好欢迎大家	|
+欢迎	|	大家好欢迎大家关注	|	
+欢迎大	|	大家好欢迎大家关注注	|	
+欢迎大家	|	大家好欢迎大家关注祝英	|	
+欢迎大家关	|	大家好欢迎大家关注祝unit	|	
+欢迎大家关注	|	大家好欢迎大家关注祝unit对话性	|	
+欢迎大家关注UNIT	|	大家好欢迎大家关注祝unit对话性和	|	
+欢迎大家关注UNIT对	|	大家好欢迎大家关注祝unit对话性和高级	|	
+欢迎大家关注UNIT对话	|	大家好欢迎大家关注祝unit对话性的高级可	|	
+欢迎大家关注UNIT对话系	|	大家好欢迎大家关注祝unit对话性和高级课程	|	
+欢迎大家关注UNIT对话系统	|	
+欢迎大家关注UNIT对话系统的	|	
+欢迎大家关注UNIT对话系统的高	|	
+欢迎大家关注UNIT对话系统的高级	|	
+欢迎大家关注UNIT对话系统的高级课	|	
+欢迎大家关注UNIT对话系统的高级课程	|	
+欢迎大家关注UNIT对话系统的高级课程。	|	
 
 ---
 
-# System
-As our competition offers two translation directions and three types of input data, there are six tracks all together:
+# Dataset
 
-1. Zh->En Translation, input: incremental clean text
-2. Zh->En Translation, input: incremental ASR transcription
-3. Zh->En Translation, input: streaming audio
-4. En->Es Translation, input: incremental clean text
+### Training set and Development set
+
+##### Machine Translation Data
+You need to train a baseline MT model using the text parallel corpus specified in the table below ( `CWMT19` for Zh->En and `UN`  for En->Es, respectively), because the amount of speech translation data we provide is insufficient to support the training of a large translation model.
+
+|Lang | Training set | 
+|:-:|:-:|
+|Zh-&gt;En | [CWMT19](http://nlp.nju.edu.cn/cwmt-wmt) | 
+|En-&gt;Es | [UN Parallel Corpus](https://conferences.unite.un.org/UNCORPUS/en/DownloadOverview#download) | 
+
+##### Speech Translation Data
+For Zh->En translation, our training set contains about 70 hours of Chinese speech audio, human transcripts, ASR results [1] and English translations. To evaluate your system, we provide 16 talks with their corresponding streaming ASR and streaming transcripts as the development set. 
+
+For En->Es translation, we don't provide additional speech translation dataset. You are required to use the UN dataset only to train your MT model. To evaluate your system, we will provide the streaming transcripts as the development set. 
+
+As shown in following table, we would provide 7 parts of speech translation data, among which the yellow 5 will be sent to participants by email.
+
+<table style="text-align: center;">
+    <thead>
+        <tr>
+            <th>Tracks</th>
+            <th></th>
+            <th>DataSource</th>
+            <th>train</th>
+            <th>dev</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        	<td>1</td>
+            <td rowspan=3>Zh->En</td>
+            <td>Audio</td>
+            <td>url of 70-hours speeches</td>
+            <td>url</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>ASR</td>
+            <td style="background: yellow">✓</td>
+            <td style="background: yellow">✓</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Transcription</td>
+            <td style="background: yellow">✓</td>
+            <td style="background: yellow">✓</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>En->Es</td>
+            <td>Transcription</td>
+            <td>/</td>
+            <td style="background: yellow">✓</td>
+        </tr>
+    </tbody>
+</table>
+
+##Testing Data
+Our testset will not be released. You are required to upload your whole system and environment. Within 24 hours after you submitting your system, we'll publish the evaluation results on the competition website.
 
 At test time, the systems are expected to receive different file formats based on the system types. For text-to-text translation systems, the inputs are streaming source text (including gold transcripts and ASR results) and the outputs are corresponding simultaneous translation results. For speech-to-text translation systems, the inputs are speech audio files and the outputs are corresponding simultaneous translation results.
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
-<script>
-mermaid.initialize({startOnLoad:true});
-</script>
 
-<div class='mermaid' align="center"> 
-graph TD
-WS(AutoSimTrans)
-WS-->A(text-to-text)
-WS-->B(speech-to-text)
+# <span id="evaluation">Evaluation</span>
 
-A-->AA(gold transcript)
-A-->AB(ASR outputs)
-AA-->AA1(incremental input)
-AB-->AB1(incremental input)
-AA1-->|input|AA2{SimMT model}
-AA2-->|output|AA3(step-wised translation)
-AB1-->|input|AB2{SimMT model}
-AB2-->|output|AB3(step-wised translation)
-AA3-->|eval|AA4(BLEU-AL)
-AB3-->|eval|AB4(BLEU-AL)
+### Output
+For all the four tasks, you output only one text file containing source sentences and translations. The following table is an example with streaming ASR input. Your system needs to decide when to translate given the input, and to write the translation after corresponding source. Your translations will be concatenated with **SPACEs** to evaluate BLEU. Note that the left part (streaming source) should **NOT** be modified in streaming ASR and streaming transcription tasks. 
 
-B-->B1(speech audio)
-B1-->B2(incremental input)
-B2-->|input|B3{"cascaded models<br>(ASR + MT)<br>or end-to-end model"}
-B3-->|output|B4(step-wised translation)
-B4-->|eval|B5(BLEU-AL)
+Streaming ASR	|	Translation
+-|-
+大家	|	
+大家好	|	
+大家好欢迎	|	Hello everyone.
+大家好欢迎大	|	
+大家好欢迎大家	|	Welcome
+大家好欢迎大家关注	|	to
+大家好欢迎大家关注注	|	
+大家好欢迎大家关注祝英	|	
+大家好欢迎大家关注祝unit	|	
+大家好欢迎大家关注祝unit对话性	|	unit
+大家好欢迎大家关注祝unit对话性和	|	
+大家好欢迎大家关注祝unit对话性和高级	|	dialog and 
+大家好欢迎大家关注祝unit对话性的高级可	|	advanced
+大家好欢迎大家关注祝unit对话性和高级课程	|	cources
 
-classDef green fill:#9f6,stroke:#333,stroke-width:2px;;
-classDef orange fill:#f48c42,stroke:#f66,stroke-width:2px;
-class AA2,AB2,B3 orange
-class AA,AB,B1 green
-</div>
+For Zh-En translation with audio input, you also have to output this source-translation file, with the left part as your recognition source and right part as the corresponding translation. 
 
-#### Platform
+### Submit methods
+You have two ways to submit your system:
 
-Please redirect to [Baidu AI Studio](https://aistudio.baidu.com/aistudio/competition/detail/18?lang=en) for dataset and submission.
+1. **For AISTUDIO Project owner**: You can use the calculation resources for free (one V100 card for each participant) if your system ONLY RELIES ON PADDLEPADDLE as the deep-learning framework. The free resources are provided by AISTUDIO. In this case, you can submit your system by specifying your projectID on AISTUDIO. Note that using other deep-learning platforms (as Tensorflow or Pytorch) is forbidden by AISTUDIO. 
+2. **For Other submitters**, you are required to submit your docker system, along with your own implementation of specific APIs for input and translation output. We will evaluate all the submissions on our environment. Please refer to the [tutorial page](https://autosimtrans.github.io/tutorial) if you need help to convert your model to docker image, or train in docker container.
 
-#### Docker submission
+There are some requirements for your uploaded system:
 
-Participants are required to upload the systems as a Docker image, along with their own implementation of specific APIs for input and translation output. We will evaluate all the submissions on our environment. We will provide an example implementation which will also serve as the baseline system.
+1. script <b>run.sh</b>: the interface to execute your translate program. 
+For text-to-text tasks, use  
+`sh run.sh < streaming_asr.txt > output_asr/source_translation.txt` or  
+`sh run.sh < streaming_transcription.txt > output_transcript/source_translation.txt`;  
+For audio-to-text task, use  
+`sh run.sh < audioid.wav > output_audio/source_translation.txt` 
 
-Please refer to the [tutorial](https://autosimtrans.github.io/tutorial) page if you need help to convert your model to docker image, or train in docker container.
+2. directory <b>output_xxx</b>: your environment should have a directory named `output_asr`, `output_transcript` or `output_audio`, depends on the task you involved in. You can also prepare multiple output directories of them, if you participate in multiple challenge tasks. 
+3. file <b>output_xxx/dev_translation.txt</b>: we suggest you to put the source-translation result file of the development set under the corresponding task output directory, with the file name as `output_xxx/dev_translation.txt`. This is very helpful for us to eliminate the execution problems of your system.
 
----
+Unless coming across system execution error, each participant has only one chance to submit on each task.
 
-# Evaluation
 
-Following previous work, we evaluate simultaneous translation results based on [BLEU](https://www.aclweb.org/anthology/P02-1040.pdf) and [AL](https://github.com/SimulTrans-demo/STACL) (average lagging). BLEU is the measurement for translation quality and AL measures system delays. Please use the [AL codebase](https://github.com/SimulTrans-demo/STACL) we offered. The evaluation results of all teams will be plotted on BLEU-AL two-dimensional coordinates. 
+### Evaluation Metrics
+Following previous work, we evaluate simultaneous translation results based on BLEU and [AL (average lagging)](https://github.com/SimulTrans-demo/STACL). BLEU is the measurement for translation quality and AL  measures system delays. The evaluation results of all teams will be plotted on BLEU-AL two-dimensional coordinates. 
+##### BLEU
+We use [multieval](https://github.com/moses-smt/mosesdecoder/blob/master/scripts/generic/mteval-v13a.pl) to calculate BLEU.
+
+##### AL
+We use `python gen_rw.py < output_xxx/source_translation.txt > sample_rw.txt && python metricAL.py` to measure system delays. 
+
+1. **gen_rw.py** is used to count Read/Write (R/W) operations during system execution. For each generated partial translation fragment, we count the number of source words read before it. For example, the R/W result of Table 3 is "R R R R R W W R R W R R W R R R R R W R R R W W R W R W". 
+2. **metricAL.py**. According to the generated R/W file, we calculate the system latency according to metricAL.py, the output is a single value as AL.
 
 ---
 
@@ -135,3 +215,7 @@ All submission deadlines are 11:59 PM GMT-12 (anywhere in the world) unless othe
 
 # Contact
 For any questions regarding our shared task, please use our [twitter page](https://twitter.com/autosimtrans), [github issues](https://github.com/autosimtrans/AutoSimTrans-Shared-Task-2020/issues), or email to [autosimtrans.workshop@gmail.com](autosimtrans.workshop@gmail.com). We are here to answer your questions and looking forward to your submissions!
+
+---
+
+###### [1] Chinese ASR by Baidu Speech.
