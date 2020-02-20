@@ -74,7 +74,7 @@ For Zh->En translation, our training set contains about 70 hours of Chinese spee
 
 For En->Es translation, we don't provide additional speech translation dataset. You are required to use the UN dataset only to train your MT model. To evaluate your system, we will provide the streaming transcripts as the development set. 
 
-As shown in following table, we would provide 7 parts of speech translation data, among which the yellow 5 will be sent to participants by email.
+As shown in following table, we would provide 7 parts of speech translation data, among which the highlighted 5 will be sent to participants by email.
 
 <table style="text-align: center;">
     <thead>
