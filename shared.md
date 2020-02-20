@@ -89,7 +89,7 @@ As shown in following table, we would provide 7 parts of speech translation data
     <tbody>
         <tr>
         	<td>1</td>
-            <td rowspan=3>Zh->En</td>
+            <td rowspan="3">Zh->En</td>
             <td>Audio</td>
             <td>url of 70-hours speeches</td>
             <td>url</td>
