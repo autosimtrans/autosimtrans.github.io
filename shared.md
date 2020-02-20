@@ -182,7 +182,7 @@ We use `python gen_rw.py < output_xxx/source_translation.txt > sample_rw.txt && 
 
 # Important Dates
 - **January 2020**: release of train and dev data
-- **March 2020**: evaluation period
+- **March 1st 2020 - March 26th 2020**: evaluation period
 - **April 6th 2020**: system description paper due
 - **May 4th 2020**: review feedback
 - **May 18th 2020**: camera-ready paper due

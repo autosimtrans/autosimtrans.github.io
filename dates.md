@@ -12,7 +12,7 @@ permalink: /dates
 
 #### Shared Task
 - **January 2020**: release of train and dev data
-- **March 2020**: evaluation period
+- **March 1st 2020 - March 26th 2020**: evaluation period
 - **Monday, April 6th 2020**: system description paper due
 - **Monday, May 4th 2020**: review feedback
 - **Monday, May 18th 2020**: camera-ready papers due
