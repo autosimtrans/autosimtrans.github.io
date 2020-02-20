@@ -29,7 +29,7 @@ There are three types of inputs involved:
 2. **Streaming ASR** provides the realtime streaming ASR results<sup>[[1](#1-chinese-asr-by-baidu-speech)]</sup>. During the ASR, errors may occur, and the recognition result of one line may be modified compared with the previous ones. Note that there is no punctuation predicted during ASR. 
 3. **Audio**: You can also choose to use your own ASR system with the audio as input.
 
-An example of the three types of input is illustrated in following table.  We process input data into streaming format to evaluate the system delay (refer to [Evaluation](#evaluation)).
+An example of the three types of input is illustrated in Table 1.  We process input data into streaming format to evaluate the system delay (refer to [Evaluation](#evaluation)).
 
 Streaming Transcript	|	Streaming ASR	|	Audio
 -|-|-
@@ -55,6 +55,10 @@ Streaming Transcript	|	Streaming ASR	|	Audio
 欢迎大家关注UNIT对话系统的高级课程	|	
 欢迎大家关注UNIT对话系统的高级课程。	|	
 
+<div style="text-align: center;">
+    Table 1. Illustration of three types of input
+</div>
+
 ---
 
 # Dataset
@@ -74,7 +78,7 @@ For Zh->En translation, our training set contains about 70 hours of Chinese spee
 
 For En->Es translation, we don't provide additional speech translation dataset. You are required to use the UN dataset only to train your MT model. To evaluate your system, we will provide the streaming transcripts as the development set. 
 
-As shown in following table, we would provide 7 parts of speech translation data, among which the highlighted 5 will be sent to participants by email.
+As shown in Table 2, we would provide 7 parts of speech translation data, among which the highlighted 5 will be sent to participants by email.
 
 <table style="text-align: center;">
     <thead>
@@ -116,7 +120,12 @@ As shown in following table, we would provide 7 parts of speech translation data
     </tbody>
 </table>
 
-##Testing Data
+<div style="text-align: center;">
+    Table 2. Speech Translation Dataset provided
+</div>
+
+
+## Testing Data
 Our testset will not be released. You are required to upload your whole system and environment. Within 24 hours after you submitting your system, we'll publish the evaluation results on the competition website.
 
 At test time, the systems are expected to receive different file formats based on the system types. For text-to-text translation systems, the inputs are streaming source text (including gold transcripts and ASR results) and the outputs are corresponding simultaneous translation results. For speech-to-text translation systems, the inputs are speech audio files and the outputs are corresponding simultaneous translation results.
@@ -125,7 +134,7 @@ At test time, the systems are expected to receive different file formats based o
 # <span id="evaluation">Evaluation</span>
 
 ### Output
-For all the four tasks, you output only one text file containing source sentences and translations. The following table is an example with streaming ASR input. Your system needs to decide when to translate given the input, and to write the translation after corresponding source. Your translations will be concatenated with **SPACEs** to evaluate BLEU. Note that the left part (streaming source) should **NOT** be modified in streaming ASR and streaming transcription tasks. 
+For all the four tasks, you output only one text file containing source sentences and translations. The Table 3 is an example with streaming ASR input. Your system needs to decide when to translate given the input, and to write the translation after corresponding source. Your translations will be concatenated with **SPACEs** to evaluate BLEU. Note that the left part (streaming source) should **NOT** be modified in streaming ASR and streaming transcription tasks. 
 
 Streaming ASR	|	Translation
 -|-
@@ -143,6 +152,10 @@ Streaming ASR	|	Translation
 大家好欢迎大家关注祝unit对话性和高级	|	dialog and 
 大家好欢迎大家关注祝unit对话性的高级可	|	advanced
 大家好欢迎大家关注祝unit对话性和高级课程	|	cources
+
+<div style="text-align: center;">
+    Table 3. Illustration of output file
+</div>
 
 For Zh-En translation with audio input, you also have to output this source-translation file, with the left part as your recognition source and right part as the corresponding translation. 
 
