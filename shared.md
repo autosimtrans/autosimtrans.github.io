@@ -19,7 +19,7 @@ Please register your team through this [Platform](https://aistudio.baidu.com/ais
 Our challenge includes 4 tasks on Chinese-to-English translation (Zh->En) and English-to-Spanish translation (En->Es). Participants can choose to join one or more tasks. 
 
 1. Zh->En Translation, input: streaming transcription
-2. Zh->En Translation, input: streaming ASR[1]
+2. Zh->En Translation, input: streaming ASR<sup>[[1](#1-chinese-asr-by-baidu-speech)]</sup>
 3. Zh->En Translation, input: audio file
 4. En->Es Translation, input: streaming transcription
 
@@ -70,7 +70,7 @@ You need to train a baseline MT model using the text parallel corpus specified i
 |En-&gt;Es | [UN Parallel Corpus](https://conferences.unite.un.org/UNCORPUS/en/DownloadOverview#download) | 
 
 ##### Speech Translation Data
-For Zh->En translation, our training set contains about 70 hours of Chinese speech audio, human transcripts, ASR results [1] and English translations. To evaluate your system, we provide 16 talks with their corresponding streaming ASR and streaming transcripts as the development set. 
+For Zh->En translation, our training set contains about 70 hours of Chinese speech audio, human transcripts, ASR results<sup>[[1](#1-chinese-asr-by-baidu-speech)]</sup> and English translations. To evaluate your system, we provide 16 talks with their corresponding streaming ASR and streaming transcripts as the development set. 
 
 For En->Es translation, we don't provide additional speech translation dataset. You are required to use the UN dataset only to train your MT model. To evaluate your system, we will provide the streaming transcripts as the development set. 
 
