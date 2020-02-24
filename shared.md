@@ -95,8 +95,8 @@ As shown in Table 2, we would provide 7 parts of speech translation data, among 
         	<td>1</td>
             <td rowspan="3">Zh->En</td>
             <td>Audio</td>
-            <td>url of 70-hours speeches</td>
-            <td>url</td>
+            <td><a href="https://bj.bcebos.com/ibox-docpreview100/43319cc7679b4077cdd672319c590598?authorization=bce-auth-v1%2Ffbe74140929444858491fbf2b6bc0935%2F2020-02-19T08%3A06%3A24Z%2F1800%2F%2F268d4d15e644c059fd580621cd6a496a5b0f2e68824fd4c8f21f8411c8c2cf6e&responseContentDisposition=attachment%3Bfilename%3D%2220200219155334.zip%22" target="_blank">70 hours of speeches</a></td>
+            <td><a href="http://bj.bcebos.com/v1/ai-studio-online/4e3fce487a3943f0a56e85f4c2b5f6535864ecd434164788a86677700e8118b6?responseContentDisposition=attachment%3B%20filename%3Ddevdata.zip&authorization=bce-auth-v1%2F0ef6765c1e494918bc0d4c3ca3e5c6d1%2F2020-02-19T08%3A00%3A16Z%2F-1%2F%2F98c5e852c7543b6386024fef611c0886fccf07c3855d5581025d368f1b1dd3a2" target="_blank">dev audio</a></td>
         </tr>
         <tr>
             <td>2</td>
