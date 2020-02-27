@@ -82,7 +82,7 @@ Instructions on how to apply for financial assistance will be provided after pap
 - [Alvin Grissom II](https://www.ursinus.edu/live/profiles/3125-alvin-grissom-ii), Ursinus College, USA
 - [He He](https://hhexiy.github.io/), NYU, USA
 - [Alina Karakanta](https://ict.fbk.eu/people/detail/alina-karakanta/), FBK-Trento, Italy
-- [Wei Li](https://weilinear.github.io/), Google, USA
+- [Wei Li](https://research.google/people/106528/), Google, USA
 - [Hairong Liu](https://scholar.google.com/citations?user=4oISQDYAAAAJ&hl=en), Baidu Research, USA
 - [Kaibo Liu](https://www.linkedin.com/in/kaibo-liu-99a6303b/), Baidu Research, USA
 - [Mingbo Ma](http://mingboma.com/), Baidu Research, USA
