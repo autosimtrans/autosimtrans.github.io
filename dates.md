@@ -18,7 +18,7 @@ permalink: /dates
 - **Monday, May 18, 2020**: camera-ready papers due
 
 #### Papers
-- **Saturday, April 25, 2020**: submission deadline (both research and systems description papers)
+- **Saturday, April 25, 2020**: submission deadline (both research and systems description papers) ([**submission link**](https://www.softconf.com/acl2020/AutoSimTrans))
 - **Monday, May 11, 2020**: notification of Acceptance
 - **Monday, May 18, 2020**: Camera-ready papers due
 - **July 9 or 10 (Thursday or Friday), 2020**: Workshop

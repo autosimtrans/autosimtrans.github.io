@@ -14,7 +14,8 @@ The 1st Workshop on Automatic Simultaneous Translation (AutoSimTrans)
 
 Friday, July 10, 2020
 
-Submission Deadline: Saturday, April 25, 2020, 11:59pm
+Submission Deadline: Saturday, April 25, 2020, 11:59pm  
+Submission Link: [softconf](https://www.softconf.com/acl2020/AutoSimTrans)
 
 ---
 
