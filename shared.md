@@ -5,7 +5,18 @@ order: 3
 collection: pages_2020
 permalink: /shared
 ---
+# Contents
 
+- [Dataset](#dataset)  
+- [Evaluation](#evaluation)  
+- [Baseline System](#baseline-system)
+- [Submission: System](#a-system-submission)  
+- [Submission: Paper](#b-paper-submission)  
+- [Important Dates](#important-dates)  
+- [Chair and Committee](#challenge-chair)  
+- [Contact](#contact)  
+
+---
 
 
 # Registration
@@ -125,6 +136,8 @@ As shown in Table 2, we would provide 7 parts of speech translation data, among 
 </div>
 
 
+---
+
 ## Testing Data
 Our testset will not be released. You are required to upload your whole system and environment. Within 24 hours after you submitting your system, we'll publish the evaluation results on the competition website.
 
@@ -159,7 +172,11 @@ Streaming ASR	|	Translation
 
 For Zh-En translation with audio input, you also have to output this source-translation file, with the left part as your recognition source and right part as the corresponding translation. 
 
-### Submit methods
+---
+
+### Submission Guidance
+##### A. System Submission
+
 You have two ways to submit your system:
 
 1. **For AISTUDIO Project owner**: You can use the calculation resources for free (one V100 card for each participant) if your system ONLY RELIES ON PADDLEPADDLE as the deep-learning framework. The free resources are provided by AISTUDIO. In this case, you can submit your system by specifying your projectID on AISTUDIO. Note that using other deep-learning platforms (as Tensorflow or Pytorch) is forbidden by AISTUDIO. 
@@ -180,6 +197,12 @@ For audio-to-text task, use
 Unless coming across system execution error, each participant has only one chance to submit on each task.
 
 
+##### B. Paper Submission
+
+Scientific and system description papers will be submitted through this [**Link**](https://www.softconf.com/acl2020/iwslt) by April 25, 2020 11.59 pm [UTC-12h]. Paper should be formatted according to the [ACL 2020 format guidelines](http://acl2020.org/calls/papers) and be of 4 to 8 pages of content plus additional pages of references. Accepted papers will be published on-line in the ACL 2020 proceedings and will be presented at the conference either orally or as a poster.
+
+---
+
 ### Evaluation Metrics
 Following previous work, we evaluate simultaneous translation results based on BLEU and [AL (average lagging)](https://github.com/SimulTrans-demo/STACL). BLEU is the measurement for translation quality and AL  measures system delays. The evaluation results of all teams will be plotted on BLEU-AL two-dimensional coordinates. 
 ##### BLEU
@@ -191,14 +214,21 @@ We use `python gen_rw.py < output_xxx/source_translation.txt > sample_rw.txt && 
 1. **gen_rw.py** is used to count Read/Write (R/W) operations during system execution. For each generated partial translation fragment, we count the number of source words read before it. For example, the R/W result of Table 3 is "R R R R R W W R R W R R W R R R R R W R R R W W R W R W". 
 2. **metricAL.py**. According to the generated R/W file, we calculate the system latency according to metricAL.py, the output is a single value as AL.
 
+##### Baseline System
+
+Here is a baseline system for the Simultaneous Machine Translation based on [PaddlePaddle 1.7](https://github.com/paddlepaddle/paddle) and [STACL](https://arxiv.org/abs/1810.08398):
+- [**souce code**](https://github.com/autosimtrans/SimulTransBaseline) on github
+- [**notebook**](https://aistudio.baidu.com/aistudio/projectdetail/315680) with running environment, covering pretrained models and eval scripts
+- [**docker image**](https://hub.docker.com/r/autosimtrans/stacl_paddle) with environment, pretrained models and eval scripts
+
 ---
 
 # Important Dates
 - **January 2020**: release of train and dev data
-- **March 1st 2020 - March 26th 2020**: evaluation period
-- **April 6th 2020**: system description paper due
-- **May 4th 2020**: review feedback
-- **May 18th 2020**: camera-ready paper due
+- **March 1, 2020 - April 20th 2020**: evaluation period
+- **Saturday, April 25, 2020**: system description paper due
+- **Monday, May 11, 2020**: review feedback
+- **Monday, May 18, 2020**: camera-ready paper due
 
 All submission deadlines are 11:59 PM GMT-12 (anywhere in the world) unless otherwise noted.
 
