@@ -12,9 +12,9 @@ permalink: /cfp
 The 1st Workshop on Automatic Simultaneous Translation (AutoSimTrans)  
 [Workshop](https://autosimtrans.github.io) at [ACL 2020](https://acl2020.org/program/workshops/#autosimtrans), Seattle, Washington, USA
 
-Thursday, July 9, 2020 OR Friday, July 10, 2020
+Friday, July 10, 2020
 
-Submission Deadline: Monday, April 6, 2020, 11:59pm
+Submission Deadline: Saturday, April 25, 2020, 11:59pm
 
 ---
 
@@ -98,10 +98,10 @@ We can offer partial financial aid to student authors who demonstrate significan
 - March 2020: evaluation period
 
 ##### Papers
-- Submission Deadline: Monday, April 6, 2020 (both research and systems description papers)
-- Notification of Acceptance: Monday, Monday, May 4, 2020
+- Submission Deadline: Saturday, April 25, 2020 (both research and systems description papers)
+- Notification of Acceptance: Monday, Monday, May 11, 2020
 - Camera-ready Papers Due: Monday, May 18, 2020
-- Workshop: July 9 or 10 (Thursday or Friday), 2020
+- Workshop: July 10 (Thursday or Friday), 2020
 
 All submission deadlines are 11:59 PM GMT -12 (anywhere in the world).
 
