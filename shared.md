@@ -199,7 +199,7 @@ Unless coming across system execution error, each participant has only one chanc
 
 ##### B. Paper Submission
 
-Scientific and system description papers will be submitted through this [**Link**](https://www.softconf.com/acl2020/iwslt) by April 25, 2020 11.59 pm [UTC-12h]. Paper should be formatted according to the [ACL 2020 format guidelines](http://acl2020.org/calls/papers) and be of 4 to 8 pages of content plus additional pages of references. Accepted papers will be published on-line in the ACL 2020 proceedings and will be presented at the conference either orally or as a poster.
+Scientific and system description papers will be submitted through this [**Link**](https://www.softconf.com/acl2020/AutoSimTrans) by April 25, 2020 11.59 pm [UTC-12h]. Paper should be formatted according to the [ACL 2020 format guidelines](http://acl2020.org/calls/papers) and be of 4 to 8 pages of content plus additional pages of references. Accepted papers will be published on-line in the ACL 2020 proceedings and will be presented at the conference either orally or as a poster.
 
 ---
 
