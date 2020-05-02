@@ -199,7 +199,7 @@ Unless coming across system execution error, each participant has only one chanc
 
 ##### B. Paper Submission
 
-Scientific and system description papers will be submitted through [**this Link**](https://www.softconf.com/acl2020/AutoSimTrans) by April 25, 2020 11.59 pm [UTC-12h]. Paper should be formatted according to the [ACL 2020 format guidelines](http://acl2020.org/calls/papers) and be of 4 to 8 pages of content plus additional pages of references. Accepted papers will be published on-line in the ACL 2020 proceedings and will be presented at the conference either orally or as a poster.
+Scientific and system description papers will be submitted through [**this Link**](https://www.softconf.com/acl2020/AutoSimTrans) by May 6, 2020 11.59 pm [UTC-12h]. Paper should be formatted according to the [ACL 2020 format guidelines](http://acl2020.org/calls/papers) and be of 4 to 8 pages of content plus additional pages of references. Accepted papers will be published on-line in the ACL 2020 proceedings and will be presented at the conference either orally or as a poster.
 
 ---
 
@@ -226,7 +226,7 @@ Here is a baseline system for the Simultaneous Machine Translation based on [Pad
 # Important Dates
 - **January 2020**: release of train and dev data
 - **March 1, 2020 - April 20th 2020**: evaluation period
-- **Saturday, April 25, 2020**: system description paper due & research paper due ([**submission link**](https://www.softconf.com/acl2020/AutoSimTrans))
+- **Wednesday, May 6, 2020**: system description paper due & research paper due ([**submission link**](https://www.softconf.com/acl2020/AutoSimTrans))
 - **Monday, May 11, 2020**: paper notification (review feedback)
 - **Monday, May 18, 2020**: camera-ready paper due
 
