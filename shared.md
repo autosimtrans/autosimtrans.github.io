@@ -228,7 +228,7 @@ Here is a baseline system for the Simultaneous Machine Translation based on [Pad
 - **March 1, 2020 - April 20th 2020**: evaluation period
 - **Wednesday, May 6, 2020**: system description paper due & research paper due ([**submission link**](https://www.softconf.com/acl2020/AutoSimTrans))
 - **Monday, May 11, 2020**: paper notification (review feedback)
-- **Monday, May 18, 2020**: camera-ready paper due
+- ~~**Monday, May 18, 2020**~~ <span style="color:red"><b>Extended to Monday, May 25, 2020</b></span>: camera-ready papers due
 
 All submission deadlines are 11:59 PM GMT-12 (anywhere in the world) unless otherwise noted.
 

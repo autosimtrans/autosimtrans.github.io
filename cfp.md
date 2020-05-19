@@ -101,7 +101,7 @@ We can offer partial financial aid to student authors who demonstrate significan
 ##### Papers
 - Submission Deadline: Saturday, April 25, 2020 (both research and systems description papers)
 - Notification of Acceptance: Monday, Monday, May 11, 2020
-- Camera-ready Papers Due: Monday, May 18, 2020
+- Camera-ready Papers Due: ~~Monday, May 18, 2020~~ <span style="color:red"><b>Extended to Monday, May 25, 2020</b></span>
 - Workshop: July 10 (Thursday or Friday), 2020
 
 All submission deadlines are 11:59 PM GMT -12 (anywhere in the world).
