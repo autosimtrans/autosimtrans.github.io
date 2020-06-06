@@ -51,8 +51,8 @@ We have two sets of keynote speakers: 4 from simultaneous translation, and 2 fro
 
 ##### Human Interpretation Speakers:
 
-- [Kay-Fan Cheung](https://www.polyu.edu.hk/cbs/cts/en/people/members/58-dr-cheung-kay-fan-andrew), The Hong Kong Polytechnic University, and Member of the International Association of Conference Interpreters (AIIC), China
-- [Barry Slaughter Olsen](https://www.middlebury.edu/institute/people/barry-slaughter-olsen), the Middlebury Institute of International Studies and Conference Interpreter, and Member of the International Association of Conference Interpreters (AIIC), USA
+- [Kay-Fan Cheung](https://www.polyu.edu.hk/cbs/cts/en/people/members/58-dr-cheung-kay-fan-andrew), Associate Professor, The Hong Kong Polytechnic University, and Member of the International Association of Conference Interpreters (AIIC), China
+- [Barry Slaughter Olsen](https://www.middlebury.edu/institute/people/barry-slaughter-olsen), Professor, The Middlebury Institute of International Studies and Conference Interpreter, VP of Client Success, KUDO, and Member of the International Association of Conference Interpreters (AIIC), USA
 
 ## Awards
 We will have a best paper award, a best presentation award, and a best poster award, sponsored by the above sponsors.
