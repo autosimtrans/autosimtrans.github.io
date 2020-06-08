@@ -3,7 +3,7 @@ layout: main-anchor
 title: Conference Program
 order: 4
 collection: pages_2020
-permalink: /prg
+permalink: /program
 ---
 
 
