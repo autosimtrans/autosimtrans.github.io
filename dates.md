@@ -1,7 +1,7 @@
 ---
 layout: main-anchor
 title: Important Dates
-order: 5
+order: 7
 collection: pages_2020
 permalink: /dates
 ---

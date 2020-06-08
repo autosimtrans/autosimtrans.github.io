@@ -1,7 +1,7 @@
 ---
 layout: main-anchor
 title: Call for Papers
-order: 4
+order: 5
 collection: pages_2020
 permalink: /cfp
 ---

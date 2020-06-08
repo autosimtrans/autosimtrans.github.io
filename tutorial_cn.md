@@ -1,7 +1,7 @@
 ---
 layout: main-anchor
 title: Tutorial
-order: 7 
+order: 8 
 collection: pages_2020_hide
 permalink: /tutorial_cn
 ---

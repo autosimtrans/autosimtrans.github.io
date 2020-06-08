@@ -2,7 +2,7 @@
 layout: main-anchor
 title: Organization
 anchor: organizing-committee
-order: 5
+order: 6
 collection: pages_2020
 ---
 
