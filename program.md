@@ -74,13 +74,14 @@ permalink: /program
 		<img alt="pic" src="https://sites.google.com/site/colinacherry/home/ColinProfile.jpg">
 	</div>
 	<div class='col-9'>
-		<b>Title</b>: 
+		<b>Title</b>: Research stories from Google Translate’s Transcribe Mode
 		<br>
-		<b>Abstract</b>: 
+		<b>Abstract</b>: Google Translate recently launched a Transcribe Mode feature for simultaneous translation of long-form speech. This required a lot of interesting work from many teams, but I’ll use this presentation to describe some of the more research-oriented subprojects. This will include the work that validated and improved upon the use of re-translation for simultaneous translation, as well as some work on adapting latency metrics to the long-form transcription scenario. Through these stories, I’ll try to offer some perspective on how research and production impact one another when a launch is looming.
 	</div>
 </div>
 </div>
 
+**Colin Cherry** is a Research Scientist at Google Montreal, working with Translate. Previously, he was a Senior Research Officer at Canada’s National Research Council. His primary research area is machine translation, but he has also been known to venture into parsing, morphology and information extraction. He is currently chair of the executive board of the North American Association for Computational Linguistics (NAACL), an action editor at the Transactions of the Association for Computational Linguistics (TACL), and recently served as research track chair for the meeting of the Association for Machine Translation in the Americas (AMTA 2018).
 
 ---
 
@@ -102,6 +103,7 @@ permalink: /program
 **Barry Slaughter Olsen** is a veteran conference interpreter and technophile with over twenty-five years of experience interpreting, training interpreters and organizing language services. He is a professor at the Middlebury Institute of International Studies at Monterey ([MIIS](http://www.miis.edu/)) and the Vice-President of Client Success at [KUDO](http://www.kudoway.com/), a multilingual web conferencing platform. He was co-president of [InterpretAmerica](http://www.interpretamerica.com/) from 2009 to 2020. He is a member of the International Association of Conference Interpreters ([AIIC](http://www.aiic.net/)). Barry has been interviewed frequently by international media (CNN,CBC, MSNBC, NPR and PBS) about interpreting and translation. For updates on interpreting, technology and training , follow him on Twitter [@ProfessorOlsen](https://twitter.com/ProfessorOlsen).
 
 ---
+
 ### Invited Talk 3 by [Jordan Boyd-Graber](http://users.umiacs.umd.edu/~jbg)
 
 <div class='container'>
@@ -116,6 +118,16 @@ permalink: /program
 	</div>
 </div>
 </div>
+
+**Jordan Boyd-Graber** is an associate professor in the University of
+Maryland's Computer Science Department, iSchool, UMIACS, and Language
+Science Center. Jordan's research focus is in applying machine
+learning and Bayesian probabilistic models to problems that help us
+better understand social interaction or the human cognitive
+process. He and his students have won "best of" awards at NIPS (2009,
+2015), NAACL (2016), and CoNLL (2015), and Jordan won the British
+Computing Society's 2015 Karen Spärk Jones Award and a 2017 NSF CAREER
+award.
 
 ---
 
@@ -137,6 +149,7 @@ permalink: /program
 **Hua Wu** is the Chief Scientist of Baidu NLP. Her research interests span a wide range of topics including machine translation, dialogue systems, knowledge graph, etc. She was a leading member of the machine translation project to win the second prize of the State Preeminent Science and Technology Award of China. She was the Program Co-Chair of ACL (the Association for Computational Linguistics) in 2014 and AACL in 2020 (Asia-Pacific Chapter of ACL). 
 
 ---
+
 ### Invited Talk 5 by [Kay-Fan Cheung](https://www.polyu.edu.hk/cbs/cts/en/people/members/58-dr-cheung-kay-fan-andrew)
 
 <div class='container'>
@@ -157,6 +170,7 @@ permalink: /program
 **Andrew K.F. Cheung** is Associate Professor at the Department of Chinese and Bilingual Studies of the Hong Kong Polytechnic University. He completed his MA in Conference Interpreting and Translation at the Graduate Institute of Translation and Interpreting Studies of Fu-jen Catholic University and did his Ph.D. at the University of East Anglia. His research interests include cognitive aspects of multilingual and multimodal processing, corpus-based interpreting studies, quality perception of interpreting services and pedagogy of interpreting. He is also a member of AIIC.
 
 ---
+
 ### Invited Talk 6 by [Qun Liu](https://scholar.google.com.sg/citations?user=2HhiGzcAAAAJ&hl=en)
 
 <div class='container'>
