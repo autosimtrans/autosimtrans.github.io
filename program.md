@@ -71,7 +71,7 @@ permalink: /program
 <div class='container'>
 <div class='row'>
 	<div class='col-3'>
-		<img alt="pic" src="https://sites.google.com/site/colinacherry/home/ColinProfile.jpg?attredirects=0">
+		<img alt="pic" src="https://sites.google.com/site/colinacherry/home/ColinProfile.jpg">
 	</div>
 	<div class='col-9'>
 		<b>Title</b>: 
@@ -89,7 +89,7 @@ permalink: /program
 <div class='container'>
 <div class='row'>
 	<div class='col-3'>
-		<img alt="pic" src="https://www.middlebury.edu/institute/sites/www.middlebury.edu.institute/files/styles/432x576/public/2019-06/Barry_0.jpg?fv=SevLMSn7&itok=wkJTqnjI">
+		<img alt="pic" src="https://www.middlebury.edu/institute/sites/www.middlebury.edu.institute/files/styles/432x576/public/2019-06/Barry_0.jpg">
 	</div>
 	<div class='col-9'>
 		<b>Title</b>: Human Interpreter Training and Practice: Insights for Simultaneous Machine Translation Research
