@@ -7,9 +7,9 @@ permalink: /program
 ---
 
 
-<h1>Conference Program</h1>
-<h4>(Friday, July 10, or <sup>+1</sup>: Saturday, July 11)</h4>
----
+<h1 class='my-center'>Conference Program</h1>
+<h4 class='my-center'>(Friday, July 10, or <sup>+1</sup>: Saturday, July 11)</h4>
+
 
 <style>
 	table {
@@ -18,7 +18,7 @@ permalink: /program
 		white-space: nowrap;
 
 	}
-	h1, h4 {
+	h1.my-center, h4.my-center {
 		text-align:center;
 	}
 	th {
@@ -33,6 +33,7 @@ permalink: /program
 	}
 </style>
 
+
 <table>
 <thead>
 <tr><th>PDT<br>Pacific Time  </th><th>EDT<br>Eastern Time      </th><th>CET<br>Central European  </th><th>GMT+8<br>Beijing Time    </th><th>                                                                                                                                                                            </th></tr>
@@ -40,15 +41,15 @@ permalink: /program
 <tbody>
 <tr><td>08:50-09:00          </td><td>11:50-12:00              </td><td>17:50-18:00              </td><td>23:50-00:00              </td><td><I>Opening Remarks</I>                                                                                                                                                      </td></tr>
 <tr><td>09:00-11:00          </td><td>12:00-14:00              </td><td>18:00-20:00              </td><td>00:00-02:00 <sup>+1</sup></td><td><b>Session 1 (chair: Liang Huang)</b>                                                                                                                                       </td></tr>
-<tr><td>09:00-09:30          </td><td>12:00-12:30              </td><td>18:00-18:30              </td><td>00:00-00:30 <sup>+1</sup></td><td><I>Invited Talk 1: Colin Cherry</I>                                                                                                                                         </td></tr>
-<tr><td>09:30-10:00          </td><td>12:30-13:00              </td><td>18:30-19:00              </td><td>00:30-01:00 <sup>+1</sup></td><td><I>Invited Talk 2: Barry Slaughter Olsen</I>                                                                                                                                </td></tr>
-<tr><td>10:00-10:30          </td><td>13:00-13:30              </td><td>19:00-19:30              </td><td>01:00-01:30 <sup>+1</sup></td><td><I>Invited Talk 3: Jordan Boyd-Graber</I>                                                                                                                                   </td></tr>
+<tr><td>09:00-09:30          </td><td>12:00-12:30              </td><td>18:00-18:30              </td><td>00:00-00:30 <sup>+1</sup></td><td><I><a href="https://autosimtrans.github.io/program/#invited-talk-1-by-colin-cherry">Invited Talk 1</a>: Colin Cherry</I>                                                    </td></tr>
+<tr><td>09:30-10:00          </td><td>12:30-13:00              </td><td>18:30-19:00              </td><td>00:30-01:00 <sup>+1</sup></td><td><I><a href="https://autosimtrans.github.io/program/#invited-talk-2-by-barry-slaughter-olsen">Invited Talk 2</a>: Barry Slaughter Olsen</I>                                  </td></tr>
+<tr><td>10:00-10:30          </td><td>13:00-13:30              </td><td>19:00-19:30              </td><td>01:00-01:30 <sup>+1</sup></td><td><I><a href="https://autosimtrans.github.io/program/#invited-talk-3-by-jordan-boyd-graber">Invited Talk 3</a>: Jordan Boyd-Graber</I>                                        </td></tr>
 <tr><td>10:30-11:00          </td><td>13:30-14:00              </td><td>19:30-20:00              </td><td>01:30-02:00 <sup>+1</sup></td><td><I>Q&A</I>                                                                                                                                                                  </td></tr>
 <tr><td>11:00-14:00          </td><td>14:00-17:00              </td><td>20:00-23:00              </td><td>02:00-05:00 <sup>+1</sup></td><td><b>Lunch</b>                                                                                                                                                                </td></tr>
 <tr><td>17:00-19:00          </td><td>20:00-22:00              </td><td>02:00-04:00 <sup>+1</sup></td><td>08:00-10:00 <sup>+1</sup></td><td><b>Session 2 (chair: Colin Cherry)</b>                                                                                                                                      </td></tr>
-<tr><td>17:00-17:30          </td><td>20:00-20:30              </td><td>02:00-02:30 <sup>+1</sup></td><td>08:00-08:30 <sup>+1</sup></td><td><I>Invited Talk 4: Hua Wu</I>                                                                                                                                               </td></tr>
-<tr><td>17:30-18:00          </td><td>20:30-21:00              </td><td>02:30-03:00 <sup>+1</sup></td><td>08:30-09:00 <sup>+1</sup></td><td><I>Invited Talk 5: Kay-Fan Cheung</I>                                                                                                                                       </td></tr>
-<tr><td>18:00-18:30          </td><td>21:00-21:30              </td><td>03:00-03:30 <sup>+1</sup></td><td>09:00-09:30 <sup>+1</sup></td><td><I>Invited Talk 6: Qun Liu</I>                                                                                                                                              </td></tr>
+<tr><td>17:00-17:30          </td><td>20:00-20:30              </td><td>02:00-02:30 <sup>+1</sup></td><td>08:00-08:30 <sup>+1</sup></td><td><I><a href="https://autosimtrans.github.io/program/#invited-talk-4-by-hua-wu">Invited Talk 4</a>: Hua Wu</I>                                                                </td></tr>
+<tr><td>17:30-18:00          </td><td>20:30-21:00              </td><td>02:30-03:00 <sup>+1</sup></td><td>08:30-09:00 <sup>+1</sup></td><td><I><a href="https://autosimtrans.github.io/program/#invited-talk-5-by-kay-fan-cheung">Invited Talk 5</a>: Kay-Fan Cheung</I>                                                </td></tr>
+<tr><td>18:00-18:30          </td><td>21:00-21:30              </td><td>03:00-03:30 <sup>+1</sup></td><td>09:00-09:30 <sup>+1</sup></td><td><I><a href="https://autosimtrans.github.io/program/#invited-talk-6-by-qun-liu">Invited Talk 6</a>: Qun Liu</I>                                                              </td></tr>
 <tr><td>18:30-19:00          </td><td>21:30-22:00              </td><td>03:30-04:00 <sup>+1</sup></td><td>09:30-10:00 <sup>+1</sup></td><td><I>Q&A</I>                                                                                                                                                                  </td></tr>
 <tr><td>19:00-19:30          </td><td>22:00-22:30              </td><td>04:00-04:30 <sup>+1</sup></td><td>10:00-10:30 <sup>+1</sup></td><td><b>Break</b>                                                                                                                                                                </td></tr>
 <tr><td>19:30-20:30          </td><td>22:30-23:30              </td><td>04:30-05:30 <sup>+1</sup></td><td>10:30-11:30 <sup>+1</sup></td><td><b>Session 3: Research Paper and System Description (chair: Zhongjun He)</b>                                                                                                </td></tr>
@@ -62,3 +63,60 @@ permalink: /program
 <tr><td>21:00-21:10          </td><td>00:00-00:10 <sup>+1</sup></td><td>06:00-06:10 <sup>+1</sup></td><td>12:00-12:10 <sup>+1</sup></td><td><I>Closing Remarks (Hua Wu)</I>                                                                                                                                             </td></tr>
 </tbody>
 </table>
+
+---
+### Invited Talk 1 by Colin Cherry
+**Title**:   
+**Abstract**:
+
+
+---
+
+### Invited Talk 2 by Barry Slaughter Olsen
+
+ 
+**Title**: Human Interpreter Training and Practice: Insights for Simultaneous Machine Translation Research  
+**Abstract**:
+Interpreter training and machine translation research are two radically different worlds. Neither understands the other well. Even so, knowing the basic techniques employed by trained simultaneous interpreters to practice their craft can help researchers better comprehend the task of simultaneous machine translation, determine new approaches to that task , and have a clearer understanding of what the potential of the technology may be. In his address, Professor Olsen will provide an overview of the skills and techniques taught in a simultaneous interpreter training program and suggest possible parallels and limitations in their application to simultaneous machine translation.
+ 
+**Barry Slaughter Olsen** is a veteran conference interpreter and technophile with over twenty-five years of experience interpreting, training interpreters and organizing language services. He is a professor at the Middlebury Institute of International Studies at Monterey ([MIIS](http://www.miis.edu/)) and the Vice-President of Client Success at [KUDO](http://www.kudoway.com/), a multilingual web conferencing platform. He was co-president of [InterpretAmerica](http://www.interpretamerica.com/) from 2009 to 2020. He is a member of the International Association of Conference Interpreters ([AIIC](http://www.aiic.net/)). Barry has been interviewed frequently by international media (CNN,CBC, MSNBC, NPR and PBS) about interpreting and translation. For updates on interpreting, technology and training , follow him on Twitter [@ProfessorOlsen](https://twitter.com/ProfessorOlsen).
+
+---
+### Invited Talk 3 by Jordan Boyd-Graber
+
+**Title**: Evaluating Human-Computer Simultaneous Interpretation  
+**Abstract**: 
+Human simultaneous interpretation is an amazing feat requiring skill and extensive training.  Computers are simply nowhere close to expert interpreters---but perhaps they can help humans do a task with unique cognitive burdens more effectively.  In this talk, I discuss previous work on computer assistance for human simultaneous interpreters and how it reveals the differences between humans' and computers' comparative skills.  To focus on where computers can best help interpreters, we pilot an evaluation framework to prototype assistance for interpreters with proxy users.  By breaking up interpretation into its constituent pieces, we can both test with a larger user population and pinpoint which assistance techniques are effective when.
+
+---
+### Invited Talk 4 by Hua Wu
+**Title**:   
+**Abstract**:
+
+
+---
+### Invited Talk 5 by Kay-Fan Cheung
+**Title**: Machine-aided simultaneous interpreting: An experiment  
+**Abstract**:
+The talk will report the results of an experiment investigating whether technology can improve the efficiency and quality of simultaneous interpreting (SI) by human interpreters. Unfamiliar accents are one factor that can negatively affect SI performance. The real-time transcription of accented speech by automatic speech recognition (ASR) technology may aid interpreters. However, SI performance may suffer because of the additional effort needed to read the ASR transcription while juggling the multiple sub-tasks of SI.  
+Twenty-four native Mandarin-speaking participants performed SI of a speech in English by a non-native speaker into Mandarin Chinese. Parts of the speech were subtitled by ASR technology while other parts were not. Raters scored the Mandarin SI renditions on two parameters: accuracy and fluency. Quantitative analysis of the scores indicated that the raters scored the subtitled parts higher for accuracy but lower for fluency than the un-subtitled parts. Qualitative analysis of post-test interviews with the participants suggested that correct ASR-generated subtitles can improve SI performance. However, having to read the subtitles, especially when incorrect, was perceived as a hindrance to the SI process.   
+The data suggest that correct subtitles generated by ASR technology may improve the performance of human interpreters. The SI curriculum should incorporate training on how to use subtitles generated by ASR technology. 
+
+**Andrew K.F. Cheung**, Hong Kong Polytechnic University
+
+---
+### Invited Talk 6 by Qun Liu
+
+**Title**: Research and Practice of Simultaneous Machine Translation in Huawei Noah's Ark Lab  
+**Abstract**: 
+In this talk, I will introduce our research efforts and the development of Huawei simultaneous translation systems, both in cloud and in mobile phones.  To get a good balance between translation quality and latency, we proposed a general framework for adapting neural machine translation to translate simultaneously. To enhance the robustness of the system with regard to the speech style input and ASR errors, we introduced various data augmentation techniques including GPT-based pretraining models for paraphrasing. We further conducted optimizations to improve the run-time performance on terminal devices.  We finally obtained satisfactory performance on both platforms in the given scenarios.
+
+
+**Prof. Dr. Qun Liu** is the Chief Scientist of Speech and Language Computing in Huawei Noah's Ark Lab.  He was a Full Professor in Dublin City University and the Theme Leader of the ADAPT Centre, Ireland during July 2012 and June 2018. Before that, he was as a Professor in the Institute of Computing Technology (ICT), Chinese Academy of Sciences for 20 years, where he founded and led the ICT NLP Research Group. He obtained his B.Sc., M.Sc. and Ph.D. in computer science in the University of Science and Technology of China, Chinese Academy of Sciences, and Peking University respectively. His research interests lie in the areas of Natural Language Processing and Machine Translation.  His main academic contributions are on Chinese language processing, syntax-based statistical machine translation and neural methods for natural language processing.  He has authored or co-authored more than 300 peer-reviewed research publications, which have been cited more than 7000 times. He has supervised more than 40 students to the completion of their M.Sc. or Ph.D. degrees. 
+
+
+
+
+---
+
+[Invited Talk 1](invited-talk-1-by-colin-cherry): Colin Cherry
