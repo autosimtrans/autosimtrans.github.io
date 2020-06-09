@@ -46,7 +46,7 @@ We have two sets of keynote speakers: 4 from simultaneous translation, and 2 fro
 
 - [Jordan Boyd-Graber](http://users.umiacs.umd.edu/~jbg), Associate Professor, University of Maryland, USA
 - [Colin Cherry](https://sites.google.com/site/colinacherry), Research Scientist in Google Translate, Google Inc., Montreal, Canada
-- [Qun Liu](https://scholar.google.com.sg/citations?user=2HhiGzcAAAAJ&hl=en)，Chief Scientist of Speech and Language Computing，Huawei Noah's Ark Lab，China
+- [Qun Liu](https://scholar.google.com.sg/citations?user=2HhiGzcAAAAJ&hl=en)，Chief Scientist of Speech and Language Computing, Huawei Noah's Ark Lab，China
 - [Hua Wu](http://research.baidu.com/People/index-view?id=121), Chief Scientist of NLP, Baidu Inc., China
 
 ##### Human Interpretation Speakers:
