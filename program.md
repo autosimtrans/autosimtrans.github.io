@@ -12,7 +12,7 @@ permalink: /program
 
 
 <style>
-	.col-3>img {
+	.col-2>img {
 		width: 100%;
 	}
 	table {
@@ -70,10 +70,10 @@ permalink: /program
 
 <div class='container'>
 <div class='row'>
-	<div class='col-3'>
+	<div class='col-2'>
 		<img alt="pic" src="https://sites.google.com/site/colinacherry/home/ColinProfile.jpg">
 	</div>
-	<div class='col-9'>
+	<div class='col-10'>
 		<b>Title</b>: Research stories from Google Translate’s Transcribe Mode
 		<br>
 		<b>Abstract</b>: Google Translate recently launched a Transcribe Mode feature for simultaneous translation of long-form speech. This required a lot of interesting work from many teams, but I’ll use this presentation to describe some of the more research-oriented subprojects. This will include the work that validated and improved upon the use of re-translation for simultaneous translation, as well as some work on adapting latency metrics to the long-form transcription scenario. Through these stories, I’ll try to offer some perspective on how research and production impact one another when a launch is looming.
@@ -89,10 +89,10 @@ permalink: /program
 
 <div class='container'>
 <div class='row'>
-	<div class='col-3'>
+	<div class='col-2'>
 		<img alt="pic" src="https://www.middlebury.edu/institute/sites/www.middlebury.edu.institute/files/styles/432x576/public/2019-06/Barry_0.jpg">
 	</div>
-	<div class='col-9'>
+	<div class='col-10'>
 		<b>Title</b>: Human Interpreter Training and Practice: Insights for Simultaneous Machine Translation Research
 		<br>
 		<b>Abstract</b>: Interpreter training and machine translation research are two radically different worlds. Neither understands the other well. Even so, knowing the basic techniques employed by trained simultaneous interpreters to practice their craft can help researchers better comprehend the task of simultaneous machine translation, determine new approaches to that task , and have a clearer understanding of what the potential of the technology may be. In his address, Professor Olsen will provide an overview of the skills and techniques taught in a simultaneous interpreter training program and suggest possible parallels and limitations in their application to simultaneous machine translation.
@@ -108,10 +108,10 @@ permalink: /program
 
 <div class='container'>
 <div class='row'>
-	<div class='col-3'>
+	<div class='col-2'>
 		<img alt="pic" src="http://users.umiacs.umd.edu/~jbg/images/jbg.png">
 	</div>
-	<div class='col-9'>
+	<div class='col-10'>
 		<b>Title</b>: Evaluating Human-Computer Simultaneous Interpretation  
 		<br>
 		<b>Abstract</b>: Human simultaneous interpretation is an amazing feat requiring skill and extensive training.  Computers are simply nowhere close to expert interpreters---but perhaps they can help humans do a task with unique cognitive burdens more effectively.  In this talk, I discuss previous work on computer assistance for human simultaneous interpreters and how it reveals the differences between humans' and computers' comparative skills.  To focus on where computers can best help interpreters, we pilot an evaluation framework to prototype assistance for interpreters with proxy users.  By breaking up interpretation into its constituent pieces, we can both test with a larger user population and pinpoint which assistance techniques are effective when.
@@ -135,10 +135,10 @@ award.
 
 <div class='container'>
 <div class='row'>
-	<div class='col-3'>
+	<div class='col-2'>
 		<img alt="pic" src="http://research.baidu.com/Public/uploads/5ad01e8d5eb46.jpg">
 	</div>
-	<div class='col-9'>
+	<div class='col-10'>
 		<b>Title</b>: Baidu Simultaneous Translation: Research and Applications  
 		<br>
 		<b>Abstract</b>: Simultaneous translation has been widely studied and used in recent years. In this talk, I will introduce the main challenges of simultaneous translation and our solutions. We proposed methods to get tradeoff between translation quality and latency, such as segmentation models to split ASR output into information units, the incremental TTS to reduce time latency. We also proposed end-to-end models that jointly learns ASR and speech-to-text translation. In order to facilitate research on simultaneous translation, we released BSTC, a Chinese-English simultaneous translation data set containing about 70 hours of Chinese speech audio, human transcripts, ASR results and English translations. In the last part of this talk, I will also introduce the applications of our simultaneous translation system, such as online meetings, lectures, and plugins for video translation.
@@ -154,10 +154,10 @@ award.
 
 <div class='container'>
 <div class='row'>
-	<div class='col-3'>
+	<div class='col-2'>
 		<img alt="pic" src="https://www.polyu.edu.hk/cbs/web/en/img/?hash=5677e6e11998cd6d4ede04624cb20a9e.jpg">
 	</div>
-	<div class='col-9'>
+	<div class='col-10'>
 		<b>Title</b>: Machine-aided simultaneous interpreting: An experiment  
 		<br>
 		<b>Abstract</b>: The talk will report the results of an experiment investigating whether technology can improve the efficiency and quality of simultaneous interpreting (SI) by human interpreters. Unfamiliar accents are one factor that can negatively affect SI performance. The real-time transcription of accented speech by automatic speech recognition (ASR) technology may aid interpreters. However, SI performance may suffer because of the additional effort needed to read the ASR transcription while juggling the multiple sub-tasks of SI.  <br>
@@ -175,10 +175,10 @@ award.
 
 <div class='container'>
 <div class='row'>
-	<div class='col-3'>
+	<div class='col-2'>
 		<img alt="pic" src="http://dev3.noahlab.com.hk/images/news/qunliu.png">
 	</div>
-	<div class='col-9'>
+	<div class='col-10'>
 		<b>Title</b>: Research and Practice of Simultaneous Machine Translation in Huawei Noah's Ark Lab  
 		<br>
 		<b>Abstract</b>: In this talk, I will introduce our research efforts and the development of Huawei simultaneous translation systems, both in cloud and in mobile phones.  To get a good balance between translation quality and latency, we proposed a general framework for adapting neural machine translation to translate simultaneously. To enhance the robustness of the system with regard to the speech style input and ASR errors, we introduced various data augmentation techniques including GPT-based pretraining models for paraphrasing. We further conducted optimizations to improve the run-time performance on terminal devices.  We finally obtained satisfactory performance on both platforms in the given scenarios.
