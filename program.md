@@ -12,7 +12,7 @@ permalink: /program
 
 
 <style>
-	.col-2>img {
+	.col-3>img {
 		width: 100%;
 	}
 	table {
@@ -47,7 +47,7 @@ permalink: /program
 <tr><td>09:30-10:00          </td><td>12:30-13:00              </td><td>18:30-19:00              </td><td>00:30-01:00 <sup>+1</sup></td><td><I><a href="https://autosimtrans.github.io/program#invited-talk-2-by-barry-slaughter-olsen">Invited Talk 2: Barry Slaughter Olsen</a></I>                                   </td></tr>
 <tr><td>10:00-10:30          </td><td>13:00-13:30              </td><td>19:00-19:30              </td><td>01:00-01:30 <sup>+1</sup></td><td><I><a href="https://autosimtrans.github.io/program#invited-talk-3-by-jordan-boyd-graber">Invited Talk 3: Jordan Boyd-Graber</a></I>                                         </td></tr>
 <tr><td>10:30-11:00          </td><td>13:30-14:00              </td><td>19:30-20:00              </td><td>01:30-02:00 <sup>+1</sup></td><td><I>Q&A</I>                                                                                                                                                                  </td></tr>
-<tr><td>11:00-14:00          </td><td>14:00-17:00              </td><td>20:00-23:00              </td><td>02:00-05:00 <sup>+1</sup></td><td><b>Lunch</b>                                                                                                                                                                </td></tr>
+<tr><td>11:00-17:00          </td><td>14:00-20:00              </td><td>20:00-02:00              </td><td>02:00-08:00 <sup>+1</sup></td><td><b>Break</b>                                                                                                                                                                </td></tr>
 <tr><td>17:00-19:00          </td><td>20:00-22:00              </td><td>02:00-04:00 <sup>+1</sup></td><td>08:00-10:00 <sup>+1</sup></td><td><b>Session 2 (chair: Colin Cherry)</b>                                                                                                                                      </td></tr>
 <tr><td>17:00-17:30          </td><td>20:00-20:30              </td><td>02:00-02:30 <sup>+1</sup></td><td>08:00-08:30 <sup>+1</sup></td><td><I><a href="https://autosimtrans.github.io/program#invited-talk-4-by-hua-wu">Invited Talk 4: Hua Wu</a></I>                                                                 </td></tr>
 <tr><td>17:30-18:00          </td><td>20:30-21:00              </td><td>02:30-03:00 <sup>+1</sup></td><td>08:30-09:00 <sup>+1</sup></td><td><I><a href="https://autosimtrans.github.io/program#invited-talk-5-by-kay-fan-cheung">Invited Talk 5: Kay-Fan Cheung</a></I>                                                 </td></tr>
