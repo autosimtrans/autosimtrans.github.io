@@ -12,7 +12,7 @@ permalink: /program
 
 
 <style>
-	.col-3>img {
+	.col-2>img {
 		width: 100%;
 	}
 	table {
