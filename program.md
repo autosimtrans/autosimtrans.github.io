@@ -34,6 +34,10 @@ permalink: /program
 		font-family: "Times New Roman";
 		font-style: italic;
 	}
+	/* Top half of image */
+	.clipImg {
+		clip-path: polygon(0 0, 100% 0, 100% 85%, 0 85%);
+	}
 </style>
 
 <table>
@@ -90,7 +94,7 @@ permalink: /program
 <div class='container'>
 <div class='row'>
 	<div class='col-2'>
-		<img alt="pic" src="https://www.middlebury.edu/institute/sites/www.middlebury.edu.institute/files/styles/432x576/public/2019-06/Barry_0.jpg">
+		<img class='clipImg' alt="pic" src="https://www.middlebury.edu/institute/sites/www.middlebury.edu.institute/files/styles/432x576/public/2019-06/Barry_0.jpg">
 	</div>
 	<div class='col-10'>
 		<b>Title</b>: Human Interpreter Training and Practice: Insights for Simultaneous Machine Translation Research
@@ -99,7 +103,7 @@ permalink: /program
 	</div>
 </div>
 </div>
- 
+
 **Barry Slaughter Olsen** is a veteran conference interpreter and technophile with over twenty-five years of experience interpreting, training interpreters and organizing language services. He is a professor at the Middlebury Institute of International Studies at Monterey ([MIIS](http://www.miis.edu/)) and the Vice-President of Client Success at [KUDO](http://www.kudoway.com/), a multilingual web conferencing platform. He was co-president of [InterpretAmerica](http://www.interpretamerica.com/) from 2009 to 2020. He is a member of the International Association of Conference Interpreters ([AIIC](http://www.aiic.net/)). Barry has been interviewed frequently by international media (CNN,CBC, MSNBC, NPR and PBS) about interpreting and translation. For updates on interpreting, technology and training , follow him on Twitter [@ProfessorOlsen](https://twitter.com/ProfessorOlsen).
 
 ---
