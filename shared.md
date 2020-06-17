@@ -164,7 +164,7 @@ Streaming ASR	|	Translation
 大家好欢迎大家关注祝unit对话性和	|	
 大家好欢迎大家关注祝unit对话性和高级	|	dialog and 
 大家好欢迎大家关注祝unit对话性的高级可	|	advanced
-大家好欢迎大家关注祝unit对话性和高级课程	|	cources
+大家好欢迎大家关注祝unit对话性和高级课程	|	courses
 
 <div style="text-align: center;">
     Table 3. Illustration of output file
