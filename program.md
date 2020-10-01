@@ -73,7 +73,7 @@ permalink: /program
 </tbody>
 </table>
 ---
-### Invited Talk 1 by [Colin Cherry](https://sites.google.com/site/colinacherry)
+### Invited Talk 1 by [Colin Cherry](https://sites.google.com/site/colinacherry)  <small>[<a href='https://slideslive.com/38929915' target="_blank">video</a>]</small>
 
 <div class='container'>
 <div class='row'>
@@ -92,7 +92,7 @@ permalink: /program
 
 ---
 
-### Invited Talk 2 by [Barry Slaughter Olsen](https://www.middlebury.edu/institute/people/barry-slaughter-olsen)
+### Invited Talk 2 by [Barry Slaughter Olsen](https://www.middlebury.edu/institute/people/barry-slaughter-olsen)  <small>[<a href='https://slideslive.com/38929912' target="_blank">video</a>]</small>
 
 <div class='container'>
 <div class='row'>
@@ -111,7 +111,7 @@ permalink: /program
 
 ---
 
-### Invited Talk 3 by [Jordan Boyd-Graber](http://users.umiacs.umd.edu/~jbg)
+### Invited Talk 3 by [Jordan Boyd-Graber](http://users.umiacs.umd.edu/~jbg)  <small>[<a href='https://slideslive.com/38929914' target="_blank">video</a>]</small>
 
 <div class='container'>
 <div class='row'>
@@ -138,7 +138,7 @@ award.
 
 ---
 
-### Invited Talk 4 by [Hua Wu](http://research.baidu.com/People/index-view?id=121)
+### Invited Talk 4 by [Hua Wu](http://research.baidu.com/People/index-view?id=121)  <small>[<a href='https://slideslive.com/38929911' target="_blank">video</a>]</small>
 
 <div class='container'>
 <div class='row'>
@@ -157,7 +157,7 @@ award.
 
 ---
 
-### Invited Talk 5 by [Kay-Fan Cheung](https://www.polyu.edu.hk/cbs/cts/en/people/members/58-dr-cheung-kay-fan-andrew)
+### Invited Talk 5 by [Kay-Fan Cheung](https://www.polyu.edu.hk/cbs/cts/en/people/members/58-dr-cheung-kay-fan-andrew)  <small>[<a href='https://slideslive.com/38929916' target="_blank">video</a>]</small>
 
 <div class='container'>
 <div class='row'>
@@ -178,7 +178,7 @@ award.
 
 ---
 
-### Invited Talk 6 by [Qun Liu](https://scholar.google.com.sg/citations?user=2HhiGzcAAAAJ&hl=en)
+### Invited Talk 6 by [Qun Liu](https://scholar.google.com.sg/citations?user=2HhiGzcAAAAJ&hl=en)  <small>[<a href='https://slideslive.com/38929913' target="_blank">video</a>]</small>
 
 <div class='container'>
 <div class='row'>
