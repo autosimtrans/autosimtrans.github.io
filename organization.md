@@ -3,7 +3,7 @@ layout: main-anchor
 title: Organization
 anchor: organizing-committee
 order: 6
-collection: pages_2020
+collection: pages_2021
 ---
 
 [talks](#invited-keynote-speakers-confirmed)

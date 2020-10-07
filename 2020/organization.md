@@ -1,5 +1,5 @@
 ---
-layout: main-anchor
+layout: main-anchor-2020
 title: Organization
 anchor: organizing-committee
 order: 6

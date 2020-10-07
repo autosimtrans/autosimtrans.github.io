@@ -1,5 +1,5 @@
 ---
-layout: main-anchor
+layout: main-anchor-2020
 title: Home
 order: 1
 collection: pages_2020

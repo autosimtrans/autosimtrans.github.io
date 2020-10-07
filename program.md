@@ -2,7 +2,7 @@
 layout: main-anchor
 title: Program
 order: 0
-collection: pages_2020
+collection: pages_2021
 permalink: /program
 ---
 

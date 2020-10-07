@@ -2,7 +2,7 @@
 layout: main-anchor
 title: Shared Task
 order: 3
-collection: pages_2020
+collection: pages_2021
 permalink: /shared
 ---
 # Contents

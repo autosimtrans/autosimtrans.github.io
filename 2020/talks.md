@@ -1,5 +1,5 @@
 ---
-layout: main-anchor
+layout: main-anchor-2020
 title: Invited Talks
 anchor: invited-keynote-speakers-confirmed
 order: 2

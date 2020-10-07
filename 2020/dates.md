@@ -1,5 +1,5 @@
 ---
-layout: main-anchor
+layout: main-anchor-2020
 title: Important Dates
 order: 7
 collection: pages_2020

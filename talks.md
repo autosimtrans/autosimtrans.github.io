@@ -3,7 +3,7 @@ layout: main-anchor
 title: Invited Talks
 anchor: invited-keynote-speakers-confirmed
 order: 2
-collection: pages_2020
+collection: pages_2021
 ---
 
 [talks](#invited-keynote-speakers-confirmed)
