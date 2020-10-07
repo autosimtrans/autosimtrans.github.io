@@ -7,7 +7,7 @@ collection: pages_2020_hide
 
 
 # A. 将训练好的模型打包成docker镜像
-#### - [English](/tutorial)
+#### - [English](/2020/tutorial)
 #### - 中文
 ##### [1. 模型作者：用docker打包模型和代码](#1-想要将代码和模型打包到docker的模型作者)
 ##### [2. 测试用户：用docker作模型推理](#2-用docker镜像直接做推理的测试用户)

@@ -10,7 +10,7 @@ collection: pages_2020_hide
 #### - English
 ##### [1. for authers: build docker with your own model and code](#1-for-authers-who-want-to-build-docker-images-with-your-own-models)
 ##### [2. for users: test a model in docker](#2-for-users-who-want-to-use-docker-imagescovering-codemodel)
-#### - [中文](/tutorial_cn)
+#### - [中文](/2020/tutorial_cn)
 
 # B. train in docker from stratch
 #### - English

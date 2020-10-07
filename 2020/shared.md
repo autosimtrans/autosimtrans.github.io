@@ -179,7 +179,7 @@ For Zh-En translation with audio input, you also have to output this source-tran
 You have two ways to submit your system:
 
 1. **For AISTUDIO Project owner**: You can use the calculation resources for free (one V100 card for each participant) if your system ONLY RELIES ON PADDLEPADDLE as the deep-learning framework. The free resources are provided by AISTUDIO. In this case, you can submit your system by specifying your projectID on AISTUDIO. Note that using other deep-learning platforms (as Tensorflow or Pytorch) is forbidden by AISTUDIO. 
-2. **For Other submitters**, you are required to submit your docker system, along with your own implementation of specific APIs for input and translation output. We will evaluate all the submissions on our environment. Please refer to the [tutorial page](https://autosimtrans.github.io/tutorial) if you need help to convert your model to docker image, or train in docker container.
+2. **For Other submitters**, you are required to submit your docker system, along with your own implementation of specific APIs for input and translation output. We will evaluate all the submissions on our environment. Please refer to the [tutorial page](/2020/tutorial) if you need help to convert your model to docker image, or train in docker container.
 
 There are some requirements for your uploaded system:
 
