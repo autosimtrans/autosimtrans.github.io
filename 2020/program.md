@@ -3,7 +3,6 @@ layout: main-anchor-2020
 title: Program
 order: 0
 collection: pages_2020
-permalink: /program
 ---
 
 

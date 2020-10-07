@@ -3,7 +3,6 @@ layout: main-anchor-2020
 title: Shared Task
 order: 3
 collection: pages_2020
-permalink: /shared
 ---
 # Contents
 

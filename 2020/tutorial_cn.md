@@ -3,7 +3,6 @@ layout: main-anchor-2020
 title: Tutorial
 order: 8 
 collection: pages_2020_hide
-permalink: /tutorial_cn
 ---
 
 

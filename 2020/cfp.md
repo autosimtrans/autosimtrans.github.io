@@ -3,7 +3,6 @@ layout: main-anchor-2020
 title: Call for Papers
 order: 5
 collection: pages_2020
-permalink: /cfp
 ---
 
 
