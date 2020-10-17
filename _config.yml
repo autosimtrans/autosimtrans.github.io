@@ -8,9 +8,9 @@ timezone: null
 lsi: false
 markdown: kramdown
 
-# plugins:
+plugins:
   # - jekyll-feed
-  # - jekyll-redirect-from
+  - jekyll-redirect-from
 
 ### content configuration ###
 title:       "Workshop on Automatic Simultaneous Translation (AutoSimTrans)"
