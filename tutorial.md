@@ -1,5 +1,5 @@
 ---
-layout: main-anchor
+layout: main-anchor-2021
 title: Tutorial
 order: 8 
 collection: pages_2020_hide

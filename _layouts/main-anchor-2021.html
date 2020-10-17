@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>AutoSimTrans 2020: {{page.title}}</title>
+    <title>AutoSimTrans 2021: {{page.title}}</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -32,10 +32,10 @@
                     aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="/">AutoSimTrans 2020</a>
+            <a class="navbar-brand" href="/">AutoSimTrans 2021</a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    {% assign sorted_pages = site.pages | sort:"order" | where:"collection","pages_2020" %}
+                    {% assign sorted_pages = site.pages | sort:"order" | where:"collection","pages_2021" %}
                     {% for p in sorted_pages %}
                         {% if p.title == 'Home' %}{% assign p0url = p.url %}{% endif %}
 
@@ -45,10 +45,10 @@
                             <li class="nav-item">
                         {% endif %}
     
-                        {% if p.title == 'Tutorial' or p.title == 'docker' or p.title == 'Shared Task' or p.title == 'Important Dates' or p.title == 'Call for Papers' %}
+                        {% if p.title == 'Tutorial' or p.title == 'docker' or p.title == 'Shared Task' or p.title == 'Important Dates' or p.title == 'Call for Papers' or p.title == 'Past'%}
                             <a class="nav-link" href="{{p.url}}">{{p.title}}</a>
                         {% elsif p.title == 'Program' %}
-                            <a class="nav-link" href="{{p.url}}">
+                            <a class="nav-link" href="{{p.url}}" hidden>
                                 <div class="px-1 border rounded bg-info">
                                     {{p.title}}
                                 </div>
@@ -67,10 +67,10 @@
 
 <div class="blog-header">
     <div class="container text-center">
-        <h1 class="blog-title">The 1st Workshop on Automatic Simultaneous Translation</h1>
+        <h1 class="blog-title">The 2nd Workshop on Automatic Simultaneous Translation</h1>
            <h4>Challenges, Recent Advances, and Future Directions</h4>
         <p class="lead blog-description">
-            Workshop at <a href="https://acl2020.org/program/workshops/#autosimtrans" target="_blank">ACL 2020</a>, Seattle, July 10, 2020<br/>
+            Workshop proposal<span hidden>at <a href="https://acl2020.org/program/workshops/#autosimtrans" target="_blank">ACL 2020</a>, Seattle, July 10, 2020</span><br/>
 
             Contact: <a href="mailto:autosimtrans.workshop@gmail.com" class="fa fa-envelope"></a>
             <a href="mailto:autosimtrans.workshop@gmail.com">autosimtrans.workshop@gmail.com</a> or 

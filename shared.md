@@ -1,5 +1,5 @@
 ---
-layout: main-anchor
+layout: main-anchor-2021
 title: Shared Task
 order: 3
 collection: pages_2021

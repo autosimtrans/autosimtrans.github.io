@@ -3,10 +3,14 @@ port: 4000
 host: 0.0.0.0
 safe: false
 
-exclude: [README.md, .gitignore, tmparchive, LICENSE, shared-0.md]
+exclude: [README.md, .gitignore, tmparchive, LICENSE, shared-0.md,      cfp.md, shared.md,dates.md]
 timezone: null
 lsi: false
 markdown: kramdown
+
+# plugins:
+  # - jekyll-feed
+  # - jekyll-redirect-from
 
 ### content configuration ###
 title:       "Workshop on Automatic Simultaneous Translation (AutoSimTrans)"

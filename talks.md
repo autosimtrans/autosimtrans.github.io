@@ -1,7 +1,7 @@
 ---
-layout: main-anchor
+layout: main-anchor-2021
 title: Invited Talks
-anchor: invited-keynote-speakers-confirmed
+anchor: 2-keynote-speakers
 order: 2
 collection: pages_2021
 ---
