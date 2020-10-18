@@ -1,6 +1,6 @@
 ---
 layout: main-anchor-2021
-title: Past
+title: Past Workshops
 order: 8
 collection: pages_2021
 permalink: /past
