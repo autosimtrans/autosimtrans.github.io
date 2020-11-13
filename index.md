@@ -107,7 +107,7 @@ Here Hua, Colin, Liang, and Zhongjun also served on the Organizing Committee of 
 
 ## 10 Program Committee
 (†: members from underrepresented demographic groups; 7 in total)
-- **Program Chair** [Mingbo Ma](http://mingboma.com/), Baidu Research, USA
+- **Program Chair** [Mingbo Ma](http://mingboma.com/), Baidu Research, USA ☑
 - [Alina Karakanta](https://ict.fbk.eu/people/detail/alina-karakanta/), FBK-Trento, Italy; member of AIIC(both a professional interpreter and a machine translation researcher)☑†
 - [Alvin Grissom II](https://www.ursinus.edu/live/profiles/3125-alvin-grissom-ii), Ursinus College, USA ☑†
 - [Baigong Zheng](https://www.aclweb.org/anthology/people/b/baigong-zheng/), Baidu Research, USA ☑
@@ -121,7 +121,7 @@ Here Hua, Colin, Liang, and Zhongjun also served on the Organizing Committee of 
 - [Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm), CAS/IA, China ☑
 - [Kaibo Liu](https://www.linkedin.com/in/kaibo-liu-99a6303b/), Baidu Research, USA ☑
 - [Naveen Arivazhagan](https://scholar.google.com/citations?user=9KGy35AAAAAJ&hl=en), Google, USA ☑
-- [Renjie Zheng](http://www.renj.me/), Oregon State Univ., USA ☑
+- [Renjie Zheng](http://www.renj.me/), Baidu Research, USA ☑
 - [Ruiqing Zhang](https://cn.linkedin.com/in/ruiqing-zhang-36b99b61), Baidu Inc. China ☑†
 - [Wei Li](https://research.google/people/106528/), Google, USA ☑†
 - [Wolfgang Macherey](https://ai.google/research/people/author7590/), Google, USA ☑
