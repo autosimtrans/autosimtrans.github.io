@@ -84,7 +84,7 @@ Instructions on how to apply for financial assistance will be provided after pap
 - [Alina Karakanta](https://ict.fbk.eu/people/detail/alina-karakanta/), FBK-Trento, Italy
 - [Wei Li](https://research.google/people/106528/), Google, USA
 - [Hairong Liu](https://scholar.google.com/citations?user=4oISQDYAAAAJ&hl=en), Baidu Research, USA
-- [Kaibo Liu](https://www.linkedin.com/in/kaibo-liu-99a6303b/), Baidu Research, USA
+- [Kaibo Liu](https://scholar.google.com/citations?user=Ec-zt90AAAAJ&hl=en), Baidu Research, USA
 - [Mingbo Ma](http://mingboma.com/), Baidu Research, USA
 - [Wolfgang Macherey](https://ai.google/research/people/author7590/), Google, USA
 - [Jan Niehues](https://www.maastrichtuniversity.nl/jan.niehues), Maastricht U., Netherlands

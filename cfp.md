@@ -12,10 +12,17 @@ permalink: /cfp
 The 1st Workshop on Automatic Simultaneous Translation (AutoSimTrans)  
 [Workshop](https://autosimtrans.github.io) at [ACL 2020](https://acl2020.org/program/workshops/#autosimtrans), Seattle, Washington, USA
 
-Friday, July 10, 2020
 
-Submission Deadline: Saturday, April 25, 2020, 11:59pm  
-Submission Link: [softconf](https://www.softconf.com/acl2020/AutoSimTrans)
+The 2nd Workshop on Automatic Simultaneous Translation (AutoSimTrans)
+[Workshop](https://autosimtrans.github.io) at NAACL 2021
+
+Mexico City, Mexico
+
+Thursday, June 10, 2021
+
+
+Submission Deadline: Monday, March 15, 2021, 11:59pm
+Submission Link: https://www.softconf.com/naacl2021/AutoSimTrans2021/
 
 ---
 
@@ -37,25 +44,20 @@ We introduce two submission tracks in this workshop:
 - [Research track](/cfp) for research papers;
 - [Shared task track](/shared) for systems description papers in the shared task.
 
-
 ---
 
 ## SHARED TASK
 
-We are organizing a simultaneous translation shared task in two directions:   
-   (a) Chinese-to-English, and  
-   (b) English-to-Spanish,  
+We are organizing a simultaneous translation shared task in two directions with different input modes:   
+   (a) Chinese-to-English with streaming transcription as input,
+   (b) Chinese-to-English with speech audio as input, and 
+   (c) English-to-Spanish with streaming transcription as input
 
-and three modes:  
-   (1) streaming clean text to text  
-   (2) streaming ASR transcription to text  
-   (3) streaming audio to text  
-
-In other words, there are six competitions in total.
+There are three competitions in total.
 
 We will provide open datasets and evaluation environment. Participants are encouraged (though not required) to submit their system description papers and present them at the Workshop.
 
-For more information, please see the [Shared Task page](/shared).
+For more time line and dataset information, please see the [Shared Task page](/shared).
 
 ---
 
@@ -65,15 +67,18 @@ We have two sets of keynote speakers: 4 from simultaneous translation, and 2 fro
 
 ##### SIMULTANEOUS TRANSLATION SPEAKERS
 
-- [Jordan Boyd-Graber](http://users.umiacs.umd.edu/~jbg), Associate Professor, University of Maryland, USA
-- [Colin Cherry](https://sites.google.com/site/colinacherry), Research Scientist in Google Translate, Google Inc., Montreal, Canada
-- [Qun Liu](https://scholar.google.com.sg/citations?user=2HhiGzcAAAAJ&hl=en)，Chief Scientist of Speech and Language Computing，Huawei Noah's Ark Lab，China
-- [Hua Wu](http://research.baidu.com/People/index-view?id=121), Chief Scientist of NLP, Baidu Inc., China
+- [Will Lewis](https://www.microsoft.com/en-us/research/people/wilewis/), Principal Technical Project Manager, Microsoft Research, USA
+- [Lucia Specia](https://www.imperial.ac.uk/people/l.specia), Professor, Imperial College London, UK
+- [Liang Huang](http://web.engr.oregonstate.edu/~huanlian/), Assoc. Professor, Oregon State & Distinguished Scientist, Baidu Research, USA
+- [Satoshi Nakamura](https://scholar.google.com/citations?user=ckdfXawAAAAJ&hl=en), Professor, NAIST, Japan (tentatively yes)
+
+
+
 
 ##### HUMAN INTERPRETATION SPEAKERS
 
-- [Kay-Fan Cheung](https://www.polyu.edu.hk/cbs/cts/en/people/members/58-dr-cheung-kay-fan-andrew), Associate Professor, The Hong Kong Polytechnic University, and Member of the International Association of Conference Interpreters (AIIC), China
-- [Barry Slaughter Olsen](https://www.middlebury.edu/institute/people/barry-slaughter-olsen), Professor, The Middlebury Institute of International Studies and Conference Interpreter, VP of Client Success, KUDO, and Member of the International Association of Conference Interpreters (AIIC), USA
+- [Hong Jiang](http://traserver.tra.cuhk.edu.hk/en/people_detail.php?cate=Lecturers&ppid=52), Sr. Lecturer and AIIC Member, Dept. of Translation, Chinese University of Hong Kong, China
+- More speakers TBD
 
 
 ---
@@ -95,14 +100,17 @@ We can offer partial financial aid to student authors who demonstrate significan
 ## IMPORTANT DATES
 
 ##### Shared Task
-- January 2020: release of train and dev data
-- March 2020: evaluation period
+- Registration and Release of data: December 28, 2020 - January 31, 2021
+- System Submission: February 20, 2021 - March 7, 2021
+- System Description Due: March 15, 2021
+- Notification of Acceptance: April 15, 2021
+- Camera-ready Papers Due: Monday, April 26, 2021
 
 ##### Papers
-- Submission Deadline: Saturday, April 25, 2020 (both research and systems description papers)
-- Notification of Acceptance: Monday, Monday, May 11, 2020
-- Camera-ready Papers Due: ~~Monday, May 18, 2020~~ <span style="color:red"><b>Extended to Monday, May 25, 2020</b></span>
-- Workshop: July 10 (Thursday or Friday), 2020
+- Submission Deadline: Monday, March 15, 2021 (both research and systems description papers)
+- Notification of Acceptance: Thursday, Monday, April 15, 2021
+- Camera-ready Papers Due: Monday, April 26, 2021
+- Workshop: Thursday, June 10, 2021
 
 All submission deadlines are 11:59 PM GMT -12 (anywhere in the world).
 
@@ -116,18 +124,29 @@ There are two formats: long papers (8 pages content plus unlimited references) a
 
 For those who participate in the shared task, you are encouraged (though not requried) to submit a system description paper of 4 to 8 pages of content plus unlimited references to AutoSimTrans to describe your system.
 
+Paper submission site:  https://www.softconf.com/naacl2021/AutoSimTrans2021/
+
 
 ---
 
 ## ORGANIZING COMMITTEE
 
+- [Hua Wu](https://wuhuanlp.github.io), Baidu Inc., China; wu_hua@baidu.com
 - [Colin Cherry](https://sites.google.com/site/colinacherry/), Google, Canada; colincherry@google.com
-- [James Cross](http://scholar.google.com/citations?hl=en&user=Oef7pDkAAAAJ), Facebook, USA; jcross@fb.com
-- [Zhongjun He](https://scholar.google.com/citations?user=a-1wSFYAAAAJ&hl=en), Baidu Inc., China; hezhongjun@baidu.com
 - [Liang Huang](http://eecs.oregonstate.edu/~huanlian), Oregon State University and Baidu Research, USA; lianghuang@baidu.com
-- [Mark Liberman](https://www.ling.upenn.edu/~myl/), Univ. of Pennsylvania, USA; myl@ling.upenn.edu
-- [Yang Liu](http://nlp.csai.tsinghua.edu.cn/~ly/), Tsinghua University, China; liuyang2011@tsinghua.edu.cn
-- [Hua Wu](http://research.baidu.com/People/index-view?id=121), Baidu Inc., China; wu_hua@baidu.com
+- [Zhongjun He](https://zhongjunhe.github.io), Baidu Inc., China; hezhongjun@baidu.com
+- [Qun Liu](https://scholar.google.com.sg/citations?user=2HhiGzcAAAAJ&hl=en)，Huawei Noah’s Ark Lab, Hong Kong, China; qun.liu@huawei.com
+- [Maha Elbayad](https://elbayadm.github.io/), Université Grenoble Alpes, France; maha.elbayad@infria.fr
+
+##### Steering COMMITTEE
+- [Mark Liberman](https://www.ling.upenn.edu/~myl/), Professor of Linguistics and Director of LDC, University of Pennsylvania, USA
+- [Haifeng Wang](http://research.baidu.com/People/index-view?id=116), CTO, Baidu, China
+
+##### Program Chair
+- [Mingbo Ma](http://mingboma.com/), Baidu Research, USA; mingboma@baidu.com
+
+##### Shared Task Chair
+- Ruiqing Zhang, Baidu Inc., China
 
 For further information, please visit [workshop page](https://simultrans-workshop.github.io)
 
@@ -135,7 +154,7 @@ For further information, please visit [workshop page](https://simultrans-worksho
 ---
 
 ## CONTACT
-Email: [autosimtrans.workshop@gmail.com](mailto:autosimtrans.workshop@gmail.com)   
+Email: [mingboma@baidu.com](mailto:mingboma@baidu.com) or [autosimtrans.workshop@gmail.com](mailto:autosimtrans.workshop@gmail.com)   
 Twitter: [twitter.com/autosimtrans](https://twitter.com/autosimtrans)
 
 Read more: 

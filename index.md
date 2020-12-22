@@ -82,10 +82,10 @@ For more information, please see the [Shared Task page](shared).
 
 ## 8 Organizing Committee
 
-- [Hua Wu](http://research.baidu.com/People/index-view?id=121), Baidu Inc., China, E-mail: wu_hua@baidu.com
+- [Hua Wu](https://wuhuanlp.github.io), Baidu Inc., China, E-mail: wu_hua@baidu.com
 - [Colin Cherry](https://sites.google.com/site/colinacherry/), Google, Canada, E-mail: colincherry@google.com
 - [Liang Huang](http://eecs.oregonstate.edu/~huanlian), Oregon State University and Baidu Research, USA, E-mail: liang.huang.sh@gmail.com
-- [Zhongjun He](https://scholar.google.com/citations?user=a-1wSFYAAAAJ&hl=en), Baidu Inc., China, E-mail: hezhongjun@baidu.com
+- [Zhongjun He](https://zhongjunhe.github.io), Baidu Inc., China, E-mail: hezhongjun@baidu.com
 - [Qun Liu](https://scholar.google.com.sg/citations?user=2HhiGzcAAAAJ&hl=en)，Huawei Noah’s Ark Lab, Hong Kong, China, E-mail: qun.liu@huawei.com
 - [Maha Elbayad](https://elbayadm.github.io/), Université Grenoble Alpes, France, E-mail: maha.elbayad@infria.fr
 
@@ -119,7 +119,7 @@ Here Hua, Colin, Liang, and Zhongjun also served on the Organizing Committee of 
 - [He He](https://hhexiy.github.io/), NYU, USA ☑†
 - [Jan Niehues](https://www.maastrichtuniversity.nl/jan.niehues), Maastricht U., Netherlands ☑
 - [Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm), CAS/IA, China ☑
-- [Kaibo Liu](https://www.linkedin.com/in/kaibo-liu-99a6303b/), Baidu Research, USA ☑
+- [Kaibo Liu](https://scholar.google.com/citations?user=Ec-zt90AAAAJ&hl=en), Baidu Research, USA ☑
 - [Naveen Arivazhagan](https://scholar.google.com/citations?user=9KGy35AAAAAJ&hl=en), Google, USA ☑
 - [Renjie Zheng](http://www.renj.me/), Baidu Research, USA ☑
 - [Ruiqing Zhang](https://cn.linkedin.com/in/ruiqing-zhang-36b99b61), Baidu Inc. China ☑†
