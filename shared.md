@@ -163,19 +163,16 @@ Here is a baseline system for the Simultaneous Machine Translation based on [Pad
 ### Training set and Development set
 
 ##### Machine Translation Data
+
+<span hidden>
 You need to train a baseline MT model using the text parallel corpus specified in the table below ( `CWMT19` for Zh->En and `UN`  for En->Es, respectively), because the amount of speech translation data we provide is insufficient to support the training of a large translation model.
+</span>
 
 For <span style="color:red">most updated data</span>, please refer to AISTUDIO Platform.
 
 
 ##### Speech Translation Data
-<span hidden>
-For Zh->En translation, our training set contains about 70 hours of Chinese speech audio, human transcripts, ASR results<sup>[[1](#1-chinese-asr-by-baidu-speech)]</sup> and English translations. To evaluate your system, we provide 16 talks with their corresponding streaming transcripts as the development set. 
 
-For En->Es translation, we don't provide additional speech translation dataset. You are required to use the UN dataset only to train your MT model. To evaluate your system, we will provide the streaming transcripts as the development set. 
-
-As shown in Table 3, we would provide 7 parts of speech translation data, among which the highlighted 5 will be sent to participants by email.
-</span>
 
 For <span style="color:red">most updated data</span>, please refer to AISTUDIO Platform.
 
