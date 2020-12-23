@@ -110,7 +110,6 @@ Here Hua, Colin, Liang, and Zhongjun also served on the Organizing Committee of 
 - **Program Chair** [Mingbo Ma](http://mingboma.com/), Baidu Research, USA ☑
 - [Alina Karakanta](https://ict.fbk.eu/people/detail/alina-karakanta/), FBK-Trento, Italy; member of AIIC(both a professional interpreter and a machine translation researcher)☑†
 - [Alvin Grissom II](https://www.ursinus.edu/live/profiles/3125-alvin-grissom-ii), Ursinus College, USA ☑†
-- [Baigong Zheng](https://www.aclweb.org/anthology/people/b/baigong-zheng/), Baidu Research, USA ☑
 - [Chung-Cheng Chiu](https://scholar.google.com/citations?user=8bNM5WgAAAAJ&hl=en), Google, USA ☑
 - [Colin Raffel](https://colinraffel.com/), Google, USA ☑
 - [Elizabeth Salesky](https://www.lti.cs.cmu.edu/people/222218365/elizabeth-salesky), CMU, USA ☑†

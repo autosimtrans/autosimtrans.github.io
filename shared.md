@@ -258,7 +258,6 @@ All submission deadlines are 11:59 PM GMT-12 (anywhere in the world) unless othe
 - Meng Wang (wangmeng09@baidu.com), Platform
 - Shuxia Zhang (zhangshuxia01@baidu.com), Platform
 - Wenxi Zhang (zhangwenxi@baidu.com), Platform
-- Baigong Zheng (baigongzheng@baidu.com), Data
 - Renjie Zheng (renjiezheng@baidu.com), Data
 
 ---
