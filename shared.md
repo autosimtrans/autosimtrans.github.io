@@ -231,13 +231,6 @@ At test time, the systems are expected to receive different file formats based o
 
 ---
 # Important Dates
-<span hidden>
-- **January 2020**: release of train and dev data
-- **March 1, 2020 - April 20th 2020**: evaluation period
-- **Wednesday, May 6, 2020**: system description paper due & research paper due ([**submission link**](https://www.softconf.com/acl2020/AutoSimTrans))
-- **Monday, May 11, 2020**: paper notification (review feedback)
-- ~~**Monday, May 18, 2020**~~ <span style="color:red"><b>Extended to Monday, May 25, 2020</b></span>: camera-ready papers due
-</span>
 
 - Registration and Release of data: December 28, 2020 - January 31, 2021
 - System Submission: February 20, 2021 - March 7, 2021
