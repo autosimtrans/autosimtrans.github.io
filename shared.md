@@ -77,24 +77,30 @@ Streaming Transcript	|	Audio
 # <span id="evaluation">Evaluation</span>
 
 ### Output
-For all the three tasks, you output only one text file containing source sentences and translations. The Table 2 is an example with streaming ASR input. Your system needs to decide when to translate given the input, and to write the translation after corresponding source. Your translations will be concatenated with **SPACEs** to evaluate BLEU. Note that the left part (streaming source) should **NOT** be modified in streaming ASR and streaming transcription tasks. 
+For all the three tasks, you output only one text file containing source sentences and translations. The Table 2 is an example with streaming transcript input. Your system needs to decide when to translate given the input, and to write the translation after corresponding source. Your translations will be concatenated with **SPACEs** to evaluate BLEU. Note that the left part (streaming source) should **NOT** be modified in streaming transcription tasks. 
 
-Streaming ASR	|	Translation
+Streaming Transcript    |   Translation
 -|-
-大家	|	
-大家好	|	
-大家好欢迎	|	Hello everyone.
-大家好欢迎大	|	
-大家好欢迎大家	|	Welcome
-大家好欢迎大家关注	|	to
-大家好欢迎大家关注注	|	
-大家好欢迎大家关注祝英	|	
-大家好欢迎大家关注祝unit	|	
-大家好欢迎大家关注祝unit对话性	|	unit
-大家好欢迎大家关注祝unit对话性和	|	
-大家好欢迎大家关注祝unit对话性和高级	|	dialog and 
-大家好欢迎大家关注祝unit对话性的高级可	|	advanced
-大家好欢迎大家关注祝unit对话性和高级课程	|	courses
+大家  |   
+大家好 |   
+大家好！    |   Hello everyone!
+欢   |
+欢迎  |   
+欢迎大     |   
+欢迎大家        |   Welcome
+欢迎大家关       |   
+欢迎大家关注      |   to
+欢迎大家关注UNIT      |   
+欢迎大家关注UNIT对     |   unit
+欢迎大家关注UNIT对话        |   
+欢迎大家关注UNIT对话系       |   
+欢迎大家关注UNIT对话系统  |   
+欢迎大家关注UNIT对话系统的 |   dialog system
+欢迎大家关注UNIT对话系统的高    |   
+欢迎大家关注UNIT对话系统的高级   |   
+欢迎大家关注UNIT对话系统的高级课  |   
+欢迎大家关注UNIT对话系统的高级课程 |   
+欢迎大家关注UNIT对话系统的高级课程。    |   advanced courses.
 
 <div style="text-align: center;">
     Table 2. Illustration of output file
@@ -161,23 +167,19 @@ You need to train a baseline MT model using the text parallel corpus specified i
 
 For <span style="color:red">most updated data</span>, please refer to AISTUDIO Platform.
 
-|Lang | Training set | 
-|:-:|:-:|
-|Zh-&gt;En | [CWMT19](http://nlp.nju.edu.cn/cwmt-wmt) | 
-|En-&gt;Es | [UN Parallel Corpus](https://conferences.unite.un.org/UNCORPUS/en/DownloadOverview#download) | 
 
 ##### Speech Translation Data
-For Zh->En translation, our training set contains about 70 hours of Chinese speech audio, human transcripts, ASR results<sup>[[1](#1-chinese-asr-by-baidu-speech)]</sup> and English translations. To evaluate your system, we provide 16 talks with their corresponding streaming ASR and streaming transcripts as the development set. 
+For Zh->En translation, our training set contains about 70 hours of Chinese speech audio, human transcripts, ASR results<sup>[[1](#1-chinese-asr-by-baidu-speech)]</sup> and English translations. To evaluate your system, we provide 16 talks with their corresponding streaming transcripts as the development set. 
 
 For En->Es translation, we don't provide additional speech translation dataset. You are required to use the UN dataset only to train your MT model. To evaluate your system, we will provide the streaming transcripts as the development set. 
 
-<span>
+<span hidden>
 As shown in Table 3, we would provide 7 parts of speech translation data, among which the highlighted 5 will be sent to participants by email.
 </span>
 
 For <span style="color:red">most updated data</span>, please refer to AISTUDIO Platform.
 
-<table style="text-align: center;">
+<table style="text-align: center;" hidden>
     <thead>
         <tr>
             <th>Tracks</th>
@@ -217,7 +219,7 @@ For <span style="color:red">most updated data</span>, please refer to AISTUDIO P
     </tbody>
 </table>
 
-<div style="text-align: center;">
+<div style="text-align: center;" hidden>
     Table 3. Speech Translation Dataset provided
 </div>
 
