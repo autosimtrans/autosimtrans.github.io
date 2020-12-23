@@ -152,7 +152,7 @@ We use `python gen_rw.py < output_xxx/source_translation.txt > sample_rw.txt && 
 
 ##### Baseline System
 
-Here is a baseline system for the Simultaneous Machine Translation based on [PaddlePaddle 1.7](https://github.com/paddlepaddle/paddle) and [STACL](https://arxiv.org/abs/1810.08398):
+Here is a baseline system for the Simultaneous Machine Translation based on [PaddlePaddle](https://github.com/paddlepaddle/paddle) and [STACL](https://arxiv.org/abs/1810.08398):
 - [**souce code**](https://github.com/autosimtrans/SimulTransBaseline) on github
 - [**notebook**](https://aistudio.baidu.com/aistudio/projectdetail/315680) with running environment, covering pretrained models and eval scripts
 - [**docker image**](https://hub.docker.com/r/autosimtrans/stacl_paddle) with environment, pretrained models and eval scripts
