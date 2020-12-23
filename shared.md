@@ -217,7 +217,7 @@ For <span style="color:red">most updated data</span>, please refer to AISTUDIO P
     </tbody>
 </table>
 
-<div style="text-align: center;" hidden>
+<div style="text-align: center;">
     Table 3. Speech Translation Dataset provided
 </div>
 
