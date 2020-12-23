@@ -21,43 +21,45 @@ permalink: /shared
 
 # Registration
 
+<span hidden>
 Please register your team through this [Platform](https://aistudio.baidu.com/aistudio/competition/detail/18?lang=en).
+</span>
+Platform link on AIStudio will be released soon.
 
 ---
 
 # Challenge
 
-Our challenge includes 4 tasks on Chinese-to-English translation (Zh->En) and English-to-Spanish translation (En->Es). Participants can choose to join one or more tasks. 
+Our challenge includes 3 tasks on Chinese-to-English translation (Zh->En) and English-to-Spanish translation (En->Es). Participants can choose to join one or more tasks. 
 
 1. Zh->En Translation, input: streaming transcription
-2. Zh->En Translation, input: streaming ASR<sup>[[1](#1-chinese-asr-by-baidu-speech)]</sup>
-3. Zh->En Translation, input: audio file
-4. En->Es Translation, input: streaming transcription
+2. Zh->En Translation, input: audio file
+3. En->Es Translation, input: streaming transcription
 
-There are three types of inputs involved:
+There are two types of inputs involved:
 
 1. **Streaming transcription** provides the golden transcripts in streaming format, where each sentence is broken into lines whose length is incremented by one word until the end of the sentence.
-2. **Streaming ASR** provides the realtime streaming ASR results<sup>[[1](#1-chinese-asr-by-baidu-speech)]</sup>. During the ASR, errors may occur, and the recognition result of one line may be modified compared with the previous ones. Note that there is no punctuation predicted during ASR. 
-3. **Audio**: You can also choose to use your own ASR system with the audio as input.
+<span hidden>2. **Streaming ASR** provides the realtime streaming ASR results<sup>[[1](#1-chinese-asr-by-baidu-speech)]</sup>. During the ASR, errors may occur, and the recognition result of one line may be modified compared with the previous ones. Note that there is no punctuation predicted during ASR. </span>
+2. **Audio**: You can also choose to use your own ASR system with the audio as input.
 
 An example of the three types of input is illustrated in Table 1.  We process input data into streaming format to evaluate the system delay (refer to [Evaluation](#evaluation)).
 
-Streaming Transcript	|	Streaming ASR	|	Audio
--|-|-
-大	|	大家	|	<audio controls="controls" style="height: 20px;width: 170px;"><source type="audio/mp3" src="assets/105-[AudioTrimmer.com].wav"></source><p>Your browser does not support the audio element.</p></audio>
-大家	|	大家好	|
-大家好	|	大家好欢迎	|	
-大家好！	|	大家好欢迎大	|	
-欢	|	大家好欢迎大家	|
-欢迎	|	大家好欢迎大家关注	|	
-欢迎大	|	大家好欢迎大家关注注	|	
-欢迎大家	|	大家好欢迎大家关注祝英	|	
-欢迎大家关	|	大家好欢迎大家关注祝unit	|	
-欢迎大家关注	|	大家好欢迎大家关注祝unit对话性	|	
-欢迎大家关注UNIT	|	大家好欢迎大家关注祝unit对话性和	|	
-欢迎大家关注UNIT对	|	大家好欢迎大家关注祝unit对话性和高级	|	
-欢迎大家关注UNIT对话	|	大家好欢迎大家关注祝unit对话性的高级可	|	
-欢迎大家关注UNIT对话系	|	大家好欢迎大家关注祝unit对话性和高级课程	|	
+Streaming Transcript	|	Audio
+-|-
+大	|	<audio controls="controls" style="height: 20px;width: 170px;"><source type="audio/mp3" src="assets/105-[AudioTrimmer.com].wav"></source><p>Your browser does not support the audio element.</p></audio>
+大家	|	
+大家好	|	
+大家好！	|	
+欢	|
+欢迎	|	
+欢迎大		|	
+欢迎大家		|	
+欢迎大家关		|	
+欢迎大家关注		|	
+欢迎大家关注UNIT		|	
+欢迎大家关注UNIT对		|	
+欢迎大家关注UNIT对话		|	
+欢迎大家关注UNIT对话系		|	
 欢迎大家关注UNIT对话系统	|	
 欢迎大家关注UNIT对话系统的	|	
 欢迎大家关注UNIT对话系统的高	|	
@@ -67,87 +69,15 @@ Streaming Transcript	|	Streaming ASR	|	Audio
 欢迎大家关注UNIT对话系统的高级课程。	|	
 
 <div style="text-align: center;">
-    Table 1. Illustration of three types of input
+    Table 1. Illustration of two types of input
 </div>
 
 ---
-
-# Dataset
-
-### Training set and Development set
-
-##### Machine Translation Data
-You need to train a baseline MT model using the text parallel corpus specified in the table below ( `CWMT19` for Zh->En and `UN`  for En->Es, respectively), because the amount of speech translation data we provide is insufficient to support the training of a large translation model.
-
-|Lang | Training set | 
-|:-:|:-:|
-|Zh-&gt;En | [CWMT19](http://nlp.nju.edu.cn/cwmt-wmt) | 
-|En-&gt;Es | [UN Parallel Corpus](https://conferences.unite.un.org/UNCORPUS/en/DownloadOverview#download) | 
-
-##### Speech Translation Data
-For Zh->En translation, our training set contains about 70 hours of Chinese speech audio, human transcripts, ASR results<sup>[[1](#1-chinese-asr-by-baidu-speech)]</sup> and English translations. To evaluate your system, we provide 16 talks with their corresponding streaming ASR and streaming transcripts as the development set. 
-
-For En->Es translation, we don't provide additional speech translation dataset. You are required to use the UN dataset only to train your MT model. To evaluate your system, we will provide the streaming transcripts as the development set. 
-
-As shown in Table 2, we would provide 7 parts of speech translation data, among which the highlighted 5 will be sent to participants by email.
-
-<table style="text-align: center;">
-    <thead>
-        <tr>
-            <th>Tracks</th>
-            <th></th>
-            <th>DataSource</th>
-            <th>train</th>
-            <th>dev</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-        	<td>1</td>
-            <td rowspan="3">Zh->En</td>
-            <td>Audio</td>
-            <td><a href="http://bj.bcebos.com/v1/ai-studio-online/eac5f829330542a2bfb075525b18df2609aae464839649418fe9ca2aed982ba9?responseContentDisposition=attachment%3B%20filename%3Dtraindata.zip&authorization=bce-auth-v1%2F0ef6765c1e494918bc0d4c3ca3e5c6d1%2F2020-02-19T08%3A29%3A23Z%2F-1%2F%2Fa30db973656a37c91146920bfc545026ba369411c63e61ad2dfaa530894b194d" target="_blank">download (1.3G)</a></td>
-            <td><a href="http://bj.bcebos.com/v1/ai-studio-online/4e3fce487a3943f0a56e85f4c2b5f6535864ecd434164788a86677700e8118b6?responseContentDisposition=attachment%3B%20filename%3Ddevdata.zip&authorization=bce-auth-v1%2F0ef6765c1e494918bc0d4c3ca3e5c6d1%2F2020-02-19T08%3A00%3A16Z%2F-1%2F%2F98c5e852c7543b6386024fef611c0886fccf07c3855d5581025d368f1b1dd3a2" target="_blank">download</a></td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>ASR</td>
-            <td style="background: yellow">✓</td>
-            <td style="background: yellow">✓</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Transcription</td>
-            <td style="background: yellow">✓</td>
-            <td style="background: yellow">✓</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>En->Es</td>
-            <td>Transcription</td>
-            <td>/</td>
-            <td style="background: yellow">✓</td>
-        </tr>
-    </tbody>
-</table>
-
-<div style="text-align: center;">
-    Table 2. Speech Translation Dataset provided
-</div>
-
-
----
-
-## Testing Data
-Our testset will not be released. You are required to upload your whole system and environment. Within 24 hours after you submitting your system, we'll publish the evaluation results on the competition website.
-
-At test time, the systems are expected to receive different file formats based on the system types. For text-to-text translation systems, the inputs are streaming source text (including gold transcripts and ASR results) and the outputs are corresponding simultaneous translation results. For speech-to-text translation systems, the inputs are speech audio files and the outputs are corresponding simultaneous translation results.
-
 
 # <span id="evaluation">Evaluation</span>
 
 ### Output
-For all the four tasks, you output only one text file containing source sentences and translations. The Table 3 is an example with streaming ASR input. Your system needs to decide when to translate given the input, and to write the translation after corresponding source. Your translations will be concatenated with **SPACEs** to evaluate BLEU. Note that the left part (streaming source) should **NOT** be modified in streaming ASR and streaming transcription tasks. 
+For all the three tasks, you output only one text file containing source sentences and translations. The Table 2 is an example with streaming ASR input. Your system needs to decide when to translate given the input, and to write the translation after corresponding source. Your translations will be concatenated with **SPACEs** to evaluate BLEU. Note that the left part (streaming source) should **NOT** be modified in streaming ASR and streaming transcription tasks. 
 
 Streaming ASR	|	Translation
 -|-
@@ -167,7 +97,7 @@ Streaming ASR	|	Translation
 大家好欢迎大家关注祝unit对话性和高级课程	|	courses
 
 <div style="text-align: center;">
-    Table 3. Illustration of output file
+    Table 2. Illustration of output file
 </div>
 
 For Zh-En translation with audio input, you also have to output this source-translation file, with the left part as your recognition source and right part as the corresponding translation. 
@@ -186,7 +116,7 @@ There are some requirements for your uploaded system:
 
 1. script <b>run.sh</b>: the interface to execute your translate program. 
 For text-to-text tasks, use  
-`sh run.sh < streaming_asr.txt > output_asr/source_translation.txt` or  
+<span hidden>`sh run.sh < streaming_asr.txt > output_asr/source_translation.txt` or  </span>
 `sh run.sh < streaming_transcription.txt > output_transcript/source_translation.txt`;  
 For audio-to-text task, use  
 `sh run.sh < audioid.wav > output_audio/source_translation.txt` 
@@ -199,7 +129,7 @@ Unless coming across system execution error, each participant has only one chanc
 
 ##### B. Paper Submission
 
-Scientific and system description papers will be submitted through [**this Link**](https://www.softconf.com/acl2020/AutoSimTrans) by May 6, 2020 11.59 pm [UTC-12h]. Paper should be formatted according to the [ACL 2020 format guidelines](http://acl2020.org/calls/papers) and be of 4 to 8 pages of content plus additional pages of references. Accepted papers will be published on-line in the ACL 2020 proceedings and will be presented at the conference either orally or as a poster.
+Scientific and system description papers will be submitted through [**this Link**](https://www.softconf.com/naacl2021/AutoSimTrans2021) by Monday, March 15, 2021, 11:59pm [UTC-12h]. Paper should be formatted according to the [NACCL 2021 format guidelines](https://2021.naacl.org/calls/papers/) and be of 4 to 8 pages of content plus additional pages of references. Accepted papers will be published on-line in the NACCL 2021 proceedings and will be presented at the conference either orally or as a poster.
 
 ---
 
@@ -211,7 +141,7 @@ We use [multieval](https://github.com/moses-smt/mosesdecoder/blob/master/scripts
 ##### AL
 We use `python gen_rw.py < output_xxx/source_translation.txt > sample_rw.txt && python metricAL.py` to measure system delays. 
 
-1. **gen_rw.py** is used to count Read/Write (R/W) operations during system execution. For each generated partial translation fragment, we count the number of source words read before it. For example, the R/W result of Table 3 is "R R R R R W W R R W R R W R R R R R W R R R W W R W R W". 
+1. **gen_rw.py** is used to count Read/Write (R/W) operations during system execution. For each generated partial translation fragment, we count the number of source words read before it. For example, the R/W result of Table 2 is "R R R R R W W R R W R R W R R R R R W R R R W W R W R W". 
 2. **metricAL.py**. According to the generated R/W file, we calculate the system latency according to metricAL.py, the output is a single value as AL.
 
 ##### Baseline System
@@ -222,13 +152,98 @@ Here is a baseline system for the Simultaneous Machine Translation based on [Pad
 - [**docker image**](https://hub.docker.com/r/autosimtrans/stacl_paddle) with environment, pretrained models and eval scripts
 
 ---
+# Dataset
 
+### Training set and Development set
+
+##### Machine Translation Data
+You need to train a baseline MT model using the text parallel corpus specified in the table below ( `CWMT19` for Zh->En and `UN`  for En->Es, respectively), because the amount of speech translation data we provide is insufficient to support the training of a large translation model.
+
+For <span style="color:red">most updated data</span>, please refer to AISTUDIO Platform.
+
+|Lang | Training set | 
+|:-:|:-:|
+|Zh-&gt;En | [CWMT19](http://nlp.nju.edu.cn/cwmt-wmt) | 
+|En-&gt;Es | [UN Parallel Corpus](https://conferences.unite.un.org/UNCORPUS/en/DownloadOverview#download) | 
+
+##### Speech Translation Data
+For Zh->En translation, our training set contains about 70 hours of Chinese speech audio, human transcripts, ASR results<sup>[[1](#1-chinese-asr-by-baidu-speech)]</sup> and English translations. To evaluate your system, we provide 16 talks with their corresponding streaming ASR and streaming transcripts as the development set. 
+
+For En->Es translation, we don't provide additional speech translation dataset. You are required to use the UN dataset only to train your MT model. To evaluate your system, we will provide the streaming transcripts as the development set. 
+
+<span>
+As shown in Table 3, we would provide 7 parts of speech translation data, among which the highlighted 5 will be sent to participants by email.
+</span>
+
+For <span style="color:red">most updated data</span>, please refer to AISTUDIO Platform.
+
+<table style="text-align: center;">
+    <thead>
+        <tr>
+            <th>Tracks</th>
+            <th></th>
+            <th>DataSource</th>
+            <th>train</th>
+            <th>dev</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td rowspan="2">Zh->En</td>
+            <td>Audio</td>
+            <td><a href="http://bj.bcebos.com/v1/ai-studio-online/eac5f829330542a2bfb075525b18df2609aae464839649418fe9ca2aed982ba9?responseContentDisposition=attachment%3B%20filename%3Dtraindata.zip&authorization=bce-auth-v1%2F0ef6765c1e494918bc0d4c3ca3e5c6d1%2F2020-02-19T08%3A29%3A23Z%2F-1%2F%2Fa30db973656a37c91146920bfc545026ba369411c63e61ad2dfaa530894b194d" target="_blank">download (1.3G)</a></td>
+            <td><a href="http://bj.bcebos.com/v1/ai-studio-online/4e3fce487a3943f0a56e85f4c2b5f6535864ecd434164788a86677700e8118b6?responseContentDisposition=attachment%3B%20filename%3Ddevdata.zip&authorization=bce-auth-v1%2F0ef6765c1e494918bc0d4c3ca3e5c6d1%2F2020-02-19T08%3A00%3A16Z%2F-1%2F%2F98c5e852c7543b6386024fef611c0886fccf07c3855d5581025d368f1b1dd3a2" target="_blank">download</a></td>
+        </tr>
+        <tr hidden>
+            <td>2</td>
+            <td><S>ASR</S></td>
+            <td style="background: yellow"><S>✓</S></td>
+            <td style="background: yellow"><S>✓</S></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Transcription</td>
+            <td style="background: yellow">✓</td>
+            <td style="background: yellow">✓</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>En->Es</td>
+            <td>Transcription</td>
+            <td>/</td>
+            <td style="background: yellow">✓</td>
+        </tr>
+    </tbody>
+</table>
+
+<div style="text-align: center;" hidden>
+    Table 3. Speech Translation Dataset provided
+</div>
+
+
+---
+
+## Testing Data
+Our testset will not be released. You are required to upload your whole system and environment. Within 24 hours after you submitting your system, we'll publish the evaluation results on the competition website.
+
+At test time, the systems are expected to receive different file formats based on the system types. For text-to-text translation systems, the inputs are streaming source text (including gold transcripts and ASR results) and the outputs are corresponding simultaneous translation results. For speech-to-text translation systems, the inputs are speech audio files and the outputs are corresponding simultaneous translation results.
+
+---
 # Important Dates
+<span hidden>
 - **January 2020**: release of train and dev data
 - **March 1, 2020 - April 20th 2020**: evaluation period
 - **Wednesday, May 6, 2020**: system description paper due & research paper due ([**submission link**](https://www.softconf.com/acl2020/AutoSimTrans))
 - **Monday, May 11, 2020**: paper notification (review feedback)
 - ~~**Monday, May 18, 2020**~~ <span style="color:red"><b>Extended to Monday, May 25, 2020</b></span>: camera-ready papers due
+</span>
+
+- Registration and Release of data: December 28, 2020 - January 31, 2021
+- System Submission: February 20, 2021 - March 7, 2021
+- System Description Due: March 15, 2021
+- Notification of Acceptance: April 15, 2021
+- Camera-ready Papers Due: Monday, April 26, 2021
 
 All submission deadlines are 11:59 PM GMT-12 (anywhere in the world) unless otherwise noted.
 
