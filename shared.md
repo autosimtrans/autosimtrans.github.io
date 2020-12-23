@@ -127,7 +127,7 @@ For text-to-text tasks, use
 For audio-to-text task, use  
 `sh run.sh < audioid.wav > output_audio/source_translation.txt` 
 
-2. directory <b>output_xxx</b>: your environment should have a directory named `output_asr`, `output_transcript` or `output_audio`, depends on the task you involved in. You can also prepare multiple output directories of them, if you participate in multiple challenge tasks. 
+2. directory <b>output_xxx</b>: your environment should have a directory named `output_transcript` or `output_audio`, depends on the task you involved in. You can also prepare multiple output directories of them, if you participate in multiple challenge tasks. 
 3. file <b>output_xxx/dev_translation.txt</b>: we suggest you to put the source-translation result file of the development set under the corresponding task output directory, with the file name as `output_xxx/dev_translation.txt`. This is very helpful for us to eliminate the execution problems of your system.
 
 Unless coming across system execution error, each participant has only one chance to submit on each task.
@@ -169,11 +169,11 @@ For <span style="color:red">most updated data</span>, please refer to AISTUDIO P
 
 
 ##### Speech Translation Data
+<span hidden>
 For Zh->En translation, our training set contains about 70 hours of Chinese speech audio, human transcripts, ASR results<sup>[[1](#1-chinese-asr-by-baidu-speech)]</sup> and English translations. To evaluate your system, we provide 16 talks with their corresponding streaming transcripts as the development set. 
 
 For En->Es translation, we don't provide additional speech translation dataset. You are required to use the UN dataset only to train your MT model. To evaluate your system, we will provide the streaming transcripts as the development set. 
 
-<span hidden>
 As shown in Table 3, we would provide 7 parts of speech translation data, among which the highlighted 5 will be sent to participants by email.
 </span>
 
@@ -229,7 +229,7 @@ For <span style="color:red">most updated data</span>, please refer to AISTUDIO P
 ## Testing Data
 Our testset will not be released. You are required to upload your whole system and environment. Within 24 hours after you submitting your system, we'll publish the evaluation results on the competition website.
 
-At test time, the systems are expected to receive different file formats based on the system types. For text-to-text translation systems, the inputs are streaming source text (including gold transcripts and ASR results) and the outputs are corresponding simultaneous translation results. For speech-to-text translation systems, the inputs are speech audio files and the outputs are corresponding simultaneous translation results.
+At test time, the systems are expected to receive different file formats based on the system types. For text-to-text translation systems, the inputs are streaming source text of gold transcripts and the outputs are corresponding simultaneous translation results. For speech-to-text translation systems, the inputs are speech audio files and the outputs are corresponding simultaneous translation results.
 
 ---
 # Important Dates
@@ -271,4 +271,3 @@ For any questions regarding our shared task, please use our [twitter page](https
 
 ---
 
-###### [1] Chinese ASR by Baidu Speech.
