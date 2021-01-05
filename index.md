@@ -132,7 +132,7 @@ Here Hua, Colin, Liang, and Zhongjun also served on the Organizing Committee of 
 
 ## 11 Sponsorships
 
-We expect to have sponsorships from Baidu, Google, a few other companies, and some universities.
+We expect to have sponsorships from Baidu, Google, Huawei, a few other companies, and some universities.
 
 ## 12 Awards
 
