@@ -34,7 +34,6 @@ Following the tradition of our first workshop, we will have two sets of keynote 
 - [Will Lewis](https://www.microsoft.com/en-us/research/people/wilewis/), Principal Technical Project Manager, Microsoft Research, USA (confirmed)
 - [Lucia Specia](https://www.imperial.ac.uk/people/l.specia), Professor, Imperial College London, UK (confirmed)
 - [Liang Huang](http://web.engr.oregonstate.edu/~huanlian/), Assoc. Professor, Oregon State & Distinguished Scientist, Baidu Research, USA (confirmed)
-- [Satoshi Nakamura](https://scholar.google.com/citations?user=ckdfXawAAAAJ&hl=en), Professor, NAIST, Japan (tentatively yes)
 
 
 ##### Human Interpretation Speakers (both members of AIIC):
