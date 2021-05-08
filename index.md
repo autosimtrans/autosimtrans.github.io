@@ -36,13 +36,12 @@ Following the tradition of our first workshop, we will have two sets of keynote 
 - [Liang Huang](http://web.engr.oregonstate.edu/~huanlian/), Assoc. Professor, Oregon State & Distinguished Scientist, Baidu Research, USA (confirmed)
 
 
-##### Human Interpretation Speakers (both members of AIIC):
+##### Human Interpretation Speaker (member of AIIC):
 
 
 - [Hong Jiang](http://traserver.tra.cuhk.edu.hk/en/people_detail.php?cate=Lecturers&ppid=52), Sr. Lecturer, Dept. of Translation, Chinese University of Hong Kong, China (confirmed)
-- [Laura Burian](https://www.middlebury.edu/institute/people/laura-burian), Dean, Graduate School of Translation, Interpretation, and Language Education, and Professor of Chinese/English Translation and Interpretation, Middlebury Institute of International Studies (TBD) 
 
-We have 4 out of 6 speakers confirmed, and 3 out of 6 are female (Lucia, Hong, and Laura).
+We have all 4 speakers confirmed, and 2 out of 4 are female (Lucia and Hong).
 
 
 ## 3 Diversity
