@@ -26,7 +26,7 @@ Since simultaneous translation is an active area in AI community, we propose to 
 
 ## 2 Keynote Speakers
 
-Following the tradition of our first workshop, we will have two sets of keynote speakers: 4 from simultaneous translation, and 2 from human interpretation research. We hope this workshop will greatly increase the communication and cross-fertilization between the two fields.
+Following the tradition of our first workshop, we will have two sets of keynote speakers: 3 from simultaneous translation, and 1 from human interpretation research. We hope this workshop will greatly increase the communication and cross-fertilization between the two fields.
 
 
 ##### Simultaneous Translation Speakers:
@@ -46,7 +46,7 @@ We have all 4 speakers confirmed, and 2 out of 4 are female (Lucia and Hong).
 
 ## 3 Diversity
 
-As in our first workshop, we have made efforts to promote diversity in our invited speakers, organizers, and PC. 3 out of 6 invited speakers are female, so are 2 out of 6 organizers, and 7 out of 20 PC members.
+As in our first workshop, we have made efforts to promote diversity in our invited speakers, organizers, and PC. 2 out of 4 invited speakers are female, so are 2 out of 6 organizers, and 7 out of 20 PC members.
 
 ## 4 Estimated Number of Attendees
 
