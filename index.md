@@ -31,7 +31,7 @@ Following the tradition of our first workshop, we will have two sets of keynote 
 
 ##### Simultaneous Translation Speakers:
 
-- [Will Lewis](https://www.microsoft.com/en-us/research/people/wilewis/), Principal Technical Project Manager, Microsoft Research, USA (confirmed)
+- [Will Lewis](https://www.linkedin.com/in/will-lewis-24b39511), Affiliate Faculty, University of Washington, and Former Principal Technical Project Manager, Microsoft Research, USA (confirmed)
 - [Lucia Specia](https://www.imperial.ac.uk/people/l.specia), Professor, Imperial College London, UK (confirmed)
 - [Liang Huang](http://web.engr.oregonstate.edu/~huanlian/), Assoc. Professor, Oregon State & Distinguished Scientist, Baidu Research, USA (confirmed)
 
