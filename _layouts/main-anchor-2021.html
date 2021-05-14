@@ -48,7 +48,7 @@
                         {% if p.title == 'Tutorial' or p.title == 'docker' or p.title == 'Shared Task' or p.title == 'Important Dates' or p.title == 'Call for Papers' or p.title == 'Past Workshops' %}
                             <a class="nav-link" href="{{p.url}}">{{p.title}}</a>
                         {% elsif p.title == 'Program' %}
-                            <a class="nav-link" href="{{p.url}}" hidden>
+                            <a class="nav-link" href="{{p.url}}">
                                 <div class="px-1 border rounded bg-info">
                                     {{p.title}}
                                 </div>
