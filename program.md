@@ -70,7 +70,7 @@ permalink: /program
 <div class='container'>
 <div class='row'>
 	<div class='col-2'>
-		<img alt="pic" src="http://traserver.tra.cuhk.edu.hk/attachment/peopleImg/1516935355QUD1g.jpg">
+		<img alt="pic" src="assets/images/HongJiang.jpg">
 	</div>
 	<div class='col-10'>
 		<b>Title</b>: TBD
@@ -87,7 +87,7 @@ permalink: /program
 <div class='container'>
 <div class='row'>
 	<div class='col-2'>
-		<img alt="pic" src="https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/LuciaSpecia_Uni--tojpeg_1539095373480_x1.jpg">
+		<img alt="pic" src="assets/images/LuciaSpecia.jpg">
 	</div>
 	<div class='col-10'>
 		<b>Title</b>: TBD
@@ -104,7 +104,7 @@ permalink: /program
 <div class='container'>
 <div class='row'>
 	<div class='col-2'>
-		<img alt="pic" src="http://web.engr.oregonstate.edu/~huanlian/lianghuang-venice-canals.jpg">
+		<img alt="pic" src="assets/images/LiangHuang.jpg">
 	</div>
 	<div class='col-10'>
 		<b>Title</b>: TBD
@@ -121,7 +121,7 @@ permalink: /program
 <div class='container'>
 <div class='row'>
 	<div class='col-2'>
-		<img alt="pic" src="https://www.microsoft.com/en-us/translator/blog/wp-content/uploads/sites/13/2018/07/will-lewis.jpg">
+		<img alt="pic" src="assets/images/WillLewis.jpg">
 	</div>
 	<div class='col-10'>
 		<b>Title</b>: TBD

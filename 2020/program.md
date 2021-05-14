@@ -77,7 +77,7 @@ collection: pages_2020
 <div class='container'>
 <div class='row'>
 	<div class='col-2'>
-		<img alt="pic" src="https://sites.google.com/site/colinacherry/home/ColinProfile.jpg">
+		<img alt="pic" src="/assets/images/Colin.jpeg">
 	</div>
 	<div class='col-10'>
 		<b>Title</b>: Research stories from Google Translate’s Transcribe Mode
@@ -142,7 +142,7 @@ award.
 <div class='container'>
 <div class='row'>
 	<div class='col-2'>
-		<img alt="pic" src="http://research.baidu.com/Public/uploads/5ad01e8d5eb46.jpg">
+		<img alt="pic" src="/assets/images/HuaWu.png">
 	</div>
 	<div class='col-10'>
 		<b>Title</b>: Baidu Simultaneous Translation: Research and Applications  
