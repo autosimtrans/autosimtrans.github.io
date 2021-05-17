@@ -3,6 +3,7 @@ layout: main-anchor-2021
 title: Home
 order: 1
 collection: pages_2021
+permalink: /home
 redirect_from:
   - /2021
 ---
