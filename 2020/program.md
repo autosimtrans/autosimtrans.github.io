@@ -96,7 +96,7 @@ collection: pages_2020
 <div class='container'>
 <div class='row'>
 	<div class='col-2'>
-		<img class='clipImg' alt="pic" src="https://www.middlebury.edu/institute/sites/www.middlebury.edu.institute/files/styles/432x576/public/2019-06/Barry_0.jpg">
+		<img class='clipImg' alt="pic" src="/assets/images/BarryOlsen.jpg">
 	</div>
 	<div class='col-10'>
 		<b>Title</b>: Human Interpreter Training and Practice: Insights for Simultaneous Machine Translation Research
@@ -115,7 +115,7 @@ collection: pages_2020
 <div class='container'>
 <div class='row'>
 	<div class='col-2'>
-		<img alt="pic" src="http://users.umiacs.umd.edu/~jbg/images/jbg.png">
+		<img alt="pic" src="/assets/images/jbg.png">
 	</div>
 	<div class='col-10'>
 		<b>Title</b>: Evaluating Human-Computer Simultaneous Interpretation  
@@ -161,7 +161,7 @@ award.
 <div class='container'>
 <div class='row'>
 	<div class='col-2'>
-		<img alt="pic" src="https://www.polyu.edu.hk/cbs/web/en/img/?hash=5677e6e11998cd6d4ede04624cb20a9e.jpg">
+		<img alt="pic" src="/assets/images/KFCheung.jpg">
 	</div>
 	<div class='col-10'>
 		<b>Title</b>: Machine-aided simultaneous interpreting: An experiment  
@@ -182,7 +182,7 @@ award.
 <div class='container'>
 <div class='row'>
 	<div class='col-2'>
-		<img alt="pic" src="http://dev3.noahlab.com.hk/images/news/qunliu.png">
+		<img alt="pic" src="/assets/images/QunLiu.png">
 	</div>
 	<div class='col-10'>
 		<b>Title</b>: Research and Practice of Simultaneous Machine Translation in Huawei Noah's Ark Lab  
