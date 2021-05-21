@@ -3,7 +3,7 @@ layout: main-anchor-2021
 title: Program
 order: 0
 collection: pages_2021
-permalink: /
+permalink: /program
 ---
 
 
@@ -41,6 +41,9 @@ permalink: /
 	.clipImg {
 		clip-path: polygon(0 0, 100% 0, 100% 85%, 0 85%);
 	}
+        ol {
+                margin-bottom: 0rem;
+        }
 </style>
 
 
@@ -73,12 +76,14 @@ permalink: /
 		<img alt="pic" src="assets/images/HongJiang.jpg">
 	</div>
 	<div class='col-10'>
-		<b>Title</b>: TBD
+		<b>Title</b>: Anticipation in Simultaneous Interpreting
 		<br>
-		<b>Abstract</b>: TBD
+		<b>Abstract</b>: Anticipation is an indispensable language processing and cognitive effort in simultaneous interpreting. It is necessitated by the time pressure, language differences and working memory constraints in the simultaneous interpreting process. While working memory is found to be similar between novices and professionals in a non-context dependent task, conceptual knowledge, linguistic proficiency, and general analytical abilities are contributors to successful anticipation. Interpreters need to identify markers that prompt anticipation, in order to comprehend source speech, strategize output, and prioritize key messages when stressed in processing capacity. Training of anticipation include identifying markers, and devising multiple output options, in addition to knowledge enhancement. 
 	</div>
 </div>
 </div>
+
+**Ms. Hong JIANG** is currently a Senior Lecturer in the Department of Translation, Chinese University of Hong Kong. A graduate of the United Nations Training Programme for Interpreters and Translators, she is a former UN staff interpreter. She holds a Master of Advanced Studies in Interpreter Training from the University of Geneva and has won teaching awards for outstanding teaching performance at multiple higher education institutions in China and Hong Kong. A member of AIIC since 1997, she has served on AIIC’s Training Committee since 2012. She regularly sits on juries for professional examinations and interpreting competitions in China. Her research interests are in interpreter training and professional expertise development.
 
 
 ---
@@ -90,7 +95,7 @@ permalink: /
 		<img alt="pic" src="assets/images/LuciaSpecia.jpg">
 	</div>
 	<div class='col-10'>
-		<b>Title</b>: TBD
+		<b>Title</b>: Multimodal Simultaneous Machine Translation
 		<br>
 		<b>Abstract</b>: TBD
 	</div>
@@ -107,12 +112,19 @@ permalink: /
 		<img alt="pic" src="assets/images/LiangHuang.jpg">
 	</div>
 	<div class='col-10'>
-		<b>Title</b>: TBD
+		<b>Title</b>: Towards Simultaneous Speech-to-Text and Speech-to-Speech Translation
 		<br>
-		<b>Abstract</b>: TBD
+		<b>Abstract</b>: Simultaneous translation, which was once considered out of reach for the current technology, gained rejuvenated interest since the breakthrough in 2019. Nowadays, it is widely considered to be not only solvable, but even commercializable in the near future. However, there remain several major technical difficulties before this technology can be widely used, esp. in the speech-to-speech setting. Therefore there is still a significant need for new ideas. I will survey our recent progress towards this goal, and in particular in the following areas:
+<ol type="a">
+   <li>adaptive policies and opportunistic decoding </li>
+   <li>incremental text-to-speech synthesis and simultaneous speech-to-speech translation pipeline </li>
+   <li>simultaneous direct speech-to-text translation </li>
+   <li>multimodal training for direct speech-to-text translation </li>
+</ol> I will end the talk with some open questions and future directions.
 	</div>
 </div>
 </div>
+**Liang Huang** is a Distinguished Scientist at Baidu Research USA and an Associate Professor of EECS at Oregon State University. He is a computational linguist (parsing, translation, grammar formalisms) and a computational biologist (RNA/protein folding & design for COVID-19). His recognitions include ACL 2019 Keynote Speech, CVPR 2021 Keynote Speech, ACL 2008 Best Paper Award, EMNLP 2016 Best Paper Honorable Mention, and several best paper finalists (ACL 2007, EMNLP 2008, ACL 2010, SIGMOD 2018). His work on simultaneous translation rejuvenated wide interest in this classical problem which was once thought to be out of reach. He also applies computational linguistics algorithms to RNA biology with applications to COVID-19, where his work on mRNA vaccine design is being verified by several major vaccine companies.
 
 
 ---
