@@ -71,7 +71,7 @@ permalink: /index
 ---
 ### Invited Talk 1 by [Hong Jiang](http://traserver.tra.cuhk.edu.hk/en/people_detail.php?cate=Lecturers&ppid=52)
 
-<div class='container'>
+<div class='container text-justify'>
 <div class='row'>
 	<div class='col-2'>
 		<img alt="pic" src="assets/images/HongJiang.jpg">
@@ -82,15 +82,14 @@ permalink: /index
 		<b>Abstract</b>: Anticipation is an indispensable language processing and cognitive effort in simultaneous interpreting. It is necessitated by the time pressure, language differences and working memory constraints in the simultaneous interpreting process. While working memory is found to be similar between novices and professionals in a non-context dependent task, conceptual knowledge, linguistic proficiency, and general analytical abilities are contributors to successful anticipation. Interpreters need to identify markers that prompt anticipation, in order to comprehend source speech, strategize output, and prioritize key messages when stressed in processing capacity. Training of anticipation include identifying markers, and devising multiple output options, in addition to knowledge enhancement. 
 	</div>
 </div>
+
+<b>Ms. Hong JIANG</b> is currently a Senior Lecturer in the Department of Translation, Chinese University of Hong Kong. A graduate of the United Nations Training Programme for Interpreters and Translators, she is a former UN staff interpreter. She holds a Master of Advanced Studies in Interpreter Training from the University of Geneva and has won teaching awards for outstanding teaching performance at multiple higher education institutions in China and Hong Kong. A member of AIIC since 1997, she has served on AIIC’s Training Committee since 2012. She regularly sits on juries for professional examinations and interpreting competitions in China. Her research interests are in interpreter training and professional expertise development.
 </div>
-
-**Ms. Hong JIANG** is currently a Senior Lecturer in the Department of Translation, Chinese University of Hong Kong. A graduate of the United Nations Training Programme for Interpreters and Translators, she is a former UN staff interpreter. She holds a Master of Advanced Studies in Interpreter Training from the University of Geneva and has won teaching awards for outstanding teaching performance at multiple higher education institutions in China and Hong Kong. A member of AIIC since 1997, she has served on AIIC’s Training Committee since 2012. She regularly sits on juries for professional examinations and interpreting competitions in China. Her research interests are in interpreter training and professional expertise development.
-
 
 ---
 ### Invited Talk 2 by [Lucia Specia](https://www.imperial.ac.uk/people/l.specia)
 
-<div class='container'>
+<div class='container text-justify'>
 <div class='row'>
 	<div class='col-2'>
 		<img alt="pic" src="assets/images/LuciaSpecia.jpg">
@@ -101,13 +100,14 @@ permalink: /index
 		<b>Abstract</b>: TBD
 	</div>
 </div>
+
 </div>
 
 
 ---
 ### Invited Talk 3 by [Will Lewis](https://www.linkedin.com/in/will-lewis-24b39511/)
 
-<div class='container'>
+<div class='container text-justify'>
 <div class='row'>
 	<div class='col-2'>
 		<img alt="pic" src="assets/images/Will-Lewis.jpg">
@@ -118,13 +118,13 @@ permalink: /index
 		<b>Abstract</b>: Educational institutions frequently cater to linguistically diverse populations. In higher education, we see this diversity in students who attend colleges outside of their home country, where they attend classes in a language that they may not know or may not know well. In primary and secondary education, children of recent immigrant populations are often placed in classrooms where they do not speak the language of instruction and whose parents are also at a disadvantage for the same reason. In the latter case, especially in the United States, the numbers of students and languages spoken is staggering: in 2015, 9.5 percent of the student population in the US, some 4.8 million students, were listed as English Language Learners (ELL), and some school districts in the US have more than 100 languages spoken by students and parents at their schools. Given the size and diversity of ELL populations, many schools have turned to automatic solutions, specifically various speech translation tools, to satisfy the need. Although speech translation technology has vastly improved in the past few years, there are still issues with translation quality and latency, which can interact with the user experience. Success in the schools has been variable, depending on where and how the tools are used, and how the expectations have been set across educator and parent/student populations. What kinds of issues do schools run into using these tools? What are the primary scenarios where schools use the tools? What kinds of improvements have been made or can be made to improve the perceived quality and user experience in these settings? Are the tools used interactively, e.g., between parents and educators, and are solutions with voice output, e.g., TTS, used or preferred? I will address these questions in my talk, and review solutions that are now becoming widely popular in the schools, looking specifically at issues with one or more of the most popular classroom tools. I will also demo a solution as part of my talk.
 	</div>
 </div>
+<b>Will Lewis</b> is an Affiliate Assistant Professor at the University of Washington. Until recently he was a Principal PM Architect with the Microsoft Translator team and had led the team's efforts to build Machine Translation engines for a variety of the world's languages, including threatened and endangered languages.  More recently he had been working with the Translator team on Speech Translation and Transcription, developing the features that allow students to use Speech Translation in the classroom, for both multilingual and deaf and hard of hearing audiences.  Before joining Microsoft, Will was Assistant Professor and founding faculty for the Computational Linguistics Master's Program at the University of Washington.  Before that, he was faculty at CSU Fresno, where he helped found the Computational Linguistic and Cognitive Science Programs at the university.  He received a Bachelor's degree in Linguistics from the University of California Davis and a Master's and Doctorate in Linguistics, with an emphasis in Computational Linguistics, from the University of Arizona in Tucson. 
 </div>
-**Will Lewis** is an Affiliate Assistant Professor at the University of Washington. Until recently he was a Principal PM Architect with the Microsoft Translator team and had led the team's efforts to build Machine Translation engines for a variety of the world's languages, including threatened and endangered languages.  More recently he had been working with the Translator team on Speech Translation and Transcription, developing the features that allow students to use Speech Translation in the classroom, for both multilingual and deaf and hard of hearing audiences.  Before joining Microsoft, Will was Assistant Professor and founding faculty for the Computational Linguistics Master's Program at the University of Washington.  Before that, he was faculty at CSU Fresno, where he helped found the Computational Linguistic and Cognitive Science Programs at the university.  He received a Bachelor's degree in Linguistics from the University of California Davis and a Master's and Doctorate in Linguistics, with an emphasis in Computational Linguistics, from the University of Arizona in Tucson. 
 
 ---
 ### Invited Talk 4 by [Liang Huang](http://web.engr.oregonstate.edu/~huanlian)
 
-<div class='container'>
+<div class='container text-justify'>
 <div class='row'>
 	<div class='col-2'>
 		<img alt="pic" src="assets/images/LiangHuang.jpg">
@@ -141,8 +141,8 @@ permalink: /index
 </ol> I will end the talk with some open questions and future directions.
 	</div>
 </div>
+<b>Liang Huang</b> is a Distinguished Scientist at Baidu Research USA and an Associate Professor of EECS at Oregon State University. He is a computational linguist (parsing, translation, grammar formalisms) and a computational biologist (RNA/protein folding & design for COVID-19). His recognitions include ACL 2019 Keynote Speech, CVPR 2021 Keynote Speech, ACL 2008 Best Paper Award, EMNLP 2016 Best Paper Honorable Mention, and several best paper finalists (ACL 2007, EMNLP 2008, ACL 2010, SIGMOD 2018). His work on simultaneous translation rejuvenated wide interest in this classical problem which was once thought to be out of reach. He also applies computational linguistics algorithms to RNA biology with applications to COVID-19, where his work on mRNA vaccine design is being verified by several major vaccine companies.
 </div>
-**Liang Huang** is a Distinguished Scientist at Baidu Research USA and an Associate Professor of EECS at Oregon State University. He is a computational linguist (parsing, translation, grammar formalisms) and a computational biologist (RNA/protein folding & design for COVID-19). His recognitions include ACL 2019 Keynote Speech, CVPR 2021 Keynote Speech, ACL 2008 Best Paper Award, EMNLP 2016 Best Paper Honorable Mention, and several best paper finalists (ACL 2007, EMNLP 2008, ACL 2010, SIGMOD 2018). His work on simultaneous translation rejuvenated wide interest in this classical problem which was once thought to be out of reach. He also applies computational linguistics algorithms to RNA biology with applications to COVID-19, where his work on mRNA vaccine design is being verified by several major vaccine companies.
 
 
 
