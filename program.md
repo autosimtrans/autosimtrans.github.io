@@ -12,6 +12,7 @@ permalink: /index
 
 
 <style>
+        .container { max-width: 80rem; }
 	.col-2>img {
 		width: 100%;
 	}
@@ -54,8 +55,8 @@ permalink: /index
 | 07:30-10:10           | 10:30-13:10           | 16:30-19:10               | 22:30-01:10               | <b>Session 1 Invited Talks</b>                                                                                                                                                                            |
 | 07:30-08:10           | 10:30-11:10           | 16:30-17:10               | 22:30-23:10               | <I><a href="#invited-talk-1-by-hong-jiang">Invited Talk 1: Hong Jiang</a></I>                                                                                       |
 | 08:10-08:50           | 11:10-11:50           | 17:10-17:50               | 23:10-23:50               | <I><a href="#invited-talk-2-by-lucia-specia">Invited Talk 2: Lucia Specia</a></I>                                                                                   |
-| 08:50-09:30           | 11:50-12:30           | 17:50-18:30               | 23:50-00:30               | <I><a href="#invited-talk-3-by-liang-huang">Invited Talk 3: Liang Huang</a></I>                                                                                     |
-| 09:30-10:10           | 12:30-13:10           | 18:30-19:10               | 00:30-01:10 <sup>+1</sup> | <I><a href="#invited-talk-4-by-will-lewis">Invited Talk 4: Will Lewis</a></I>                                                                                       |
+| 08:50-09:30           | 11:50-12:30           | 17:50-18:30               | 23:50-00:30               | <I><a href="#invited-talk-3-by-will-lewis">Invited Talk 3: Will Lewis</a></I>                                                                                       |
+| 09:30-10:10           | 12:30-13:10           | 18:30-19:10               | 00:30-01:10 <sup>+1</sup> | <I><a href="#invited-talk-4-by-liang-huang">Invited Talk 4: Liang Huang</a></I>                                                                                     |
 | 10:10-19:00           | 13:10-22:00           | 19:10-04:00               | 01:10-10:00 <sup>+1</sup> | <b>Break</b>                                                                                                                                                                                              |
 | 19:00-20:20           | 22:00-23:20           | 04:00-05:20 <sup>+1</sup> | 10:00-11:20 <sup>+1</sup> | <b>Session 2: Research Paper and System Description</b>                                                                                                                                                   |
 | 19:00-19:10           | 22:00-22:10           | 04:00-04:10 <sup>+1</sup> | 10:00-10:10 <sup>+1</sup> | <I class="prettyI">ICT’s System for AutoSimTrans 2021: Robust Char-Level Simultaneous Translation</I><br>Shaolei Zhang and Yang Feng                                                                      |
@@ -104,7 +105,24 @@ permalink: /index
 
 
 ---
-### Invited Talk 3 by [Liang Huang](http://web.engr.oregonstate.edu/~huanlian)
+### Invited Talk 3 by [Will Lewis](https://www.linkedin.com/in/will-lewis-24b39511/)
+
+<div class='container'>
+<div class='row'>
+	<div class='col-2'>
+		<img alt="pic" src="assets/images/Will-Lewis.jpg">
+	</div>
+	<div class='col-10'>
+		<b>Title</b>: Automated Speech Translation in the Educational Setting
+		<br>
+		<b>Abstract</b>: Educational institutions frequently cater to linguistically diverse populations. In higher education, we see this diversity in students who attend colleges outside of their home country, where they attend classes in a language that they may not know or may not know well. In primary and secondary education, children of recent immigrant populations are often placed in classrooms where they do not speak the language of instruction and whose parents are also at a disadvantage for the same reason. In the latter case, especially in the United States, the numbers of students and languages spoken is staggering: in 2015, 9.5 percent of the student population in the US, some 4.8 million students, were listed as English Language Learners (ELL), and some school districts in the US have more than 100 languages spoken by students and parents at their schools. Given the size and diversity of ELL populations, many schools have turned to automatic solutions, specifically various speech translation tools, to satisfy the need. Although speech translation technology has vastly improved in the past few years, there are still issues with translation quality and latency, which can interact with the user experience. Success in the schools has been variable, depending on where and how the tools are used, and how the expectations have been set across educator and parent/student populations. What kinds of issues do schools run into using these tools? What are the primary scenarios where schools use the tools? What kinds of improvements have been made or can be made to improve the perceived quality and user experience in these settings? Are the tools used interactively, e.g., between parents and educators, and are solutions with voice output, e.g., TTS, used or preferred? I will address these questions in my talk, and review solutions that are now becoming widely popular in the schools, looking specifically at issues with one or more of the most popular classroom tools. I will also demo a solution as part of my talk.
+	</div>
+</div>
+</div>
+**Will Lewis** is an Affiliate Assistant Professor at the University of Washington. Until recently he was a Principal PM Architect with the Microsoft Translator team and had led the team's efforts to build Machine Translation engines for a variety of the world's languages, including threatened and endangered languages.  More recently he had been working with the Translator team on Speech Translation and Transcription, developing the features that allow students to use Speech Translation in the classroom, for both multilingual and deaf and hard of hearing audiences.  Before joining Microsoft, Will was Assistant Professor and founding faculty for the Computational Linguistics Master's Program at the University of Washington.  Before that, he was faculty at CSU Fresno, where he helped found the Computational Linguistic and Cognitive Science Programs at the university.  He received a Bachelor's degree in Linguistics from the University of California Davis and a Master's and Doctorate in Linguistics, with an emphasis in Computational Linguistics, from the University of Arizona in Tucson. 
+
+---
+### Invited Talk 4 by [Liang Huang](http://web.engr.oregonstate.edu/~huanlian)
 
 <div class='container'>
 <div class='row'>
@@ -126,21 +144,5 @@ permalink: /index
 </div>
 **Liang Huang** is a Distinguished Scientist at Baidu Research USA and an Associate Professor of EECS at Oregon State University. He is a computational linguist (parsing, translation, grammar formalisms) and a computational biologist (RNA/protein folding & design for COVID-19). His recognitions include ACL 2019 Keynote Speech, CVPR 2021 Keynote Speech, ACL 2008 Best Paper Award, EMNLP 2016 Best Paper Honorable Mention, and several best paper finalists (ACL 2007, EMNLP 2008, ACL 2010, SIGMOD 2018). His work on simultaneous translation rejuvenated wide interest in this classical problem which was once thought to be out of reach. He also applies computational linguistics algorithms to RNA biology with applications to COVID-19, where his work on mRNA vaccine design is being verified by several major vaccine companies.
 
-
----
-### Invited Talk 4 by [Will Lewis](https://www.linkedin.com/in/will-lewis-24b39511/)
-
-<div class='container'>
-<div class='row'>
-	<div class='col-2'>
-		<img alt="pic" src="assets/images/WillLewis.jpg">
-	</div>
-	<div class='col-10'>
-		<b>Title</b>: TBD
-		<br>
-		<b>Abstract</b>: TBD
-	</div>
-</div>
-</div>
 
 
