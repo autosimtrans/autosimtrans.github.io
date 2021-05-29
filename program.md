@@ -97,10 +97,10 @@ permalink: /index
 	<div class='col-10'>
 		<b>Title</b>: Multimodal Simultaneous Machine Translation
 		<br>
-		<b>Abstract</b>: TBD
+		<b>Abstract</b>: Simultaneous machine translation (SiMT) aims to translate a continuous input text stream into another language with the lowest latency and highest quality possible. Therefore, translation has to start with an incomplete source text, which is read progressively, creating the need for anticipation. In this talk I will present work where we seek to understand whether the addition of visual information can compensate for the missing source context. We analyse the impact of different multimodal approaches and visual features on state-of-the-art SiMT frameworks, including fixed and dynamic policy approaches using reinforcement learning. Our results show that visual context is helpful and that visually-grounded models based on explicit object region information perform the best. Our qualitative analysis illustrates cases where only the multimodal systems are able to translate correctly from English into gender-marked languages, as well as deal with differences in word order, such as adjective-noun placement between English and French.
 	</div>
 </div>
-
+<b>Lucia Specia</b> is Professor of Natural Language Processing at Imperial College London, with part-time appointments at the University of Sheffield and Dublin City University. Her research focuses on various aspects of data-driven approaches to language processing, with a particular interest in multimodal and multilingual context models and work at the intersection of language and vision. Her work has been applied to various tasks such as machine translation, image captioning, text adaptation and quality estimation. She is also interested in making machine translation useful for end-users, where tools like quality estimation and automatic post-editing play a big role. She is the recipient of the MultiMT ERC Starting Grant on Multimodal Machine Translation (2016-2021) and is also currently involved in research projects on in-browser machine translation and quality estimation, as well as multilingual referential grounding. In the past she worked as Senior Lecturer at the University of Wolverhampton (2010-2011), and research engineer at the Xerox Research Centre, France (2008-2009, now Naver Labs). She received a PhD in Computer Science from the University of São Paulo, Brazil, in 2008.
 </div>
 
 
