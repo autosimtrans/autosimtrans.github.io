@@ -1,8 +1,8 @@
 ---
-layout: main-anchor-2021
+layout: main-anchor-2022
 title: Important Dates
 order: 7
-collection: pages_2021
+collection: pages_2022
 permalink: /dates
 ---
 

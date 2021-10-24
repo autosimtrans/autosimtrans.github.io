@@ -1,8 +1,8 @@
 ---
-layout: main-anchor-2021
+layout: main-anchor-2022
 title: Organization
 anchor: 8-organizing-committee
 order: 6
-collection: pages_2021
+collection: pages_2022
 ---
 

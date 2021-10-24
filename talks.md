@@ -1,9 +1,9 @@
 ---
-layout: main-anchor-2021
+layout: main-anchor-2022
 title: Invited Talks
 anchor: 2-keynote-speakers
 order: 2
-collection: pages_2021
+collection: pages_2022
 ---
 
 [talks](#invited-keynote-speakers-confirmed)

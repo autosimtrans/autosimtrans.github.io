@@ -1,9 +1,9 @@
 ---
-layout: main-anchor-2021
+layout: main-anchor-2022
 title: Program
 order: 0
-collection: pages_2021
-permalink: /index
+collection: pages_2022
+
 ---
 
 
