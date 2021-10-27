@@ -48,7 +48,7 @@ Following the tradition of our previous workshops, we will have two sets of keyn
 ##### Human Interpretation Speakers:
 
 
-- [Weiwei Wang](https://www.researchgate.net/profile/Weiwei-Wang-45), Associate Professor, Research Fellow, Guangdong University of Foreign Studies, China (confirmed)
+- [Weiwei Wang](https://www.linkedin.com/in/weiwei-wang-3610a532/?originalSubdomain=cn), Associate Professor, Research Fellow, Guangdong University of Foreign Studies, China (confirmed)
 - [Wallace Chen](https://www.middlebury.edu/institute/people/wallace-chen-chenruiqing), Professor; Program Head, Middlebury Institute of International Studies, USA (confirmed)
 
 We have 4 confirmed speakers out of 5, and one speaker is female (Weiwei Wang).
