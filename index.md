@@ -8,25 +8,25 @@ redirect_from:
   - /2022
 ---
 
-## 1 Description of the Workshop and Results from the First and the Second Workshop 
+## 1 Description of the Workshop and Results from the First and the Second Workshop
 ##### (attached with ACL 2020 and NAACL 2021 respectively)
 
-Simultaneous translation, which performs translation concurrently with the source speech, is widely useful in many scenarios such as international conferences, negotiations, press releases, legal proceedings, and medicine. 
-It combines the AI technologies of machine translation (MT), automatic speech recognition (ASR), and text-to-speech synthesis (TTS) and is rapidly becoming a cutting-edge research field. 
- As an emerging and interdisciplinary field, simultaneous translation faces many great challenges.  
+Simultaneous translation, which performs translation concurrently with the source speech, is widely useful in many scenarios such as international conferences, negotiations, press releases, legal proceedings, and medicine.
+It combines the AI technologies of machine translation (MT), automatic speech recognition (ASR), and text-to-speech synthesis (TTS) and is rapidly becoming a cutting-edge research field.
+ As an emerging and interdisciplinary field, simultaneous translation faces many great challenges.
 
 To promote the development in this field, we successfully held the first and the second workshop on simultaneous translation at ACL 2020 and NAACL 2021 respectively.
 We attracted 94 registered participants in 2020 and 96 registered participants in 2021.
-In the past two years, we invited 10 keynote speakers, 7 from simultaneous translation, and 3 from human interpretation research.  We also held a shared task on Chinese-English simultaneous translation and released an open dataset Baidu Speech Translation Corpus ([BSTC](https://ai.baidu.com/broad/subordinate?dataset=bstc)) for open research, which covers speeches in a wide range of domains, including IT, economy, culture, biology, arts, etc.  The shared task attracted a total of 525 participants in the past two workshops (227 at ACL 2020 and 298 at NAACL 2021). 
-The workshop also received 14 research paper submissions, with 11 accepted. 
+In the past two years, we invited 10 keynote speakers, 7 from simultaneous translation, and 3 from human interpretation research.  We also held a shared task on Chinese-English simultaneous translation and released an open dataset Baidu Speech Translation Corpus ([BSTC](https://ai.baidu.com/broad/subordinate?dataset=bstc)) for open research, which covers speeches in a wide range of domains, including IT, economy, culture, biology, arts, etc.  The shared task attracted a total of 525 participants in the past two workshops (227 at ACL 2020 and 298 at NAACL 2021).
+The workshop also received 14 research paper submissions, with 11 accepted.
 The peak zoom attendance was 25 at ACL 2020 and 31 at NAACL 2021.
 
-We have experiences of running a virtual workshop. All the talks and presentations are pre-recorded. We also run live Q\&As for each session to let all the speakers and attendees for further discussion.  
- 
+We have experiences of running a virtual workshop. All the talks and presentations are pre-recorded. We also run live Q\&As for each session to let all the speakers and attendees for further discussion.
+
  Since simultaneous translation is an active and growing area in AI community, we propose to organize the third workshop in 2022. The workshop will bring together researchers and practitioners in machine translation, speech processing, and human interpretation, to discuss recent advances and open challenges of simultaneous translation, including:
 
 
-- Simultaneous translation paradigms: traditional pipeline (ASR-MT-TTS) or end-to-end (speech-speech); 
+- Simultaneous translation paradigms: traditional pipeline (ASR-MT-TTS) or end-to-end (speech-speech);
 - Translation models: robust, high quality, and low latency;
 - Data resources: large and high-quality corpora for training simultaneous translation systems.
 - Evaluation methods: metrics to evaluate the translation quality and time latency;
@@ -36,7 +36,7 @@ We have experiences of running a virtual workshop. All the talks and presentatio
 
 ## 2 Keynote Speakers
 
-Following the tradition of our previous workshops, we will have two sets of keynote speakers: 3 from simultaneous translation, and 2 from human interpretation research. We hope this workshop will greatly increase the communication and cross-fertilization between the two fields. 
+Following the tradition of our previous workshops, we will have two sets of keynote speakers: 3 from simultaneous translation, and 2 from human interpretation research. We hope this workshop will greatly increase the communication and cross-fertilization between the two fields.
 
 ##### Simultaneous Translation Speakers:
 
@@ -64,12 +64,12 @@ Based on the fact that our previous workshops (at ACL 2020 and NAACL 2021) attra
 
 ## 5 Preferred Venues
 
-We prefer our third workshop to appear at ACL 2022 or EMNLP 2022. 
+We prefer our third workshop to appear at ACL 2022 or EMNLP 2022.
 
 ## 6 Virtual Conference
 
 We are well prepared if our third workshop has to be a virtual conference just like our previous workshops at ACL 2020 and NAACL 2021. In fact, we think it would be easier for the invited speakers when no travel is needed.
-The only major challenge for running a virtual workshop is time zone coordination, as we have participants from Asia, Europe, and the Americas. 
+The only major challenge for running a virtual workshop is time zone coordination, as we have participants from Asia, Europe, and the Americas.
 
 In the past two workshops, we organized our workshops into two sessions:
 
@@ -109,13 +109,13 @@ For more information, please see the [Shared Task page](shared).
 
 The organizers come from companies and universities, having rich experiences in organizing conferences, workshops and evaluation campaigns. Their research interests include machine translation, natural language processing, machine learning, speech technologies, linguistics, etc.
 
-· **Hua Wu** is the chief scientist of Baidu NLP and the chair of Baidu technical committee. Her primary research areas are machine translation and dialogue systems, and she has also worked on question answering, knowledge graph, and distributed representation. She served as program co-chair of ACL 2014, chaired international conferences such as ACL and IJCAI, and is serving as the program co-chair of AACL 2020.  
-· **Liang Huang** is an Associate Professor at Oregon State University and Distinguished Scientist of Baidu Research USA. He received a Best Paper Award at ACL 2008 and a Best Paper Honorable Mention at EMNLP 2016. He gave an invited talk at ACL 2019 on simultaneous translation.  
-· **Zhongjun He** is a Distinguished Architect of Baidu Inc. He leads Baidu machine translation team and has released several versions of Baidu's simultaneous translation system since 2017.  He organized the first simultaneous translation evaluation campaign in China in 2019.  
-· **Qun Liu** is Chief Scientist of Speech and Language Computing at Huawei's Noak's Ark Lab, Hong Kong, China.  
-He was previously a Professor at Dublin City University and Chinese Academy of Sciences. He is widely recognized as a  leading scientist in machine translation and natural language processing in general.  
-· **Wolfgang Macherey** is a staff research scientist at Google and the Research Tech Lead of Google Translate. His research interests focus on machine learning, neural modeling, machine translation, natural language processing and automatic speech recognition.  
-· **Julia Ive** is the author of many mono- and multimodal text generation approaches in Machine Translation and Summarisation. She is the author of the first multimodal approach to Simultaneous Machine Translation based on adaptive policies with Reinforcement Learning. She has participated in a range of Machine Translation related shared tasks (WMT series) and has experience of organising interdisciplinary workshops.  
+· **Hua Wu** is the chief scientist of Baidu NLP and the chair of Baidu technical committee. Her primary research areas are machine translation and dialogue systems, and she has also worked on question answering, knowledge graph, and distributed representation. She served as program co-chair of ACL 2014, chaired international conferences such as ACL and IJCAI, and is serving as the program co-chair of AACL 2020.
+· **Liang Huang** is an Associate Professor at Oregon State University and Distinguished Scientist of Baidu Research USA. He received a Best Paper Award at ACL 2008 and a Best Paper Honorable Mention at EMNLP 2016. He gave an invited talk at ACL 2019 on simultaneous translation.
+· **Zhongjun He** is a Distinguished Architect of Baidu Inc. He leads Baidu machine translation team and has released several versions of Baidu's simultaneous translation system since 2017.  He organized the first simultaneous translation evaluation campaign in China in 2019.
+· **Qun Liu** is Chief Scientist of Speech and Language Computing at Huawei's Noak's Ark Lab, Hong Kong, China.
+He was previously a Professor at Dublin City University and Chinese Academy of Sciences. He is widely recognized as a  leading scientist in machine translation and natural language processing in general.
+· **Wolfgang Macherey** is a staff research scientist at Google and the Research Tech Lead of Google Translate. His research interests focus on machine learning, neural modeling, machine translation, natural language processing and automatic speech recognition.
+· **Julia Ive** is the author of many mono- and multimodal text generation approaches in Machine Translation and Summarisation. She is the author of the first multimodal approach to Simultaneous Machine Translation based on adaptive policies with Reinforcement Learning. She has participated in a range of Machine Translation related shared tasks (WMT series) and has experience of organising interdisciplinary workshops.
 
 Here Hua, Liang, Zhongjun and Qun Liu also served on the Organizing Committee of the previous workshops. Two out of six members are female (Hua and Julia).
 
@@ -125,7 +125,7 @@ Here Hua, Liang, Zhongjun and Qun Liu also served on the Organizing Committee of
 
 
 ## 10 Program Committee
-- **Program Chair** [Mingbo Ma](http://mingboma.com/), Baidu Research, USA ☑  
+- **Program Chair** [Mingbo Ma](http://mingboma.com/), Baidu Research, USA ☑
 (†: members from underrepresented demographic groups; 8 in total)
 - [Alina Karakanta](https://ict.fbk.eu/people/detail/alina-karakanta/), FBK-Trento, Italy; member of AIIC(both a professional interpreter and a machine translation researcher)☑†
 - [Alvin Grissom II](https://www.ursinus.edu/live/profiles/3125-alvin-grissom-ii), Ursinus College, USA ☑†
