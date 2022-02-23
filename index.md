@@ -118,11 +118,11 @@ Here Hua, Liang, Zhongjun and Qun Liu also served on the Organizing Committee of
 (†: members from underrepresented demographic groups; 8 in total)<br>
 - **Program Chair**
   * [Julia Ive](https://julia-ive.github.io/), Imperial College London, UK ☑
+- **Publicity Chair**
+  * [Qun Liu](https://liuquncn.github.io/index_en.html), Huawei Noah's Ark Lab, Hong Kong ☑
 - **Shared Task Chair**
   * [Ruiqing Zhang](https://cn.linkedin.com/in/ruiqing-zhang-36b99b61), Baidu Inc. China ☑†
   * [Renjie Zheng](http://www.renj.me/), Baidu Research, USA ☑
-- **Publicity Chair**
-  * [Qun Liu](https://liuquncn.github.io/index_en.html), Huawei Noah's Ark Lab, Hong Kong ☑
 - **Others**
   * [Alina Karakanta](https://ict.fbk.eu/people/detail/alina-karakanta/), FBK-Trento, Italy; member of AIIC(both a professional interpreter and a machine translation researcher)☑†
   * [Alvin Grissom II](https://www.ursinus.edu/live/profiles/3125-alvin-grissom-ii), Ursinus College, USA ☑†
