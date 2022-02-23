@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 ## 1 Description of the Workshop and Results from the First and the Second Workshop
+
 ##### (attached with ACL 2020 and NAACL 2021 respectively)
 
 Simultaneous translation, which performs translation concurrently with the source speech, is widely useful in many scenarios such as international conferences, negotiations, press releases, legal proceedings, and medicine.
@@ -25,14 +26,11 @@ We have experiences of running a virtual workshop. All the talks and presentatio
 
  Since simultaneous translation is an active and growing area in AI community, we propose to organize the third workshop in 2022. The workshop will bring together researchers and practitioners in machine translation, speech processing, and human interpretation, to discuss recent advances and open challenges of simultaneous translation, including:
 
-
 - Simultaneous translation paradigms: traditional pipeline (ASR-MT-TTS) or end-to-end (speech-speech);
 - Translation models: robust, high quality, and low latency;
 - Data resources: large and high-quality corpora for training simultaneous translation systems.
 - Evaluation methods: metrics to evaluate the translation quality and time latency;
 - Computer Aided Interpretation (CAI): improve the efficiency and quality of human interpreters;
-
-
 
 ## 2 Keynote Speakers
 
@@ -44,15 +42,12 @@ Following the tradition of our previous workshops, we will have two sets of keyn
 - [Trevor Cohn](https://people.eng.unimelb.edu.au/tcohn/), Professor, The University of Melbourne, Australia (confirmed)
 - [Tao Qin](https://www.microsoft.com/en-us/research/people/taoqin/), Senior Principal Research Manager, MSRA, China (pending)
 
-
 ##### Human Interpretation Speakers:
-
 
 - [Weiwei Wang](https://www.linkedin.com/in/weiwei-wang-3610a532/?originalSubdomain=cn), Associate Professor, Research Fellow, Guangdong University of Foreign Studies, China (confirmed)
 - [Wallace Chen](https://www.middlebury.edu/institute/people/wallace-chen-chenruiqing), Professor; Program Head, Middlebury Institute of International Studies, USA (confirmed)
 
 We have 4 confirmed speakers out of 5, and one speaker is female (Weiwei Wang).
-
 
 ## 3 Diversity
 
@@ -75,11 +70,10 @@ In the past two workshops, we organized our workshops into two sessions:
 
 We are well prepared if our second workshop has to be a virtual conference just like our first workshop at ACL 2020. In fact, we think it would be easier for the invited speakers when no travel is needed. The only major challenge for running a virtual workshop is time zone coordination, as we have participants from Asia, Europe, and the Americas. In 2020, we organized our first workshop into two sessions:
 
-
-Session | Pacific (PDT) | Eastern (EDT) | Europe (CET) | East Asia (GMT+8) | Speakers
-:-:|:-:|:-:|:-:|:-:|:-:
-#1 |early morning<br> 7:30–9:30am | late morning<br>10:30am–12:30pm | late afternoon<br>4:30-6:30pm | late evening / night<br>10:30pm-12:30am | Americas/Europe
-#2 |late afternoon<br>3-6:30pm |  early evening<br>6-9:30pm|  night time<br>12-3:30am|  early morning<br>6-9:30am|Asia|
+Session | Pacific (PDT)                 | Eastern (EDT)                   | Europe (CET)                  | East Asia (GMT+8)                       | Speakers
+:-:     | :-:                           | :-:                             | :-:                           | :-:                                     | :-:
+#1      | early morning<br> 7:30–9:30am | late morning<br>10:30am–12:30pm | late afternoon<br>4:30-6:30pm | late evening / night<br>10:30pm-12:30am | Americas/Europe
+#2      | late afternoon<br>3-6:30pm    | early evening<br>6-9:30pm       | night time<br>12-3:30am       | early morning<br>6-9:30am               | Asia
 
 
 As you can see, we tried our best to balance among the four time zones where most of our participants are from.
@@ -87,16 +81,13 @@ The only suboptimal slot is Session #2 for European attendees, which was their n
 into the slots that are most convenient for the speakers, e.g., we scheduled speakers from North America to Session #1 and those from Asia to Session #2.
 For our third workshop, we plan to have it based on this arrangement.
 
-
 ## 7 Shared Task
-
 
 As we did in our previous workshops, we plan to continue to organize the simultaneous translation shared tasks on Chinese-English and  English-Spanish (or French). We will provide open datasets and evaluation environment. Participants are asked to submit their system description and show demonstration on the workshop. We will enlarge the corpus and extend the language pairs for our third workshop.
 
 <span hidden>
 For more information, please see the [Shared Task page](shared).
 </span>
-
 
 ## 8 Organizing Committee
 
@@ -123,29 +114,34 @@ Here Hua, Liang, Zhongjun and Qun Liu also served on the Organizing Committee of
 - [Mark Liberman](https://www.ling.upenn.edu/~myl/), Professor of Linguistics and Director of LDC, University of Pennsylvania, USA
 - [Haifeng Wang](http://research.baidu.com/People/index-view?id=116), CTO, Baidu, China
 
-
 ## 10 Program Committee
-- **Program Chair** [Mingbo Ma](http://mingboma.com/), Baidu Research, USA ☑
-(†: members from underrepresented demographic groups; 8 in total)
-- [Alina Karakanta](https://ict.fbk.eu/people/detail/alina-karakanta/), FBK-Trento, Italy; member of AIIC(both a professional interpreter and a machine translation researcher)☑†
-- [Alvin Grissom II](https://www.ursinus.edu/live/profiles/3125-alvin-grissom-ii), Ursinus College, USA ☑†
-- [Chung-Cheng Chiu](https://scholar.google.com/citations?user=8bNM5WgAAAAJ&hl=en), Google, USA ☑
-- [Colin Raffel](https://colinraffel.com/), Google, USA ☑
-- [Elizabeth Salesky](https://www.lti.cs.cmu.edu/people/222218365/elizabeth-salesky), CMU, USA ☑†
-- [George Foster](https://scholar.google.com/citations?user=Hr8KyG4AAAAJ&hl=en), Google, Canada ☑
-- [Hao Xiong](https://scholar.google.com/citations?user=RDvwXDsAAAAJ&hl=en), Baidu Inc. China ☑
-- [He He](https://hhexiy.github.io/), NYU, USA ☑†
-- [Jan Niehues](https://www.maastrichtuniversity.nl/jan.niehues), Maastricht U., Netherlands ☑
-- [Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm), CAS/IA, China ☑
-- [Jinming Zhao](https://au.linkedin.com/in/michelle-jinming-zhao-a82b0497), , Monash University Australia ☑†
-- [Kaibo Liu](https://scholar.google.com/citations?user=Ec-zt90AAAAJ&hl=en), Baidu Research, USA ☑
-- [Naveen Arivazhagan](https://scholar.google.com/citations?user=9KGy35AAAAAJ&hl=en), Google, USA ☑
-- [Renjie Zheng](http://www.renj.me/), Baidu Research, USA ☑
-- [Ruiqing Zhang](https://cn.linkedin.com/in/ruiqing-zhang-36b99b61), Baidu Inc. China ☑†
-- [Wei Li](https://research.google/people/106528/), Google, USA ☑†
-- [Wolfgang Macherey](https://ai.google/research/people/author7590/), Google, USA ☑
-- [Yang Feng](http://sourcedb.ict.cas.cn/cn/jssrck/201709/t20170910_4857722.html), CAS/ICT, China ☑†
-- [Yusuke Oda](https://scholar.google.com/citations?user=Re6oRt4AAAAJ&hl=en), Google, Japan ☑
+(†: members from underrepresented demographic groups; 8 in total)<br>
+- **Program Chair**
+  * [Julia Ive](https://julia-ive.github.io/), Imperial College London, UK ☑
+- **Shared Task Chair**
+  * [Ruiqing Zhang](https://cn.linkedin.com/in/ruiqing-zhang-36b99b61), Baidu Inc. China ☑†
+  * [Renjie Zheng](http://www.renj.me/), Baidu Research, USA ☑
+- **Publicity Chair**
+  * [Qun Liu](https://liuquncn.github.io/index_en.html), Huawei Noah's Ark Lab, Hong Kong ☑
+- **Others**
+  * [Alina Karakanta](https://ict.fbk.eu/people/detail/alina-karakanta/), FBK-Trento, Italy; member of AIIC(both a professional interpreter and a machine translation researcher)☑†
+  * [Alvin Grissom II](https://www.ursinus.edu/live/profiles/3125-alvin-grissom-ii), Ursinus College, USA ☑†
+  * [Chung-Cheng Chiu](https://scholar.google.com/citations?user=8bNM5WgAAAAJ&hl=en), Google, USA ☑
+  * [Colin Raffel](https://colinraffel.com/), Google, USA ☑
+  * [Elizabeth Salesky](https://www.lti.cs.cmu.edu/people/222218365/elizabeth-salesky), CMU, USA ☑†
+  * [George Foster](https://scholar.google.com/citations?user=Hr8KyG4AAAAJ&hl=en), Google, Canada ☑
+  * [He He](https://hhexiy.github.io/), NYU, USA ☑†
+  * [Jan Niehues](https://www.maastrichtuniversity.nl/jan.niehues), Maastricht U., Netherlands ☑
+  * [Jiajun Zhang](http://www.nlpr.ia.ac.cn/cip/jjzhang.htm), CAS/IA, China ☑
+  * [Jinming Zhao](https://au.linkedin.com/in/michelle-jinming-zhao-a82b0497), Monash University, Australia ☑†
+  * [Junkun Chen](https://web.engr.oregonstate.edu/~chenjun2/), Baidu Research, USA ☑
+  * [Kaibo Liu](https://scholar.google.com/citations?user=Ec-zt90AAAAJ&hl=en), Baidu Research, USA ☑
+  * [Naveen Arivazhagan](https://scholar.google.com/citations?user=9KGy35AAAAAJ&hl=en), Google, USA ☑
+  * [Wei Li](https://research.google/people/106528/), Google, USA ☑†
+  * [Wolfgang Macherey](https://ai.google/research/people/author7590/), Google, USA ☑
+  * [Xintong Li](https://znculee.github.io/), Baidu Research, USA ☑
+  * [Yang Feng](http://sourcedb.ict.cas.cn/cn/jssrck/201709/t20170910_4857722.html), CAS/ICT, China ☑†
+  * [Yusuke Oda](https://scholar.google.com/citations?user=Re6oRt4AAAAJ&hl=en), Google, Japan ☑
 
 ## 11 Preferred Paper Review System
 
