@@ -120,6 +120,8 @@ Here Hua, Liang, Zhongjun and Qun Liu also served on the Organizing Committee of
   * [Julia Ive](https://julia-ive.github.io/), Imperial College London, UK ☑
 - **Publicity Chair**
   * [Qun Liu](https://liuquncn.github.io/index_en.html), Huawei Noah's Ark Lab, Hong Kong ☑
+- **Sponsorship Chair**
+  * [Wolfgang Macherey](https://ai.google/research/people/author7590/), Google, USA ☑
 - **Shared Task Chair**
   * [Ruiqing Zhang](https://cn.linkedin.com/in/ruiqing-zhang-36b99b61), Baidu Inc. China ☑†
   * [Renjie Zheng](http://www.renj.me/), Baidu Research, USA ☑
@@ -138,7 +140,6 @@ Here Hua, Liang, Zhongjun and Qun Liu also served on the Organizing Committee of
   * [Kaibo Liu](https://scholar.google.com/citations?user=Ec-zt90AAAAJ&hl=en), Baidu Research, USA ☑
   * [Naveen Arivazhagan](https://scholar.google.com/citations?user=9KGy35AAAAAJ&hl=en), Google, USA ☑
   * [Wei Li](https://research.google/people/106528/), Google, USA ☑†
-  * [Wolfgang Macherey](https://ai.google/research/people/author7590/), Google, USA ☑
   * [Xintong Li](https://znculee.github.io/), Baidu Research, USA ☑
   * [Yang Feng](http://sourcedb.ict.cas.cn/cn/jssrck/201709/t20170910_4857722.html), CAS/ICT, China ☑†
   * [Yusuke Oda](https://scholar.google.com/citations?user=Re6oRt4AAAAJ&hl=en), Google, Japan ☑
