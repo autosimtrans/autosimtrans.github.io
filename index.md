@@ -10,7 +10,7 @@ redirect_from:
 
 ## 1 Description of the Workshop and Results from the First and the Second Workshop
 
-##### (attached with ACL 2020 and NAACL 2021 respectively)
+##### (attached with NAACL 2022)
 
 Simultaneous translation, which performs translation concurrently with the source speech, is widely useful in many scenarios such as international conferences, negotiations, press releases, legal proceedings, and medicine.
 It combines the AI technologies of machine translation (MT), automatic speech recognition (ASR), and text-to-speech synthesis (TTS) and is rapidly becoming a cutting-edge research field.
