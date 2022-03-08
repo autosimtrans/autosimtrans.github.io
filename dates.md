@@ -6,8 +6,6 @@ collection: pages_2022
 permalink: /dates
 ---
 
-
-
 # Important Dates
 
 #### Shared Task
@@ -26,4 +24,3 @@ permalink: /dates
 ----
 
 All submission deadlines are 11:59 PM GMT-12 (anywhere in the world) unless otherwise noted.
-

@@ -6,8 +6,6 @@ order: 2
 collection: pages_2022
 ---
 
-[talks](#invited-keynote-speakers-confirmed)
-
 ## Invited Keynote Speakers (confirmed):
 
 We have two sets of keynote speakers: 4 from simultaneous translation, and 2 from human interpretation research. We hope this workshop will greatly increase the communication and crossfertilization between the two fields. All these speakers are confirmed.

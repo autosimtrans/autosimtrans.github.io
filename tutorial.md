@@ -1,11 +1,10 @@
 ---
 layout: main-anchor-2022
 title: Tutorial
-order: 8 
+order: 8
 collection: pages_2020_hide
 permalink: /tutorial
 ---
-
 
 # A. pack your "trained model + code" into docker
 #### - English
@@ -16,7 +15,6 @@ permalink: /tutorial
 # B. train in docker from stratch
 #### - English
 ##### [1. train a transformer-tf in docker](#train-a-transformer-tf-in-docker)
-
 
 ---
 
@@ -51,7 +49,7 @@ nvidia-docker run -it -v <abs_path_to_your_data_dir>:/data -v <abs_path_to_your_
 python translate.py -model multi30k_model_step_100000.pt -src /data/wmt16-multi30k/test2016.en.atok  -tgt /data/wmt16-multi30k/test2016.de.atok  -replace_unk -verbose -output /decode/multi30k.test.pred.atok
 ```
 8. Then you can check the translation result in either `<abs_path_to_your_local_decode_result_dir>`(local) or `/decode` (in docker container), test your BLEU:
-```bash	
+```bash
 # in docker conatiner
 perl tools/multi-bleu.perl /data/wmt16-multi30k/test2016.de.atok < /decode/multi30k.test.pred.atok
 # result:
@@ -59,7 +57,7 @@ perl tools/multi-bleu.perl /data/wmt16-multi30k/test2016.de.atok < /decode/multi
 ```
 9. *Push your image to docker hub* **or** *save your image* into a `tar` file:
 	- sign up a DockerHub account, create a new repo, push your image to docker hub
-	```bash	
+	```bash
 	docker tag <local-image:loacl-tagname> <dockerhub_username/new-repo:repo-tagname>
 	docker login
 	docker push <dockerhub_username/new-repo:repo-tagname>
@@ -71,8 +69,6 @@ perl tools/multi-bleu.perl /data/wmt16-multi30k/test2016.de.atok < /decode/multi
 	# load `tar` file to image
 	docker load < <imageFile>.tar
 	```
-
-
 
 ## 2. For users who want to use docker images(covering code+model)
 1. `cd` to your working dir, and download data (for the case of blind test)
@@ -93,7 +89,7 @@ sudo nvidia-docker run -it -v <abs_path_to_your_data_dir>:/data -v <abs_path_to_
 python translate.py -model multi30k_model_step_100000.pt -src /data/wmt16-multi30k/test2016.en.atok -replace_unk -verbose -output /decode/multi30k.test.pred.atok
 ```
 5. Then you can check the translation result in either `<abs path to your local decode result dir>`(local) or `/decode` (in docker container), test your BLEU:
-```bash	
+```bash
 # in docker conatiner
 perl tools/multi-bleu.perl /data/wmt16-multi30k/test2016.de.atok < /decode/multi30k.test.pred.atok
 # result:
@@ -103,7 +99,6 @@ perl tools/multi-bleu.perl /data/wmt16-multi30k/test2016.de.atok < /decode/multi
 ----
 
 ----
-
 
 ## Train a transformer-tf in docker
 ---
@@ -117,7 +112,6 @@ docker cp <local_data_path>:[containerID]:<docker_data_path>
 ### 2. Training a TensorFlow-based Transformer Model from Scratch in Docker
 
 We will dive head-first into training a transformer model from scratch using a TensorFlow GPU Docker image.
-
 
 #### Step 1) Launch TensorFlow GPU Docker Container
 
@@ -144,7 +138,6 @@ This may be necessary if you are running a fresh docker container.
 ```
 apt-get install git
 ```
-
 
 #### Step 3) Download 'Models' (Transformer Codebase is included here)
 In case you do not have the latest up-to-date codebase for the models, the transformer network model is included here and the devs tend to update it quite frequently.
@@ -234,7 +227,6 @@ NOTE: This will take a long time to train depending on your GPU resources. The o
 python transformer_main.py --data_dir=$DATA_DIR --model_dir=$MODEL_DIR --vocab_file=$VOCAB_FILE --param_set=$PARAM_SET --bleu_source=$DATA_DIR/newstest2014.en --bleu_ref=$DATA_DIR/newstest2014.de --train_steps=260000 --steps_between_evals=1000 --export_dir=$EXPORT_DIR
 ```
 
-
 #### Step 9) View Transformer Model Results in Tensorboard
 As we noted earlier, we can check the status of training in the Tensorboard GUI. To check in real time, run the following command in a separate terminal (or TensorFlow container), and type localhost:6007 in your browser to view Tensorboard. You can also wait until training is complete to use the current container.
 ```
@@ -251,17 +243,15 @@ python translate.py --model_dir=$MODEL_DIR --vocab_file=$VOCAB_FILE \
 #### Step 11) save your container to a image
 1. Create an account and a repo on Docker Hub, named  **[UserID]** and **[Repo]**
 2. Get the **[containerID]** you want by `docker ps -l`
-3. construct the image locally  
+3. construct the image locally
 ```
 docker commit [containerID] [UserID]/[Repo]
 ```
-4. check the image  
+4. check the image
 ```
 docker images
 ```
-5. Upload your image to Docker Hub, you may be prompted with username and password of Docker Hub    
+5. Upload your image to Docker Hub, you may be prompted with username and password of Docker Hub
 ```
 docker push [UserID]/[Repo]
 ```
-
-

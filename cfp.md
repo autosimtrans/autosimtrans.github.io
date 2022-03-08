@@ -6,15 +6,10 @@ collection: pages_2022
 permalink: /cfp
 ---
 
-
-TBA
-
----
-
 ## CONTACT
-Email: [mingboma@baidu.com](mailto:mingboma@baidu.com) or [autosimtrans.workshop@gmail.com](mailto:autosimtrans.workshop@gmail.com)   
-Twitter: [twitter.com/autosimtrans](https://twitter.com/autosimtrans)
 
-Read more: 
+- Email: [autosimtrans.workshop@gmail.com](mailto:autosimtrans.workshop@gmail.com)
+- Twitter: [twitter.com/autosimtrans](https://twitter.com/autosimtrans)
+
+Read more:
 [autosimtrans.github.io](https://autosimtrans.github.io)
-

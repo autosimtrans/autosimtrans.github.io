@@ -1,18 +1,16 @@
 ---
 layout: main-anchor-2022
 title: Tutorial
-order: 8 
+order: 8
 collection: pages_2020_hide
 permalink: /tutorial_cn
 ---
-
 
 # A. 将训练好的模型打包成docker镜像
 #### - [English](/tutorial)
 #### - 中文
 ##### [1. 模型作者：用docker打包模型和代码](#1-想要将代码和模型打包到docker的模型作者)
 ##### [2. 测试用户：用docker作模型推理](#2-用docker镜像直接做推理的测试用户)
-
 
 ----
 
@@ -47,7 +45,7 @@ nvidia-docker run -it -v <abs_path_to_your_data_dir>:/data -v <abs_path_to_your_
 python translate.py -model multi30k_model_step_100000.pt -src /data/wmt16-multi30k/test2016.en.atok  -tgt /data/wmt16-multi30k/test2016.de.atok  -replace_unk -verbose -output /decode/multi30k.test.pred.atok
 ```
 8. 可以在`<abs_path_to_your_local_decode_result_dir>`(本地) or `/decode` (docker容器中)查看翻译结果并测试BLEU分数
-```bash	
+```bash
 # in docker conatiner
 perl tools/multi-bleu.perl /data/wmt16-multi30k/test2016.de.atok < /decode/multi30k.test.pred.atok
 # result:
@@ -56,7 +54,7 @@ perl tools/multi-bleu.perl /data/wmt16-multi30k/test2016.de.atok < /decode/multi
 
 9. 注册用户后*将镜像上传到docker hub* **或者** *保存镜像到`tar`文件*
 	- 注册一个DockerHub账户（dockerhub username), 创建一个新仓库（new repo），然后推送镜像
-	```bash	
+	```bash
 	docker tag <local-image:loacl-tagname> <dockerhub_username/new-repo:repo-tagname>
 	docker login
 	docker push <dockerhub_username/new-repo:repo-tagname>
@@ -68,8 +66,6 @@ perl tools/multi-bleu.perl /data/wmt16-multi30k/test2016.de.atok < /decode/multi
 	# load `tar` file to image
 	docker load < <imageFile>.tar
 	```
-
-
 
 ## 2. 用docker镜像直接做推理的测试用户
 1. 进入到工作目录，下载数据（用于test集盲测）
@@ -90,7 +86,7 @@ sudo nvidia-docker run -it -v <abs_path_to_your_data_dir>:/data -v <abs_path_to_
 python translate.py -model multi30k_model_step_100000.pt -src /data/wmt16-multi30k/test2016.en.atok -replace_unk -verbose -output /decode/multi30k.test.pred.atok
 ```
 5. 可以在`<abs_path_to_your_local_decode_result_dir>`(本地) 或者 `/decode` (docker容器中)查看翻译结果并测试BLEU分数
-```bash	
+```bash
 # in docker conatiner
 perl tools/multi-bleu.perl /data/wmt16-multi30k/test2016.de.atok < /decode/multi30k.test.pred.atok
 # result:

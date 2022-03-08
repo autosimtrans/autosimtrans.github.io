@@ -6,16 +6,13 @@ collection: pages_2022
 
 ---
 
-
 <h1 class='my-center'>Conference Program</h1>
 <h4 class='my-center'>(Thursday, June 10, or <sup>+1</sup>: Friday, June 11)</h4>
 <h5 class='my-center'><a href="https://zoom.us/j/94678981515?pwd=L2R4R0haanBTV2l6V1NubGExOTNRQT09">Zoom Link</a></h5>
 <p class='my-center' style='font-size:80%'>*There is a swap between Talk 3 and Talk 4 from original schedule</p>
 
-
-
 <style>
-        .container { max-width: 80rem; }
+  .container { max-width: 80rem; }
 	.col-2>img {
 		width: 100%;
 	}
@@ -49,8 +46,6 @@ collection: pages_2022
                 margin-bottom: 0rem;
         }
 </style>
-
-
 
 | PDT<br>Pacific Time   | EDT<br>Eastern Time   | BST<br>London Time        | GMT+8<br>Beijing Time     |                                                                                                                                                                                                                                                                                                                                             |
 |-----------------------|-----------------------|---------------------------|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -146,6 +141,3 @@ collection: pages_2022
 </div>
 <b>Liang Huang</b> is a Distinguished Scientist at Baidu Research USA and an Associate Professor of EECS at Oregon State University. He is a computational linguist (parsing, translation, grammar formalisms) and a computational biologist (RNA/protein folding & design for COVID-19). His recognitions include ACL 2019 Keynote Speech, CVPR 2021 Keynote Speech, ACL 2008 Best Paper Award, EMNLP 2016 Best Paper Honorable Mention, and several best paper finalists (ACL 2007, EMNLP 2008, ACL 2010, SIGMOD 2018). His work on simultaneous translation rejuvenated wide interest in this classical problem which was once thought to be out of reach. He also applies computational linguistics algorithms to RNA biology with applications to COVID-19, where his work on mRNA vaccine design is being verified by several major vaccine companies.
 </div>
-
-
-
