@@ -75,7 +75,6 @@ Session | Pacific (PDT)                 | Eastern (EDT)                   | Euro
 #1      | early morning<br> 7:30–9:30am | late morning<br>10:30am–12:30pm | late afternoon<br>4:30-6:30pm | late evening / night<br>10:30pm-12:30am | Americas/Europe
 #2      | late afternoon<br>3-6:30pm    | early evening<br>6-9:30pm       | night time<br>12-3:30am       | early morning<br>6-9:30am               | Asia
 
-
 As you can see, we tried our best to balance among the four time zones where most of our participants are from.
 The only suboptimal slot is Session #2 for European attendees, which was their night time. And we placed the talks
 into the slots that are most convenient for the speakers, e.g., we scheduled speakers from North America to Session #1 and those from Asia to Session #2.
@@ -148,11 +147,11 @@ Here Hua, Liang, Zhongjun and Qun Liu also served on the Organizing Committee of
 
 We prefer to use START as the platform to handle submissions.
 
-
 ## 12 Sponsorships
 
-We expect to have sponsorships from Baidu, Google, Huawei, a few other companies,
-and some universities.
+- Baidu
+- Huawei
+- Google
 
 ## 13 Awards
 
