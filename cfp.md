@@ -6,10 +6,6 @@ collection: pages_2022
 permalink: /cfp
 ---
 
-## CONTACT
+## Preferred Paper Review System
 
-- Email: [autosimtrans.workshop@gmail.com](mailto:autosimtrans.workshop@gmail.com)
-- Twitter: [twitter.com/autosimtrans](https://twitter.com/autosimtrans)
-
-Read more:
-[autosimtrans.github.io](https://autosimtrans.github.io)
+We prefer to use START as the platform to handle submissions.

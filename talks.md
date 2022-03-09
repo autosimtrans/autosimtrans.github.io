@@ -1,23 +1,25 @@
 ---
 layout: main-anchor-2022
 title: Invited Talks
-anchor: 2-keynote-speakers
 order: 2
 collection: pages_2022
+permalink: /talks
 ---
 
-## Invited Keynote Speakers (confirmed):
+## Keynote Speakers
 
-We have two sets of keynote speakers: 4 from simultaneous translation, and 2 from human interpretation research. We hope this workshop will greatly increase the communication and crossfertilization between the two fields. All these speakers are confirmed.
+Following the tradition of our previous workshops, we will have two sets of keynote speakers: 3 from simultaneous translation, and 2 from human interpretation research. We hope this workshop will greatly increase the communication and cross-fertilization between the two fields.
 
 ##### Simultaneous Translation Speakers:
 
-- [Jordan Boyd-Graber](http://users.umiacs.umd.edu/~jbg), Associate Professor, University of Maryland, USA
-- [Colin Cherry](https://sites.google.com/site/colinacherry), Research Scientist in Google Translate, Google Inc., Montreal, Canada
-- [Qun Liu](https://scholar.google.com.sg/citations?user=2HhiGzcAAAAJ&hl=en)，Chief Scientist of Speech and Language Computing，Huawei Noah's Ark Lab，China
-- [Hua Wu](http://research.baidu.com/People/index-view?id=121), Chief Scientist of NLP, Baidu Inc., China
+- [Juan Pino](https://ai.facebook.com/people/juan-pino/), Research Scientist, Facebook Research, USA (confirmed)
+- [Trevor Cohn](https://people.eng.unimelb.edu.au/tcohn/), Professor, The University of Melbourne, Australia (confirmed)
+- [Tao Qin](https://www.microsoft.com/en-us/research/people/taoqin/), Senior Principal Research Manager, MSRA, China (pending)
 
 ##### Human Interpretation Speakers:
 
-- [Kay-Fan Cheung](https://www.polyu.edu.hk/cbs/cts/en/people/members/58-dr-cheung-kay-fan-andrew), Associate Professor, The Hong Kong Polytechnic University, and Member of the International Association of Conference Interpreters (AIIC), China
-- [Barry Slaughter Olsen](https://www.middlebury.edu/institute/people/barry-slaughter-olsen), Professor, The Middlebury Institute of International Studies and Conference Interpreter, VP of Client Success, KUDO, and Member of the International Association of Conference Interpreters (AIIC), USA
+- [Weiwei Wang](https://www.linkedin.com/in/weiwei-wang-3610a532/?originalSubdomain=cn), Associate Professor, Research Fellow, Guangdong University of Foreign Studies, China (confirmed)
+- [Wallace Chen](https://www.middlebury.edu/institute/people/wallace-chen-chenruiqing), Professor; Program Head, Middlebury Institute of International Studies, USA (confirmed)
+
+We have 4 confirmed speakers out of 5, and one speaker is female (Weiwei Wang).
+

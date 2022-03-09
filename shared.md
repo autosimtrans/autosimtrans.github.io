@@ -6,6 +6,6 @@ collection: pages_2022
 permalink: /shared
 ---
 
-# Contact
+## Shared Task
 
-For any questions regarding our shared task, please use our [twitter page](https://twitter.com/autosimtrans), [github issues](https://github.com/autosimtrans/AutoSimTrans-Shared-Task-2020/issues), or email to [autosimtrans.workshop@gmail.com](autosimtrans.workshop@gmail.com). We are here to answer your questions and looking forward to your submissions!
+As we did in our previous workshops, we plan to continue to organize the simultaneous translation shared tasks on Chinese-English and  English-Spanish (or French). We will provide open datasets and evaluation environment. Participants are asked to submit their system description and show demonstration on the workshop. We will enlarge the corpus and extend the language pairs for our third workshop.
