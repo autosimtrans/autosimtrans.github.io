@@ -156,7 +156,7 @@ An example of the three types of input is illustrated in Table 1.  We process in
 
 Streaming Transcript                 | Audio
 -                                    | -
-大                                   | <audio controls="controls" style="height: 20px;width: 170px;"><source type="audio/mp3" src="assets/105-[AudioTrimmer.com].wav"></source><p>Your browser does not support the audio element.</p></audio>
+大                                   | <audio controls="controls" style="height: 20px;width: 170px;"><source type="audio/mp3" src="{{ site.baseurl }}/assets/105-audio-trimmer.com.wav"></source><p>Your browser does not support the audio element.</p></audio>
 大家                                 |
 大家好                               |
 大家好！                             |
