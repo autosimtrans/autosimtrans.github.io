@@ -225,29 +225,9 @@ Streaming Transcript                 | Translation
 
 ### Submission Guidance
 
-##### A. System Submission
+You need to submit the output results on the test set named res_zh_en_T.zip (Task 1, T for transcript), res_zh_en_A.zip(Task 2, A for audio), or res_en_es_T.zip (Task 3) according to the task you participate in. Each res_*.zip contains x file folders named res_*/ (for example, res_w1, res_w3, res_MU, etc.). We’ll plot one point on the BLEU-AL diagram according to the evaluation result of each folder. Each folder contains N files (N is the number of audio / transcript input files in the test set), and each file is named \$id.trans.txt, where id is the input filename. For example, for the Chinese-to-English translation task, each folder in res_zh_en_*.zip should contain 20 files named 1.trans.txt, 2.trans.txt, etc. The file format follows Table 2. For English-to-Spanish translation task, each folder in res_en_es_T.zip should contain only one file, named res.trans.txt.
 
-You have two ways to submit your system:
-
-1. **For AISTUDIO Project owner**: You can use the calculation resources for free (one V100 card for each participant) if your system ONLY RELIES ON PADDLEPADDLE as the deep-learning framework. The free resources are provided by AISTUDIO. In this case, you can submit your system by specifying your projectID on AISTUDIO. Note that using other deep-learning platforms (as Tensorflow or Pytorch) is forbidden by AISTUDIO.
-2. **For Other submitters**, you are required to submit your docker system, along with your own implementation of specific APIs for input and translation output. We will evaluate all the submissions on our environment. Please refer to the [tutorial page](https://autosimtrans.github.io/tutorial) if you need help to convert your model to docker image, or train in docker container.
-
-There are some requirements for your uploaded system:
-
-1. script <b>run.sh</b>: the interface to execute your translate program.
-For text-to-text tasks, use
-<span hidden>`sh run.sh < streaming_asr.txt > output_asr/source_translation.txt` or  </span>
-`sh run.sh < streaming_transcription.txt > output_transcript/source_translation.txt`;
-For audio-to-text task, use
-`sh run.sh < audioid.wav > output_audio/source_translation.txt`
-2. directory <b>output_xxx</b>: your environment should have a directory named `output_transcript` or `output_audio`, depends on the task you involved in. You can also prepare multiple output directories of them, if you participate in multiple challenge tasks.
-3. file <b>output_xxx/dev_translation.txt</b>: we suggest you to put the source-translation result file of the development set under the corresponding task output directory, with the file name as `output_xxx/dev_translation.txt`. This is very helpful for us to eliminate the execution problems of your system.
-
-Unless coming across system execution error, each participant has only one chance to submit on each task.
-
-##### B. Paper Submission
-
-Scientific and system description papers will be submitted through [**this Link**](https://www.softconf.com/naacl2021/AutoSimTrans2021) by Monday, March 15, 2021, 11:59pm [UTC-12h]. Paper should be formatted according to the [NACCL 2021 format guidelines](https://2021.naacl.org/calls/papers/) and be of 4 to 8 pages of content plus additional pages of references. Accepted papers will be published on-line in the NACCL 2021 proceedings and will be presented at the conference either orally or as a poster.
+Scientific and system description papers will be submitted through [**this Link**](https://www.softconf.com/naacl2021/AutoSimTrans2021) by Saturday, May 14, 2022, 11:59pm [UTC-12h]. Paper should be formatted according to the [NACCL 2022 format guidelines](https://2022.naacl.org/calls/papers/) and be of 4 to 8 pages of content plus additional pages of references. Accepted papers will be published on-line in the NACCL 2021 proceedings and will be presented at the conference either orally or as a poster.
 
 ### Announcements
 
