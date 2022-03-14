@@ -13,7 +13,7 @@ permalink: /organization
 - [Zhongjun He](https://zhongjunhe.github.io), Baidu Inc., China, E-mail: hezhongjun@baidu.com
 - [Qun Liu](https://scholar.google.com.sg/citations?user=2HhiGzcAAAAJ&hl=en)，Huawei Noah’s Ark Lab, Hong Kong, China, E-mail: qun.liu@huawei.com
 - [Wolfgang Macherey](https://research.google/people/author7590/), Goolge, USA, E-mail: wmach@google.com
-- [Julia Ive](https://julia-ive.github.io/), Queen Mary University London, UK, E-mail: j.ive@qmul.ac.uk
+- [Julia Ive](https://julia-ive.github.io/), Imperial College London, UK, E-mail: j.ive@imperial.ac.uk
 
 The organizers come from companies and universities, having rich experiences in organizing conferences, workshops and evaluation campaigns. Their research interests include machine translation, natural language processing, machine learning, speech technologies, linguistics, etc.
 
