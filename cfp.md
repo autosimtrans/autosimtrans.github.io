@@ -32,13 +32,21 @@ We introduce three submission tracks in this workshop:
 
 ### Important Dates
 
-- **2022/03/07 00:00:00**: Registration and Release of Data
-- **2022/03/10 00:00:00**: System Submission Open
-- **2022/05/01 23:59:59**: End of Registration
-- **2022/05/01 23:59:59**: System Submission Close
-- **2022/05/14 00:00:00**: System Description Due
-- **2022/06/01 12:00:00**: Notification of Acceptance
-- **2022/06/16 00:00:00**: Camera-ready Papers Due
+#### Shared Task
+
+- Registration and Release of data:  March 7th, 2022
+- End of registration: April 30th, 2022
+- System Submission: May 1st, 2022
+- System Description Due: May 14th, 2022
+- Notification of Acceptance: June 1st, 2022
+- Camera-ready Papers Due: June 16th, 2022
+
+#### Papers
+
+- Submission Deadline: May 1st, 2022 (all the three tracks: research, non-archival highlights and shared task)
+- Notification of Acceptance: June 1st, 2022
+- Camera-ready Papers Due: June 16th, 2022
+- Workshop: TBD, 2022
 
 ### Instruction for authors
 
