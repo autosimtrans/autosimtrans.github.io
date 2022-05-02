@@ -8,9 +8,9 @@ redirect_from:
   - /2022
 ---
 
-## News
+<!--## News-->
 
-- TBD
+<!--- TBD-->
 
 ## Important Dates
 
@@ -34,9 +34,9 @@ redirect_from:
 
 All submission deadlines are 11:59 PM GMT-12 (anywhere in the world) unless otherwise noted.
 
-## Welcome!
+<!--## Welcome!-->
 
-TBD
+<!--TBD-->
 
 ---
 

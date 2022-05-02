@@ -63,7 +63,7 @@ System Description Paper Submission
 
 For those who participate in the shared task, you are encouraged (though not required) to submit a system description paper of 4 to 8 pages of content plus unlimited references to AutoSimTrans to describe your system.
 
-Please submit via [Softconf](https://www.softconf.com).
+Please submit via [OpenReview.net](https://openreview.net/group?id=aclweb.org/NAACL/2022/Workshop/AutoSimTrans).
 
 ### Shared Task Submission
 
