@@ -18,7 +18,7 @@ redirect_from:
 - **2022/04/30 23:59:59**: End of registration
 - **2022/03/10 00:00:00**: System submission begin
 - **2022/05/01 23:59:59**: System submission close
-- **2022/05/14 00:00:00**: System description due
+- ~~**2022/05/14 00:00:00**~~ <span style="color:red"><b>Extended to 2022/05/17</b></span>: System description due
 - **2022/06/01 00:00:00**: Notification of acceptance
 - **2022/06/16 00:00:00**: Camera-ready papers due
 

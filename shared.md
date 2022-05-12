@@ -16,7 +16,7 @@ Please register your team through this [AI Studio Platform](https://aistudio.bai
 - **2022/03/10 00:00:00**: System Submission Open
 - **2022/05/01 23:59:59**: End of Registration
 - **2022/05/01 23:59:59**: System Submission Close
-- **2022/05/14 00:00:00**: System Description Due
+- ~~**2022/05/14 00:00:00**~~ <span style="color:red"><b>Extended to 2022/05/17</b></span>: System description due
 - **2022/06/01 12:00:00**: Notification of Acceptance
 - **2022/06/16 00:00:00**: Camera-ready Papers Due
 
