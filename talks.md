@@ -14,7 +14,7 @@ Following the tradition of our previous workshops, we will have two sets of keyn
 
 - [Juan Pino](https://ai.facebook.com/people/juan-pino/), Research Scientist, Facebook Research, USA (confirmed)
 - [Trevor Cohn](https://people.eng.unimelb.edu.au/tcohn/), Professor, The University of Melbourne, Australia (confirmed)
-- [Tao Qin](https://www.microsoft.com/en-us/research/people/taoqin/), Senior Principal Research Manager, MSRA, China (pending)
+
 
 ##### Human Interpretation Speakers:
 
