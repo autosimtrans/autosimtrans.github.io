@@ -7,9 +7,8 @@ collection: pages_2022
 ---
 
 <h1 class='my-center'>Conference Program</h1>
-<h4 class='my-center'>(Thursday, June 10, or <sup>+1</sup>: Friday, June 11)</h4>
+<h4 class='my-center'>(Friday, July 15, or <sup>+1</sup>: Saturday, July 16)</h4>
 <h5 class='my-center'><a href="https://zoom.us/j/94678981515?pwd=L2R4R0haanBTV2l6V1NubGExOTNRQT09">Zoom Link</a></h5>
-<p class='my-center' style='font-size:80%'>*There is a swap between Talk 3 and Talk 4 from original schedule</p>
 
 <style>
   .container { max-width: 80rem; }
