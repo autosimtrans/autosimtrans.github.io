@@ -1,7 +1,7 @@
 ---
 layout: main-anchor-2022
 title: Program
-order: 2 
+order: 1
 collection: pages_2022
 permalink: /program
 ---

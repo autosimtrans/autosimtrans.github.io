@@ -1,7 +1,7 @@
 ---
 layout: main-anchor-2022
 title: Home
-order: 1
+order: 2
 collection: pages_2022
 permalink: /
 redirect_from:
