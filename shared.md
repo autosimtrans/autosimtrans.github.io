@@ -1,7 +1,7 @@
 ---
 layout: main-anchor-2022
 title: Shared Task
-order: 3
+order: 4
 collection: pages_2022
 permalink: /shared
 ---

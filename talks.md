@@ -1,7 +1,7 @@
 ---
 layout: main-anchor-2022
 title: Invited Talks
-order: 2
+order: 3 
 collection: pages_2022
 permalink: /talks
 ---
