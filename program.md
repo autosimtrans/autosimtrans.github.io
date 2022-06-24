@@ -1,9 +1,9 @@
 ---
 layout: main-anchor-2022
 title: Program
-order: 0
+order: 1
 collection: pages_2022
-
+permalink: /program
 ---
 
 <h1 class='my-center'>Conference Program</h1>
