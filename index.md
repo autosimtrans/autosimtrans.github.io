@@ -68,32 +68,12 @@ We have experiences of running a virtual workshop. All the talks and presentatio
 
 As in our first workshop, we have made efforts to promote diversity in our invited speakers, organizers, and PC. 1 out of 5 invited speakers are female, so are 2 out of 6 organizers, and 7 out of 20 PC members.
 
-## Estimated Number of Attendees
-
-Based on the fact that our previous workshops (at ACL 2020 and NAACL 2021) attracted 94 and 96 registrations, we estimate the number of participants for our third workshop to be around 80--120.
-
-## Preferred Venues
-
-We prefer our third workshop to appear at NAACL 2022.
 
 ## Virtual Conference
 
 We are well prepared if our third workshop has to be a virtual conference just like our previous workshops at ACL 2020 and NAACL 2021. In fact, we think it would be easier for the invited speakers when no travel is needed.
 The only major challenge for running a virtual workshop is time zone coordination, as we have participants from Asia, Europe, and the Americas.
 
-In the past two workshops, we organized our workshops into two sessions:
-
-We are well prepared if our second workshop has to be a virtual conference just like our first workshop at ACL 2020. In fact, we think it would be easier for the invited speakers when no travel is needed. The only major challenge for running a virtual workshop is time zone coordination, as we have participants from Asia, Europe, and the Americas. In 2020, we organized our first workshop into two sessions:
-
-Session | Pacific (PDT)                 | Eastern (EDT)                   | Europe (CET)                  | East Asia (GMT+8)                       | Speakers
-:-:     | :-:                           | :-:                             | :-:                           | :-:                                     | :-:
-#1      | early morning<br> 7:30–9:30am | late morning<br>10:30am–12:30pm | late afternoon<br>4:30-6:30pm | late evening / night<br>10:30pm-12:30am | Americas/Europe
-#2      | late afternoon<br>3-6:30pm    | early evening<br>6-9:30pm       | night time<br>12-3:30am       | early morning<br>6-9:30am               | Asia
-
-As you can see, we tried our best to balance among the four time zones where most of our participants are from.
-The only suboptimal slot is Session #2 for European attendees, which was their night time. And we placed the talks
-into the slots that are most convenient for the speakers, e.g., we scheduled speakers from North America to Session #1 and those from Asia to Session #2.
-For our third workshop, we plan to have it based on this arrangement.
 
 ## Sponsorships
 
