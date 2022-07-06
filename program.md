@@ -8,7 +8,7 @@ permalink: /program
 
 <h1 class='my-center'>Conference Program</h1>
 <h4 class='my-center'>(Friday, July 15, or <sup>+1</sup>: Saturday, July 16)</h4>
-<h5 class='my-center'><a href="https://zoom.us/j/94678981515?pwd=L2R4R0haanBTV2l6V1NubGExOTNRQT09">Zoom Link</a></h5>
+<h5 class='my-center'><a href="https://zoom.us/j/83735924858?pwd=629067">Zoom Link</a> (psw: 629067)</h5>
 
 <style>
   .container { max-width: 80rem; }
