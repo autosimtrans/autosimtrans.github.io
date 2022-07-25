@@ -66,7 +66,7 @@ permalink: /program
 | 20:00-20:10           | 23:00-23:10           | 04:00-04:10 <sup>+1</sup> | 11:00-11:10 <sup>+1</sup> | <I>Closing Remarks</I> |
 
 ---
-### Invited Talk 1 by Weiwei Wang
+### Invited Talk 1 by Weiwei Wang  [<a href="assets/docs/slides2022/invited_talks/Weiwei_wang.pdf" target="_blank">slides</a>]
 
 <div class='container text-justify'>
 <div class='row'>
@@ -84,7 +84,7 @@ permalink: /program
 </div>
 
 ---
-### Invited Talk 2 by [Wallace Chen](https://www.middlebury.edu/institute/people/wallace-chen-chenruiqing)
+### Invited Talk 2 by [Wallace Chen](https://www.middlebury.edu/institute/people/wallace-chen-chenruiqing) [<a href="assets/docs/slides2022/invited_talks/WALLACE_CHEN.pdf" target="_blank">slides</a>]
 
 <div class='container text-justify'>
 <div class='row'>
@@ -102,7 +102,7 @@ permalink: /program
 
 
 ---
-### Invited Talk 3 by [Trevor Cohn](https://people.eng.unimelb.edu.au/tcohn/)
+### Invited Talk 3 by [Trevor Cohn](https://people.eng.unimelb.edu.au/tcohn/) [<a href="assets/docs/slides2022/invited_talks/Trevor_Cohn.pdf" target="_blank">slides</a>]
 
 <div class='container text-justify'>
 <div class='row'>
